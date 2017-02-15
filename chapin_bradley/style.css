@@ -39,7 +39,7 @@ body {
 
 .nav ul {
    list-style: none;
-   background-color: darkgreen;
+   background-color: #bc8f8f;
    /*change the color*/
    text-align: center;
    padding: 0;
@@ -63,7 +63,7 @@ body {
 }
 
 .nav a:hover {
-  background-color: #005f5f;
+  background-color: darkgreen;
   /*change color*/
 }
 
@@ -100,11 +100,6 @@ p {
 .contact a {
   text-decoration: none;
   color: darkgreen;
-  /*change color*/
-}
-
-.contact a:hover {
-  background-color: #005f5f;
   /*change color*/
 }
 
