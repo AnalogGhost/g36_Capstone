@@ -63,6 +63,7 @@ nav a {
 .fa {
   padding-left: 0.5em;
   padding-right: 0.5em;
+  font-size: 1.5em;
 }
 
 .name {
@@ -75,7 +76,26 @@ nav a {
   text-transform: uppercase;
 }
 
-.fa {
-    font-size: 1.5em;
+.content-block {
+  position: fixed;
+  display: inline-block;
+  width: 60vw;
+  margin-top: 17em;
+  margin-left: 20em;
 }
+
+h3 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.description-project{
+  font-size: 1.2em;
+}
+
+.features-projects{
+  font-size: 1.3em;
+  font-family: 'Poiret One';
+}
+
 
