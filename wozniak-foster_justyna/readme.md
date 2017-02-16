@@ -1,6 +1,6 @@
 # SeedKonnect project proposal
 
-![seeds-1302793_640](/Users/justyna/Desktop/seedCommons/seeds-1302793_640.jpg) 
+![seeds-1302793_640](seeds-1302793_640.jpg) 
 
 Seed is central to five of our major societal issue:  agrobiodiversity, climate change, hunger and malnutrition, poverty and water. Seed plants are the foundation of human diets across the world.
 
