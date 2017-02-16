@@ -1,0 +1,81 @@
+body {
+  overflow-x: hidden;
+  /*font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Poiret One', cursive;
+}
+
+/*main page*/
+.full {
+  width: 100vw;
+  height: 100vh;
+  color:black;
+  font-family: 'Poiret One', cursive;
+}
+
+.intro-block {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+/*section btn effect*/
+nav a {
+  position: relative;
+  display: inline-block;
+  margin: 15px 25px;
+  color: black;
+  letter-spacing: 1px;
+  font-size: 1.35em;
+}
+
+.cl-effect-18 {
+  position: relative;
+  z-index: 1;
+}
+
+
+.cl-effect-18 a:hover,
+.cl-effect-18 a:focus {
+  color: dimgray;
+}
+
+
+/*LOWER PAGE CONTENT*/
+.social-block {
+  display: inline;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 2em;
+  font-size: 1.2em;
+}
+
+.social-block > a {
+  color: rgba(34,34,34,0.4);
+}
+
+.social-block > a:hover {
+  color: dimgray;
+}
+
+.fa {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.name {
+  margin-top: 2em;
+  letter-spacing: 20px;
+  font-size: 4em;
+  font-family: 'Poiret One', cursive;
+  margin-left: 0;
+  margin-right: 0;
+  text-transform: uppercase;
+}
+
+.fa {
+    font-size: 1.5em;
+}
+
