@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|PT+Sans|Fira+Mono');
+@import url('https://fonts.googleapis.com/css?family=Roboto|PT+Sans|Fira+Mono|Ubuntu');
 
 * {
   box-sizing: border-box;
@@ -24,16 +24,28 @@
 }
 
 body {
-  font-family: "Roboto";
+  font-family: "PT Sans";
 }
 
 header {
-  background-color: red;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  color: black;
+  background-color: #D9CEB2;
+  font-family: "Ubuntu";
 }
 
 ul {
+  margin: 0;
   list-style: none;
+  font-size: 1.5em;
+}
+
+ul li {
+  margin-bottom: 1.3em;
+}
+
+.bullet {
+  /*color: #404040;*/
+  color: #7A6A53;
 }
 
 .intro {
@@ -42,7 +54,7 @@ ul {
 }
 
 .title {
-  height: 6em;
+  height: 4em;
   display: flex;
   align-items: center;
 }
@@ -66,7 +78,7 @@ ul {
 .terminal {
   width: 100%;
   border-radius: 5px;
-  background-color: #404040;
+  background-color: #343838;
   color: #e8e8e8;
   box-shadow: 0 0 1em rgba(0,0,0,0.25);
   padding: 1.5em;
