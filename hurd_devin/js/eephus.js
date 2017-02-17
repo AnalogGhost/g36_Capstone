@@ -70,5 +70,5 @@ document.getElementById('summary').addEventListener("click", () => {
 });
 
 document.getElementById('tech').addEventListener("click", () => {
-  spokenOutput('Tech used... Web Speech API, Amazon Skills Kit (ASK), Googe Voice API, MySportsFeeds API, Angular 1.6, PostgreSQL, ssml.js, knex, pure.css, html5, css3, node.js, heroku, and the Amazon Echo Dot.');
+  spokenOutput('Tech used... Web Speech API, Amazon Skills Kit (ASK), Google Voice API, MySportsFeeds API, Angular 1.6, PostgreSQL, ssml.js, knex, pure.css, html5, css3, node.js, heroku, and the Amazon Echo Dot.');
 });
