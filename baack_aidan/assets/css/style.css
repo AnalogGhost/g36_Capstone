@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|PT+Sans|Fira+Mono|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Fira+Mono|Ubuntu|Lora:700');
 
 * {
   box-sizing: border-box;
@@ -25,11 +25,12 @@
 
 body {
   font-family: "PT Sans";
+  color: #212121;
+  background-color: #FAFAFA;
 }
 
 header {
-  color: black;
-  background-color: #D9CEB2;
+  background-color: #99B2B7;
   font-family: "Ubuntu";
 }
 
@@ -44,17 +45,18 @@ ul li {
 }
 
 .bullet {
-  /*color: #404040;*/
-  color: #7A6A53;
+  color: #948C75;
 }
 
-.intro {
+.header {
   text-align: center;
-  font-family: "PT Sans";
+  font-family: "Lora";
+  font-weight: bold;
+  font-size: 2.5em;
 }
 
 .title {
-  height: 4em;
+  height: 3em;
   display: flex;
   align-items: center;
 }
@@ -73,6 +75,10 @@ ul li {
 
 .c6 {
   width: 60%;
+}
+
+.c3 {
+  width: 33.333%;
 }
 
 .terminal {
@@ -98,6 +104,34 @@ ul li {
 }
 
 .testimonials {
+  margin-top: 4em;
+  padding-bottom: 2em;
   font-family: "PT Sans";
   text-align: center;
+}
+
+.testimonial-photo {
+  border-radius: 50%;
+  width: 100px;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 1.3em;
+  font-style: italic;
+  margin: 0.25em 0;
+  padding: 0.25em 2em;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
+
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 2em;
+  position: absolute;
+  left: 0.5em;
+  top: -0.4em;
+  color: #99B2B7;
 }
