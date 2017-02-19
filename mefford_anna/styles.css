@@ -1,5 +1,9 @@
+body {
+    background-image: url("./photos/grey_wash_wall_@2X.png");
+}
+
 .nav-wrapper{
-  background-color: grey;
+  background-color: white;
 }
 
 h3{
@@ -15,4 +19,18 @@ h5{
 }
 .slider .indicators .indicator-item.active {
   background-color: black;
+}
+nav .brand-logo{
+  color:black;
+}
+
+ul.circle {
+    list-style-type: circle;
+}
+.black-text li a{
+  color: black;
+ }
+
+.card-container{
+  display: flex;
 }
