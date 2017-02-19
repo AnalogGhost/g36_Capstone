@@ -103,7 +103,7 @@ ul li {
   color: #666;
 }
 
-.testimonials {
+.category {
   margin-top: 4em;
   padding-bottom: 2em;
   font-family: "PT Sans";
@@ -113,6 +113,10 @@ ul li {
 .testimonial-photo {
   border-radius: 50%;
   width: 100px;
+}
+
+.technology-photo {
+  width: 80%;
 }
 
 blockquote {
