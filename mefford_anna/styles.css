@@ -4,6 +4,24 @@ body {
 
 .nav-wrapper{
   background-color: white;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+nav .brand-logo{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 55px;
+  position: relative;
+}
+
+.logo{
+  position: relative;
+  max-height: 58px;
+  margin: 3px 0px 3px 15px;
+  align-self: auto;
+}
+.logo-text{
+  align-self: auto;
 }
 
 h3{
@@ -74,6 +92,9 @@ ul.circle {
     .small-card-size{
       flex: 1 1 45%;
       margin: 15px;
+    }
+    .logo{
+      max-height: 50px;
     }
 }
 
