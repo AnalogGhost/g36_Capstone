@@ -37,6 +37,12 @@ ul.circle {
   margin-right:75px;
 }
 
+.small-card-container{
+  display: flex;
+  margin-left:75px;
+  margin-right:75px;
+}
+
 .large-card-size{
   flex: 1 1 50%;
   margin: 15px;
@@ -47,14 +53,39 @@ ul.circle {
   margin: 15px;
 }
 
-@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media (max-width: 700px){
     .card-container{
+      display: flex;
+      margin-left:75px;
+      margin-right:75px;
+      flex-wrap: wrap;
+    }
+    .small-card-container{
       display: flex;
       margin-left:50px;
       margin-right:50px;
       flex-wrap: wrap;
+      flex-flow: row wrap;
     }
+    .large-card-size{
+      flex: 1 1 45%;
+      margin: 15px;
+    }
+    .small-card-size{
+      flex: 1 1 45%;
+      margin: 15px;
+    }
+}
+
+@media (max-width: 1000px){
+  .small-card-container{
+    display: flex;
+    margin-left:75px;
+    margin-right:75px;
+    flex-wrap: wrap;
+  }
+  .small-card-size{
+    flex: 1 1 45%;
+    margin: 15px;
+  }
 }
