@@ -10,17 +10,15 @@ body {
 
 nav .brand-logo{
   font-family: 'Shadows Into Light', cursive;
-  font-size: 55px;
+  font-size: 38px;
   position: relative;
+  color:#D64933;
 }
 
 .logo{
   position: relative;
   max-height: 58px;
   margin: 3px 0px 3px 15px;
-  align-self: auto;
-}
-.logo-text{
   align-self: auto;
 }
 
@@ -36,18 +34,24 @@ h5{
   background-color: lightgrey;
 }
 .slider .indicators .indicator-item.active {
-  background-color: black;
-}
-nav .brand-logo{
-  color:black;
+  background-color:  #D64933;
 }
 
 ul.circle {
     list-style-type: circle;
 }
+
 .black-text li a{
   color: black;
  }
+
+.card .card-title{
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  color: #D64933;
+}
 
 .card-container{
   display: flex;
