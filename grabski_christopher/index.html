@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chris Grabski G36 Capstone Proposal</title>
+    <link rel="icon" type="image/png" href="images/galvanize_favicon.png" sizes="8x8"/>
+    <link rel="stylesheet" href="css/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+    <div class="bg">
+    </div>
+    <div class="jumbotron">
+        <h1 id="landing-h1">Christopher Grabski</h1>
+        <p>G36 Capstone Proposal</p>
+    </div>
+    <div class="container">
+        <div class="row info-row">
+            <div class="col-sm-2">
+            </div>
+            <div class="black-text info col-sm-8">
+                <h2>Project Description</h2>
+                <hr>
+
+                <h3>What is it?</h3>
+                <hr>
+                <p>Drawing a dynamic network topology diagram with LLDP data using D3.</p>
+
+                <h3>Why?</h3>
+                <hr>
+                <p>This project would allow an engineer to make a visual representation of how devices are connected together, saving time on drawing out that diagram manually.</p>
+                <p>This would have helped me as a network engineer. Imagine getting a service request for a customer complaining users can't access the internet in some parts of the building. You walk into the customer's datacenter or IT closet and see something like this:
+                </p>
+                <img class="pic pic-margin pic-center" src="images/cabling-nightmare1.png" alt="cabling nightmare">
+                <p>Trying to trace cables to see how each router or switch is connected would take too long.</p>
+                <p>Instead we can log into one of the devices and use  Link Layer Discovery Protocol (LLDP) to gather data from the network about how things are connected.</p>
+                <img class="pic pic-margin pic-center" src="images/cabling-nightmare2.jpeg" alt="cabling nightmare">
+                <p>This is helpful, but it will still take a significant amount of time to draw out a network diagram based on this output data.</p>
+                <p>This project aims to save network engineers time by taking LLDP data from network devices, convert them to JSON data to feed to D3.JS so it can diagram the JSON data into a quick and easy to read network map.</p>
+
+                <h3>How?</h3>
+                <hr>
+                <p>
+                  After some research on graphing libraries, I found D3 Force diagrams to be suitable. The image is an example of how D3 Force can take JSON input and output a 'network' of nodes and their connections to eachother.
+                </p>
+                <img class="pic pic-margin pic-center" src="images/d3-example.png" alt="cabling nightmare">
+
+            </div>
+            <div class="col-sm-3">
+            </div>
+        </div>
+        <div class="row info-row">
+            <div class="col-sm-3">
+            </div>
+            <div class="black-text  info col-sm-6">
+                <h2>About the developer</h2>
+                <div class="contributors">
+                    <a href="https://www.linkedin.com/in/christopher-grabski-7a2a4581"><img class="contribution-pic hvr-grow-shadow" src="images/chris.jpg" alt="Christopher Grabski"></a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+            </div>
+        </div>
+        <div class="row info-row">
+            <div class="col-sm-2">
+            </div>
+            <div class="black-text info col-sm-8">
+                <h2>Git Hub</h2>
+                <a href="https://github.com/grabc59/capstone"><img class="attribution-pic hvr-grow-shadow" src="images/github-icon.svg" alt="github icon"></a>
+            </div>
+            <div class="col-sm-2">
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/js/vendors/jquery-3.1.1.min.js"></script>
+    <script src="js/index-parallax.js"></script>
+
+</body>
+
+</html>
