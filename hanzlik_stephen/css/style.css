@@ -12,14 +12,18 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
-.jumbo {
+/*.jumbo {*/
   /*background-color: #eee;*/
-  background-image: url('../index-index.jpg');
+  /*background-image: url('../index-index.jpg');*/
   /*background-size: cover;*/
-  width: 1240px !important;
+  /*width: 1240px !important;
   height: 648px !important;
   position: relative;
-}
+}*/
+/*.nav-style{
+  color: #428bca;
+}*/
+
 
 
 /*style changes*/

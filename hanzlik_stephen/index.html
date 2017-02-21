@@ -11,293 +11,37 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-
-  <div id="wrapper">
-  <div id="hero">
-    <div class="row nav-bar nav-text">
-      <p class="left-nav nav-text dropdown-button col s6 m2" data-activates='dropdown1'>Portfolio</a></p>
-      <ul id='dropdown1' class='dropdown-content'>
-         <li><a href="https://github.com/StephenHanzlik/weatherApp">Black Throated Wind</a></li>
-         <li class="divider"></li>
-         <li><a href="https://github.com/StephenHanzlik/PiOS">Pi-OS Media Server</a></li>
-         <li class="divider"></li>
-         <li><a href="https://github.com/StephenHanzlik/q2pi">Egg-Pi Media Server</a></li>
-         <li class="divider"></li>
-         <li><a href="https://github.com/StephenHanzlik/ghostTowns">Sunshine Daydream</a></li>
+  <nav class="nav-bar nav-style" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo nav-text">STEPHEN HANZLIK</a>
+      <ul class="right hide-on-med-and-down">
+        <li class="nav-text" id="name-logo"><a href="#">Portfolio</a></li>
       </ul>
-        <!-- <P class="col s3 nav-text">STEPHEN HANZLIK</P> -->
-        <!-- <div class="col s8"></div> -->
-        <div class="col s8 m8"></div>
-        <!-- <img class="github-logo col s1 m2" src="github-logo.png"> -->
-        <div class="left-nav nav-text col s1 m2 nav-flex">
-          <!-- <p>Github</p>
-          <p>-   -    -</p>
-          <p>LinkedIn</p> -->
-          <a href="https://github.com/StephenHanzlik"><img class="nav-icon" src="github-sign.png"></a>
-          <a href="https://www.linkedin.com/in/stephenhanzlik"><img class="nav-icon" src="linkedin-sign.png"></a>
-      </div>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
-    <!-- <nav class="nav-bar" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo nav-text">STEPHEN HANZLIK</a>
-        <ul class="right hide-on-med-and-down">
-          <li class="nav-text" id="name-logo"><a href="#">Portfolio</a></li>
-        </ul>
+  </nav>
+  <div class="container">
+    <h1> About me</h1>
+    <p>610-984-4474</p>
+    <a href="https://github.com/StephenHanzlik">Git Hub</a>
+    <a href="https://www.linkedin.com/in/stephenhanzlik">Linked In</a>
+    <a href="http://www.stephen-hanzlik.com">www.stephen-hanzlik.com</a>
 
-        <ul id="nav-mobile" class="side-nav">
-          <li><a href="#">Navbar Link</a></li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-      </div>
-    </nav> -->
-    <div class="header">
-      <p class="sub-head">Web Developer and Mountain Athlete</p>
-      <h1 class="header-title"> STEPHEN HANZLIK </h1>
-      <a class="waves-effect waves-light btn-large nav-button" id="learn-more">LEARN MORE</a>
-    </div>
-  </div>
-  <div id="content">
-    <h4 id="about"> I am a full-stack web developer familiar with both the NEAP and MEAN stacks.</h4>
-    <p> My interests within tech include cryptocurrency, IoT, and hardware projects. When not working on projects I enjoy skiing, climbing, mountaineering, and outdoor adventures that have a technical problem solving twist.   I appreciate the importance of DRY code, an agile workflow, and working with a team. </p>
-  </div>
-  <!-- <div class="icons-cont">
-    <img class="icons" src="nodeJS.png">
-    <img class="icons" src="nodeJShex.png">
-  </div> -->
-  <div class="container icon-cont">
-          <div class="row">
-              <div class="col s12">
-                      <div class="list-area">
-                      <div class="icon-title">
-                          <h5>Languages and Frameworks</h5>
-                      </div>
-                      <div class="icons-style">
-                          <ul class="iconList">
-                              <li>
-                                  <img class="icon" src="angularjs.png"   alt="angular">
-                              </li>
-                              <li>
-                                  <img class="icon" src="ionic.svg" alt="ionic">
-                              </li>
-                              <li>
-                                  <img class="icon" src="nodeJS.png" alt="JS">
-                              </li>
-                              <li>
-                                  <img class="icon" src="nodeJShex.png" alt="Node.js">
-                              </li>
-                              <li>
-                                  <img class="icon" src="jquery.png" alt="jQuery">
-                              </li>
-                              <li>
-                                  <img class="icon" src="html5.png" alt="HTML5">
-                              </li>
-                              <li>
-                                  <img class="icon" src="css.png" alt="CSS">
-                              </li>
-                              <li>
-                                  <img class="icon" src="arduino2.png" alt="arduino">
-                              </li>
-                              <li>
-                                  <img class="icon" src="python.png" alt="python">
-                              </li>
-                          </ul>
-                      </div>
-                    </div>
-              </div>
-          </div>
-          <div class="row utilities">
-              <div class="col s12">
-                      <div class="list-area">
-                        <div class="icon-title">
-                          <h5>Other Tools and Utilities</h5>
-                        </div>
-                        <div class="icons-style">
-                          <ul class="iconList">
-                              <li>
-                                  <img class="icon" src="git.png" alt="Git">
-                              </li>
-                              <li>
-                                  <img class="icon" src="npm.png" alt="npm">
-                              </li>
-                              <li>
-                                  <img class="icon" src="heroku.png" alt="Heroku">
-                              </li>
-                              <li>
-                                  <img class="icon" src="psql.png" alt="PostgreSQL">
-                              </li>
-                              <li>
-                                  <img class="icon" src="raspberry.png" alt="Raspberry">
-                              </li>
-                              <li>
-                                  <img class="icon" src="mongodb.png" alt="Mongo">
-                              </li>
-                              <li>
-                                  <img class="icon" src="express.png" alt="Express">
-                              </li>
-                          </ul>
-                      </div>
-                    </div>
-              </div>
-          </div>
-          <div class="row utilities">
-            <div class="icon-title">
-              <h5>Projects</h5>
-          </div>
-        </div>
-      </div>
-<div class="container" id="project-cont">
-  <div class="row">
-    <div class="col s12 m6">
-      <div class="card">
-        <div class="card-image">
-          <img src="weather-crop.jpg">
-          <span class="card-title black-card-text">Black Throated Wind</span>
-          <!-- <a class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">add</i></a> -->
-        </div>
-        <div class="card-content">
-          <p class="card-description">- Constructed and programed Arduino weather station components to export data to local node server.</p>
-          <p class="card-description">- Developed Angular widgets that function as their own individual single page apps.</p>
-          <p class="card-description"><strike>- Integrated Weather Underground, SMS, and Facebook data export features.</strike> IN PROGRESS</p>
-          <p class="card-description">- <strike>Provided users with access to data from a variety of weather APIs.</strike> IN PROGRESS</p>
-          <br><br>
-          <p>Technologies:</p>
-           <p>Angular JS, Javascript, NodeJS, ExpressJS, MongoDB, AJAX, Arduino, Materialize, CSS</p>
-        </div>
-        <div class="card-action">
-          <!-- <i class="material-icons" >open_in_browser</i> -->
-          <a class="waves-effect waves-light btn black" href="http://sunshine-daydream.surge.sh">DEPLOYED</a>
-          <!-- <img class="git-icon" src="github-logo.png"> -->
-          <a class="waves-effect waves-light btn black btn-flex" href="https://github.com/StephenHanzlik/weatherApp">GITHUB</a>
-
-        </div>
-      </div>
-    </div>
-   <div class="col s12 m6">
-     <div class="card">
-       <div class="card-image">
-         <img class="card-image-custom" src="pios.png">
-         <span class="card-title black-card-text">PiOS Media Server</span>
-         <!-- <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a> -->
-       </div>
-       <div class="card-content">
-         <p class="card-description">- Created and Ionic iOS App that allows user to stream HD video from our secure server.</p>
-         <p class="card-description">- Refactored a secure wireless server using a Raspberry Pi and NodeJS.</p>
-         <p class="card-description">- Built a browser based content distribution interface to allow users to distribute data to multiple devices.</p>
-         <p class="card-description">- Developed clients profiles and search feature to allow users to identify and quickly find content.</p>
-
-         <br><br>
-         <p>Technologies:</p>
-          <p>Angular JS,  Ionic, Cordova, NodeJS, ExpressJS, Javascript, PostgreSQL, Raspberry Pi, CSS</p>
-         <!-- <ul>
-           <li></li>
-        </ul> -->
-       </div>
-       <div class="card-action">
-         <!-- <i class="material-icons" >open_in_browser</i> -->
-         <a class="waves-effect waves-light btn black disabled" href="http://sunshine-daydream.surge.sh">iOS SPECIFIC</a>
-         <!-- <img class="git-icon" src="github-logo.png"> -->
-         <a class="waves-effect waves-light btn black btn-flex" href="https://github.com/StephenHanzlik/PiOS">GITHUB</a>
-
-       </div>
-     </div>
-   </div>
- </div>
- <div class="row">
-  <div class="col s12 m6">
-    <div class="card">
-      <div class="card-image">
-        <img src="welcome.jpg">
-        <span class="card-title black-card-text">Egg-Pi Media Server</span>
-        <!-- <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a> -->
-      </div>
-      <div class="card-content">
-        <p class="card-description">- Created a secure wireless server using a Raspberry Pi and NodeJS.</p>
-        <p class="card-description">- Developed features that allow users to  upload, download, and stream files.</p>
-        <p class="card-description">- Secured routes with authorization and hardcoded SysOp permissions.</p>
-        <p class="card-description">- Integrated an Arduino LCD shield to provide feedback upon user login and upload.</p>
-        <br><br>
-        <p>Technologies:</p>
-        <p>Javascript, jQuery, NodeJS, ExpressJS, PostgreSQL, AWS S3, Raspberry Pi, Bootstrap, CSS</p>
-        <!-- <ul>
-          <li></li>
-       </ul> -->
-      </div>
-      <div class="card-action">
-        <!-- <i class="material-icons" >open_in_browser</i> -->
-        <a class="waves-effect waves-light btn black" href="https://grabc59-eggpi.herokuapp.com/index.html">DEPLOYED</a>
+    <h3>Stephen Hanzlik</h3>
+    <p> I am fascinated by cryptocurrencies, IoT, and hardware projects and see  limitless potential when combining these technologies with Full Stack Applications.  When not working on projects I enjoy skiing, climbing, mountaineering, and outdoor adventures that have a technical problem solving twist.  I appreciate the importance of DRY code, an agile workflow, and working with a team.</p>
+</div>
+<div class="container">
+  <h1>About My Project</h1>
+  <p>Let it Grow is a browser based application designed for indoor and outdoor gardens.   It allows users to get instant feedback on the current tempurate, humidity, light, and moiusture content of the soil as well as schedule work shifts.</p>
+  <h3>Technologies</h3>
+  <p>The technologies used include AngularJS, Javascript, NodeJS, ExpressJS, MongoDB, AJAX, Arduino, Materialie, D3, CSS</p>
+  <a class="waves-effect waves-light btn black disabled" href="http://sunshine-daydream.surge.sh">DEPLOYED</a>
         <!-- <img class="git-icon" src="github-logo.png"> -->
-        <a class="waves-effect waves-light btn black btn-flex" href="https://github.com/StephenHanzlik/q2pi">GITHUB</a>
-
-      </div>
-    </div>
-  </div>
-  <div class="col s12 m6">
-    <div class="card">
-      <div class="card-image">
-        <img class="card-image-custom" src="sunshine2.png">
-        <span class="card-title black-card-text">Sunshine Daydream</span>
-        <!-- <a class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">add</i></a> -->
-      </div>
-      <div class="card-content">
-        <p class="card-description">- Created a GUI to chart and interpret data from federal SNOTEL sites.</p>
-        <p class="card-description">- Integrated CAIC avalanche forecasts, slope angle, and weather maps.</p>
-        <p class="card-description">- Programmed personalized station locations to ensure relevant information.</p>
-        <br><br>
-        <p>Technologies:</p>
-         <p>Javascript,  jQuery,  AJAX, Highcharts, Materialize, CSS</p>
-      </div>
-      <div class="card-action">
-        <!-- <i class="material-icons" >open_in_browser</i> -->
-        <a class="waves-effect waves-light btn black" href="http://sunshine-daydream.surge.sh">DEPLOYED</a>
-        <!-- <img class="git-icon" src="github-logo.png"> -->
-        <a class="waves-effect waves-light btn black btn-flex" href="https://github.com/StephenHanzlik/ghostTowns">GITHUB</a>
-
-      </div>
-    </div>
-  </div>
+        <a class="waves-effect waves-light btn black btn-flex" href="https://github.com/StephenHanzlik/let-it-grow">GITHUB</a>
 </div>
-</div>
-  <div id="footer">
-    <!-- <p> I am the footer, and you have scroll down to see me.</p> -->
-    <a href="https://github.com/StephenHanzlik"><img class="nav-icon" src="github-sign.png"></a>
-    <a href="https://www.linkedin.com/in/stephenhanzlik"><img class="nav-icon" src="linkedin-sign.png"></a>
-  </div>
-</div>
-  <!-- <footer class="page-footer orange">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
-    </div>
-  </footer> -->
-
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
