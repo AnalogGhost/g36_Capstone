@@ -190,8 +190,9 @@ p {
 .info {
   margin: 0 auto;
 }
+
 .attribution-pic {
-  height: 100px;
+  height: 50px;
   border-radius: 50%;
 }
 .attribution-pic-egg {
@@ -309,4 +310,22 @@ h1{
   margin-left :auto;
   margin-right: auto;
   display:block;
+}
+
+
+/*
+====================================================
+Footer
+====================================================
+*/
+footer {
+    min-height: 50px;
+    background: linear-gradient(white, #051430 );
+    margin: 44px 0 0 0;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 44px;
+    padding: 40px 0 22px 0;
 }
