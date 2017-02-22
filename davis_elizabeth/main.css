@@ -1,0 +1,9 @@
+#banner {
+  background-image: url(mandala.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 1400px;
+  height: 400px;
+}

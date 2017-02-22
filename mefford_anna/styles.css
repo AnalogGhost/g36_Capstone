@@ -1,0 +1,116 @@
+body {
+    background-image: url("./photos/grey_wash_wall_@2X.png");
+}
+
+.nav-wrapper{
+  background-color: white;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+nav .brand-logo{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 38px;
+  position: relative;
+  color:#D64933;
+}
+
+.logo{
+  position: relative;
+  max-height: 58px;
+  margin: 3px 0px 3px 15px;
+  align-self: auto;
+}
+
+h3{
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 50px;
+}
+
+h5{
+  font-family: 'Merriweather', serif;
+}
+.slider .indicators .indicator-item {
+  background-color: lightgrey;
+}
+.slider .indicators .indicator-item.active {
+  background-color:  #D64933;
+}
+
+ul.circle {
+    list-style-type: circle;
+}
+
+.black-text li a{
+  color: black;
+ }
+
+.card .card-title{
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  color: #D64933;
+}
+
+.card-container{
+  display: flex;
+  margin-left:75px;
+  margin-right:75px;
+}
+
+.small-card-container{
+  display: flex;
+  margin-left:75px;
+  margin-right:75px;
+}
+
+.large-card-size{
+  flex: 1 1 50%;
+  margin: 15px;
+}
+
+.small-card-size{
+  flex: 1 1 25%;
+  margin: 15px;
+}
+
+@media (max-width: 700px){
+    .card-container{
+      display: flex;
+      margin-left:75px;
+      margin-right:75px;
+      flex-wrap: wrap;
+    }
+    .small-card-container{
+      display: flex;
+      margin-left:50px;
+      margin-right:50px;
+      flex-wrap: wrap;
+      flex-flow: row wrap;
+    }
+    .large-card-size{
+      flex: 1 1 45%;
+      margin: 15px;
+    }
+    .small-card-size{
+      flex: 1 1 45%;
+      margin: 15px;
+    }
+    .logo{
+      max-height: 50px;
+    }
+}
+
+@media (max-width: 1000px){
+  .small-card-container{
+    display: flex;
+    margin-left:75px;
+    margin-right:75px;
+    flex-wrap: wrap;
+  }
+  .small-card-size{
+    flex: 1 1 45%;
+    margin: 15px;
+  }
+}
