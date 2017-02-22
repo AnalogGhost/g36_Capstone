@@ -34,7 +34,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 #title{
-  background-color: purple;
+  border: 1px #9E9E9E solid;
+  border-radius: 10px;
+  background: rgba(238,238,238,0.5);
 }
 
 #description {
