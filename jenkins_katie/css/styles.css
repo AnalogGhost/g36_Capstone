@@ -23,10 +23,10 @@ html {
 }
 
 #col1 {
-  /*margin-right: 20px;*/
   height: 300px;
-  /*background-color: yellow;*/
   margin: auto;
+  border-radius: 10px;
+  /*background-color: yellow;*/
 }
 
 #col2 {
@@ -40,6 +40,14 @@ html {
 #col3 {
   height: inherit;
   /*background-color: #03A9F4;*/
+}
+
+.image {
+  height: 300px;
+  width: 250px;
+  margin-left: 10px;
+  border: 1px #9E9E9E dashed;
+  border-radius: 10px;
 }
 
 #title{
@@ -59,10 +67,16 @@ html {
   border-radius: 10px;
   /*background-color: #42A5F5;*/
 }
+
 #technologies {
   border: 1px #9E9E9E solid;
   border-radius: 15px;
   /*background-color: gray;*/
+}
+
+#shine_image {
+  width: inherit;
+  height: 200px;
 }
 
 .icons {
