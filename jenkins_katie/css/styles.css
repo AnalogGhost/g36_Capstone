@@ -1,0 +1,41 @@
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+  /*background-color: blue;*/
+}
+
+#row1 {
+  background-color: green;
+  height: 300px;
+}
+
+#col1 {
+  height: inherit;
+  background-color: yellow;
+}
+
+#col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: inherit;
+  background-color: red;
+}
+
+#col3 {
+  height: inherit;
+  background-color: #03A9F4;
+}
+
+#title{
+  background-color: purple;
+}
+
+#projectDescription {
+  background-color: teal;
+}
+
+#technologies {
+  background-color: gray;
+}

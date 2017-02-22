@@ -3345,41 +3345,6 @@ nav ul a span.badge {
           font-feature-settings: 'liga';
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 90%;
-  /*background-color: blue;*/
-}
-
-#row1 {
-  background-color: green;
-}
-
-#col1 {
-  background-color: yellow;
-}
-
-#col2 {
-  background-color: red;
-}
-
-#col3 {
-  background-color: #03A9F4;
-}
-
-#title{
-  background-color: purple;
-}
-
-#projectDescription {
-  background-color: teal;
-}
-
-#technologies {
-  background-color: gray;
-}
-
 @media only screen and (min-width: 601px) {
   .container {
     width: 85%;
