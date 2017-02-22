@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>tsarkisian Galvanize Q4 Project</title>
+    <!-- Linked JS scripts, libs and CSS -->
+    <!-- jQuery min -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" defer></script>
+    <!-- Bootstrap min -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- tps custom CSS -->
+    <link href="./css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-inverse">
+        </nav>
+    </div>
+    <div class="container">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="row text-center">
+                    <h3>Q4 Water Quality Monitoring Recorder</h3>
+                </div>
+                <div class="row">
+                    <img src="./images/header01.png" alt="na da">
+                </div>
+                <div class="row">
+                    <h3 class="text-center">[ About ]</h3>
+                    <p class="text-justify">Water Quality Monitoring System: This project intends to interface the Atlas-Scientific ENV-SDS water quality probe kit to an AVR MEGA 2560 micro-cpu via an i2C serial interface and provide real-time water quality readings.</p>
+                </div>
+                <!-- START: L1 -->
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <h3 class="text-center">[ Features ]</h3>
+                        <ul>
+                            <li>Probe data consists of PH, EC, DO, ORP and Temperature.</li>
+                            <li>Data will be accessible via a USB interface connection to a Raspberry PI 3 and/or via a RESTful API server running on the AVR brodcasting over WiFi.</li>
+                            <li>Data readings will be displayed in real-time on a NodeJS instance running on the Raspberry device and logged to a database.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <!-- END: L1 -->
+                <!-- START L2 -->
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <h3 class="text-center">[ Stretch ]</h3>
+                        <ul>
+                            <li>Interface Biorock power supply unit.</li>
+                            <li>Voltage and current sensing.</li>
+                            <li>PID controler to regulate current.</li>
+                            <li>PID reacts to EC level.</li>
+                            <li>Ambient environmental sensing and positioning</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <!-- END: L2 -->
+                <!-- START: L3 -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-center">[ Tech ]</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 col-xs-4 text-right">
+                        <ul>
+                            Arduino C<br />
+                            Node backend<br />
+                            Express<br />
+                            Couch dB<br />
+                            Knex<br />
+                            Bootstrap<br />
+                            Angular 2<br />
+                            TypeScript<br />
+                        </ul>
+                    </div>
+                    <div class="col-md-1 col-xs-1"></div>
+                    <div class="col-md-5 col-xs-4 text-left">
+                        <ul>
+                            AVR Mega 2560<br />
+                            Raspbery PI 3<br />
+                            Atlas Scientific EZO:<br />
+                            PH<br />
+                            EC<br />
+                            DO<br />
+                            ORP<br />
+                            PT-1000<br />
+                        </ul>
+                    </div>
+                </div>
+                <!-- END: L3 -->
+            </div>
+
+    </div>
+</body>
+
+</html>
+
+
+<!--
+            <div class="row">
+                <h3 class="text-center">[ Stretch ]</h3>
+                <ul class="bullet-center">
+                    <li>Interface Biorock power supply unit.</li>
+                    <li>Voltage and current sensing.</li>
+                    <li>PID controler to regulate current.</li>
+                    <li>PID reacts to EC level.</li>
+                    <li>Ambient environmental sensing and positioning</li>
+                </ul>
+            </div>
+            <div class="row">
+                <h3 class="text-center">[ Tech ]</h3>
+                <ul class="bullet-center">
+                    <li>Angular 2</li>
+                    <li>UI-Bootstrap</li>
+                    <li>Couch dB</li>
+                    <li>Node backend</li>
+                    <li>Express</li>
+                    <li>Knex</li>
+                </ul>
+            </div> -->
