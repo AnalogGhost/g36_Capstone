@@ -6,13 +6,13 @@
 }
 
 #row1 {
-  height: 300px;
+  height: 25%;
   /*background-color: green;*/
 }
 
 #col1 {
   height: inherit;
-  /*background-color: yellow;*/
+  background-color: yellow;
 }
 
 #col2 {
@@ -25,7 +25,7 @@
 
 #col3 {
   height: inherit;
-  /*background-color: #03A9F4;*/
+  background-color: #03A9F4;
 }
 
 #title{
@@ -36,6 +36,9 @@
   background-color: teal;
 }
 
+#features {
+  background-color: #42A5F5;
+}
 #technologies {
   background-color: gray;
 }
