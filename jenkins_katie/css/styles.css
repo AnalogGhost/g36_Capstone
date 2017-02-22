@@ -45,7 +45,7 @@ html {
 #title{
   border: 1px #9E9E9E solid;
   border-radius: 10px;
-  /*background-color: rgba(178,223,219 ,.5);*/
+  background-color: rgba(178,223,219 ,.5);
 }
 
 #description {
@@ -61,10 +61,11 @@ html {
 }
 #technologies {
   border: 1px #9E9E9E solid;
-  border-radius: 10px;
+  border-radius: 15px;
   /*background-color: gray;*/
 }
 
-#github {
+.icons {
   color: rgba(120,144,156 ,1);
+  margin-right: 10px;
 }
