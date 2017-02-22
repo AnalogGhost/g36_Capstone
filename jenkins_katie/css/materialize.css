@@ -4060,7 +4060,8 @@ nav .brand-logo {
   color: #fff;
   display: inline-block;
   font-size: 2.1rem;
-  padding: 0;
+  padding: 0px;
+  margin-left: 10px;
   white-space: nowrap;
 }
 
