@@ -9,3 +9,15 @@ main {
 h1 {
   text-align: center;
 }
+
+div {
+  margin-top: 100px;
+}
+
+ul, p {
+  margin-left: 50px;
+}
+
+p {
+  width: 550px;
+}
