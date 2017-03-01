@@ -1,68 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="app">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" href="images/capstone.ico"/>
-  <!-- Bootstrap CSS and JS CDNs -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- JQuery CDN -->
+  <title>Document</title>
+  <base href="/">
+</head>
+<body>
+  <ui-view></ui-view>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js" ></script>
+  <script src="https://unpkg.com/angular-ui-router@1.0.0-beta.3/release/angular-ui-router.js"></script>
   <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
-  <!-- Local CSS Files -->
-  <link rel="stylesheet" href="../public/css/index.css">
-  <!-- Local JS Files -->
-  <script src="../public/js/script.js"></script>
-  <title>MJP Capstone</title>
-</head>
-<body>
-  <nav class="navbar navbar-default navbar-static-top header">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">
-          <img class="navBarImg" alt="Logo" src="images/capstone.png">
-        </a>
-      </div>
-      <h3 id="navbar-text" class="navbar-text">G36 Capstone Proposal - Matt Pestridge</h3>
-    </div>
-  </nav>
-  <div class="container-fluid">
-  <div class="row">
-    <div class="topBox col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <div class="box-heading">Listed in order from first choice to last choice</div>
-    </div>
-    <div class="box1 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-        <div class="box-heading">#1: Life Planning</div>
-      <div class="box-body">
-        There are many processes and methods that have been created using the idea of Life Planning.  This app will remove a lot of the confusion around going through this helpful and effective process.  Users will be able to log in, evaluate their current circumstances, then plan goals based on that information, and refer to previously entered information.  This information can be kept private or shared with others.<br/>
-        All of this data will be stored for easy accessability as needed at any point in time to stay up to date with planning. Users will be able to add reminders for action item due dates to Google Calendar.  Find more information on <a href="http://www.wikihow.com/Make-a-Life-Plan">wikiHow</a>.
-      </div>
-      <div class="box-footer"><i>Technologies to be used:</i> MEAN: MongoDB, Express, Angular, Node, Bootstrap, Google Calendar API</div>
-    </div>
-    <div class="box2 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-      <div class="box-heading">
-        <div class="box-title">#2: Meeting Contact Tracker</div>
-      </div>
-      <div class="box-body">
-        This app will help users store information about recent contacts within their organization and sync that up with their meeting reminders for either Microsoft Outlook or Google Calendar.  When a user meets someone new in their organization, they will be able to input personal, professional, or project related information about that person into their app.
-      </div>
-      <div class="box-footer"><i>Technologies to be used:</i>  MEAN: MongoDB, Express, Angular, Node, Bootstrap, Microsoft Outlook or Google Calendar API</div>
-    </div>
-    <div class="box3 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-      <div class="box-heading">
-        <div class="box-title">#3: Language Speaker and<br/> Learner Social Connections</div>
-      </div>
-      <div class="box-body">
-        This idea is intended to connect users who are learning a new language with users who already know that language.  It should allow users to connect based on location as well as language.
-      </div>
-      <div class="box-footer"><i>Technologies to be used:</i>  MEAN: MongoDB, Express, Angular, Node, Bootstrap, Google Maps API</div>
-    </div>
-  </div>
-  </div>
-  <footer></footer>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="/js/app/app.module.js" ></script>
+  <script src="/js/app/app.config.js"></script>
+  <script src="/js/landing/landing.component.js"></script>
 </body>
 </html>
