@@ -5,17 +5,22 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const app = express();
-const Promise = require("bluebird");
+const Promise = require('bluebird');
 //TODO: still need to create user schema
-// const User =
+const User = require('./src/usersSchema.js');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
-// const usersRoute = require('./routes/users');
-// app.use('/users', usersRoute);
+mongoose.Promise = require('bluebird');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/enhancelp');
+
+const usersRoute = require('./routes/users');
+app.use('/users', usersRoute);
 
 app.listen('3000', function() {
   console.log('Listening on port', 3000);
 });
+
+module.exports = app;
