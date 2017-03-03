@@ -1,0 +1,294 @@
+{
+  "students":[
+  {
+    "name":"Aidan Baack",
+    "project":"Property Primate",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/baack_aidan",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":["React","React Native"]
+  },
+  {
+    "name":"Laura Baukol",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/baukol_laura",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Evan Busse",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/busse_evan",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Bradley Chapin",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/chapin_bradley",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Ariana Clark",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/clark_ariana",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Kevin Cowley",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/cowley_kevin",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Elizabeth Davis",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/davis_elizabeth",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Bradley Efting",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/efting_bradley",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Jason Goldfarb",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/goldfarb_jason",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Matthew Gordon",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/gordon_matthew",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Christopher Grabski",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/grabski_christopher",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Kyle Gray",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/gray_kyle",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Stephen Hanzlik",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/hanzlik_stephen",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Olivia Hendrick",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/hendrick_olivia",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Chanse Horton",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/horton_chanse",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Devin Hurd",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/hurd_devin",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Katie Jenkins",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/jenkins_katie",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Kyle Joyce",
+    "project":"Capstone",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/joyce_kyle",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Matthew Lindly",
+    "project":"Property Primate",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/lindly_matthew",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":["React","React Native"]
+  },
+  {
+    "name":"Anna Lotko",
+    "project":" ",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/lotko_anna",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Matthew Pestridge",
+    "project":" ",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/pestridge_matthew",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Cassandra Peterson",
+    "project":" ",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/peterson_cassandra",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Keegan Ridgley",
+    "project":" ",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/ridgley_keegan",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Olivia Ridgley",
+    "project":" ",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/ridgley_olivia",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Heidi Rodriguez",
+    "project":" ",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/rodriguez_heidi",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Merhi Russo",
+    "project":" ",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/russo_mehri",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Thomas Sarkisian",
+    "project":" ",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/sarkisian_thomas",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  },
+  {
+    "name":"Tristan Van Maren",
+    "project":"Property Primate",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/van maren_tristan",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":["React","React Native"]
+  },
+  {
+    "name":"Justyna Wozniak-Foster",
+    "project":" ",
+    "icon":"",
+    "iamge":"",
+    "bioURL":"/wozniak-foster_justyna",
+    "siteURL":"",
+    "githubURL":"",
+    "technologies":[]
+  }
+]
+}
