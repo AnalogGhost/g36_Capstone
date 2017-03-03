@@ -3,10 +3,14 @@
 
   angular.module('app').config(config);
 
-  config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
+  config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider','$mdThemingProvider'];
 
-  function config($stateProvider, $urlRouterProvider, $locationProvider) {
+  function config($stateProvider, $urlRouterProvider, $locationProvider,$mdThemingProvider) {
 
+
+    $mdThemingProvider.theme('default')
+      .primaryPalette('orange')
+      .accentPalette('grey');
     // $locationProvider.html5Mode(true);
 
     $stateProvider
@@ -28,4 +32,5 @@
 
     $urlRouterProvider.otherwise("/");
   }
+
 }());

@@ -13,6 +13,8 @@
 
       vm.$onInit = function() {
         console.log('Navbar Init');
+        vm.currentNavItem = 'students';
+
       }
 
 
