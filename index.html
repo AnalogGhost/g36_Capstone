@@ -1,12 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>G[36] Capstones</title>
+    <title>Galvanize Classified</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/angular-ui-router@1.0.0-beta.3/release/angular-ui-router.js"></script>
+
+    <script src="js/app.module.js" defer></script>
+    <script src="js/app.config.js" defer></script>
+
+    <script src="js/students/students.component.js" defer></script>
+    <script src="js/staff/staff.component.js" defer></script>
+    <script src="js/curriculum/curriculum.component.js" defer></script>
+    <script src="js/navbar/navbar.component.js" defer></script>
+
+    <base href="/">
 </head>
 <body>
-    <h1>G[36] Capstone Showcase</h1>
+
+  <navbar></navbar>
+
+  <hr>
+  <ui-view></ui-view>
 </body>
 </html>
