@@ -19,9 +19,18 @@
       </md-card-header>
       <img ng-src="{{student.image||'http://lorempixel.com/300/300'}}" class="md-card-image" alt="image caption">
       <md-card-actions layout="row" layout-align="start center">
-        <md-button href="{{student.bioURL}}" target="_blank">Bio</md-button>
-        <md-button>Site</md-button>
-        <md-button href="{{student.githubURL}}" target="_blank">GitHub</md-button>
+        <md-button href="{{student.bioURL}}" target="_blank">
+          <md-tooltip>Project Details</md-tooltip>
+          <i class="fa fa-id-card fa-3x" aria-hidden="true"></i>
+        </md-button>
+        <md-button href="{{student.githubURL}}" target="_blank">
+          <md-tooltip>Deployed Website</md-tooltip>
+          <i class="fa fa-sitemap fa-3x" aria-hidden="true"></i>
+        </md-button>
+        <md-button href="{{student.githubURL}}" target="_blank">
+          <md-tooltip>GitHub Profile</md-tooltip>
+          <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+        </md-button>
       </md-card-actions>
       <md-card-content>
         <p>Technologies</p>
