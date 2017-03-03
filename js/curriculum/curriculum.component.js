@@ -12,7 +12,6 @@
       const vm = this;
 
       vm.$onInit = function() {
-        console.log('curriculum Init');
       }
 
 

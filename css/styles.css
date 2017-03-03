@@ -9,6 +9,10 @@ md-card-content > ul {
   background-color:rgb(250,250,250);
 }
 
+.staff {
+  width: 350px;
+}
+
 /*.cards-container {
   column-break-inside: avoid;
 }
