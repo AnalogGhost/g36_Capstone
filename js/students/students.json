@@ -33,8 +33,8 @@
   {
     "name":"Bradley Chapin",
     "project":"Daky in Monsterland",
-    "icon":"../chapin_bradley/bradchapin.jpg",
-    "image":"../chapin_bradley/capstonelogo.jpg",
+    "icon":"/chapin_bradley/bradchapin.jpg",
+    "image":"/chapin_bradley/capstonelogo.jpg",
     "bioURL":"/chapin_bradley",
     "siteURL":"http://bchapin-capstone-proposal.surge.sh/",
     "githubURL":"https://github.com/Brad-Chapin",
