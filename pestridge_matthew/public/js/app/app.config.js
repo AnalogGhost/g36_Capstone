@@ -12,8 +12,15 @@
     $stateProvider
       .state({
         name: 'landingPage',
-        url: '/',
+        // url: '/',
+        url: '/landing',
         component: 'landingPage'
+      })
+      .state({
+        name: 'dashboard',
+        // url: '/dashboard',
+        url: '/',
+        component: 'dashboard'
       })
   }
 

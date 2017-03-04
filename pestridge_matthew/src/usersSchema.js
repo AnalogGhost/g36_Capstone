@@ -1,8 +1,6 @@
 'use strict';
 
 const mongoose = require('mongoose');
-// const SwotSchema = require('./src/goalsSchema.js');
-// const GoalsSchema = require('./src/swotSchema.js');
 const Schema = mongoose.Schema;
 
 const UserSchema = new Schema({
