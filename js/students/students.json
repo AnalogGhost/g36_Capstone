@@ -32,13 +32,13 @@
   },
   {
     "name":"Bradley Chapin",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"Daky in Monsterland",
+    "icon":"/chapin_bradley/bradchapin.jpg",
+    "image":"/chapin_bradley/capstonelogo.jpg",
     "bioURL":"/chapin_bradley",
-    "siteURL":"",
+    "siteURL":"http://bchapin-capstone-proposal.surge.sh/",
     "githubURL":"https://github.com/Brad-Chapin",
-    "technologies":[]
+    "technologies":["HTML5", "CSS3", "JavaScript", "Phaser.io", "jQuery", "Animate.css", "Skeleton.css"]
   },
   {
     "name":"Ariana Clark",
