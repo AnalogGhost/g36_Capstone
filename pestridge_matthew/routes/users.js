@@ -18,17 +18,63 @@ router.get('/', (req,res) => {
   })
 });
 
+router.get('/loggedIn',(req,res,next) => {
+  console.log('Is Authenticated');
+  if (req.session.user) {
+    res.send();
+  } else {
+    res.sendStatus(401);
+  }
+});
+
 router.get('/:id', (req, res) => {
   User.findById(req.params.id, (err, data) => {
     if (err) {
-      res.send(404);
+      res.sendStatus(404);
     } else {
       res.send(data);
     }
   })
 });
 
-router.post('/', (req, res) => {
+router.get('/:id/swot', (req, res) => {
+  if (req.session.user !== req.params.id) {
+    return res.sendStatus(401);
+  }
+
+  res.send("All Good!");
+
+  // User.findById(req.params.id, (err, data) => {
+  //   if (err) {
+  //     res.sendStatus(404);
+  //   } else {
+  //     res.send(data);
+  //   }
+  // })
+});
+
+// router.post('/:id/swot', (req, res) => {
+//   User.findById(req.params.id, (err, data) => {
+//     if (err) {
+//       res.sendStatus(404);
+//     } else {
+//       res.send(data);
+//     }
+//   })
+// });
+//
+// router.get('/:id/goals', (req, res) => {
+//   User.findById(req.params.id, (err, data) => {
+//     if (err) {
+//       res.sendStatus(404);
+//     } else {
+//       res.send(data);
+//     }
+//   })
+// });
+
+//New User of Register route
+router.post('/register', (req, res) => {
   bcrypt.hash(req.body.password,8).then(hash => {
     User.create({
       name: req.body.name,
@@ -38,14 +84,21 @@ router.post('/', (req, res) => {
       if (err) {
         throw err;
       };
-
-      req.session.userId = data._id;
-      console.log(req.session);
+      req.session.user = data._id;
       res.send(data);
-
     })
   })
   .catch(err => next(err));
+});
+
+//Returning User or Login route
+router.post('/login',(req,res) => {
+  User.findOne({ 'email': req.body.email }, (err,data) => {
+    var validPassword = bcrypt.compareSync(req.body.password, data.password);
+    req.session.user = data._id;
+    res.send(data);
+    }
+  )
 });
 
 router.patch('/:id', (req, res) => {
