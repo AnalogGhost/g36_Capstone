@@ -7,7 +7,7 @@
 
   <div class='md-padding' layout="row" layout-align="space-around" layout-wrap>
 
-    <md-card md-theme="default" md-theme-watch ng-repeat="student in $ctrl.students | filter: $crtl.searchInput">
+    <md-card class="student" md-theme="default" md-theme-watch ng-repeat="student in $ctrl.students | filter: $crtl.searchInput">
       <md-card-header>
         <md-card-avatar>
           <img class="md-user-avatar" ng-src="{{student.icon||'http://lorempixel.com/40/40'}}">

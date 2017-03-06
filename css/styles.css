@@ -1,3 +1,5 @@
+
+
 md-card-content > ul {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -11,6 +13,10 @@ md-card-content > ul {
 
 .staff {
   width: 350px;
+}
+
+.student {
+  width:300px;
 }
 
 /*.cards-container {
