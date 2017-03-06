@@ -1,0 +1,117 @@
+body {
+  background: url('../images/capstone-bio-background.jpg');
+  background-size: 100%;
+}
+
+.navBarImg {
+  height: 140%;
+  padding-left: 2rem;
+}
+
+.navbar {
+  background-color: #9E724C;
+  border-bottom: .25rem solid #9E724C;
+  opacity: .95;
+}
+
+#navbar-text {
+  color: white;
+}
+
+.row {
+  padding: 1rem 0 1rem 0;
+  background-color: rgba(0, 0, 0, .60);
+}
+
+.topBox {
+  color: white;
+  font-size: 4rem;
+  padding-bottom: 1.8rem;
+}
+
+.box1 {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.box2 {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.box3 {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.box-heading {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.box-body {
+  padding: .5rem 0 .5rem 0;
+}
+
+.box-footer {
+  padding-bottom: 1rem;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .box1 {
+    margin: 1rem;
+  }
+
+  .box2 {
+    margin: 1rem;
+  }
+
+  .box3 {
+    margin: 1rem;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .box1 {
+    margin-left: 6rem;
+    width: 28.5%;
+    vertical-align: middle;
+  }
+
+  .box2 {
+    margin: 0 3rem 0 3rem;
+    width: 28.5%;
+  }
+
+  .box3 {
+    margin-right: 6rem;
+    width: 28.5%;
+  }
+}
+
+@media only screen  and (min-width : 1224px) {
+  .box1 {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    margin-left: 6rem;
+    width: 28.25%;
+    vertical-align: middle;
+  }
+
+  .box2 {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    margin: 0 3rem 0 3rem;
+    width: 28.25%;
+  }
+
+  .box3 {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    margin-right: 6rem;
+    width: 28.25%;
+  }
+}

@@ -1,0 +1,219 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+/*.jumbo {*/
+  /*background-color: #eee;*/
+  /*background-image: url('../index-index.jpg');*/
+  /*background-size: cover;*/
+  /*width: 1240px !important;
+  height: 648px !important;
+  position: relative;
+}*/
+/*.nav-style{
+  color: #428bca;
+}*/
+
+
+
+/*style changes*/
+
+body{ margin:0px 0px; }
+
+#hero{
+  background: linear-gradient(
+                     rgba(0,0,0, .3),
+                     rgba(0,0,0, .3)),
+                     url('../compcrop2.jpg');
+  /*background-image:url('../index-crop.jpg');*/
+  background-size:cover;
+
+
+  /*width: 1px;
+  height: 648px;*/
+  /*top: -520px;*/
+  margin-right: 300px;
+  position:relative;
+}
+
+.header{
+  position:absolute;
+  top:50%;
+  text-align:center;
+  width:100%;
+  color:#fff;
+  font-size:36px;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+    -webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);
+
+}
+
+.nav-text{
+  font-family: sans-serif;
+}
+.git-logo{
+  margin-right: 10px;
+}
+.nav-flex{
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-icon{
+  height: 2.5rem;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+.card-image-custom {
+  height: 317px;
+}
+.black-card-text{
+  /*color: black !important;*/
+  background-color: black;
+  opacity: .7;
+}
+.icon-cont{
+  margin-top: -70px;
+  padding-bottom: 30px;
+}
+h1{
+  font-family: sans-serif;
+}
+/*.sunshine-style{
+  text: black;
+}*/
+
+/*h6{
+  font-family: sans-serif;
+}*/
+.icon {
+  width: auto;
+  height: 10px;
+}
+.iconList li {
+    display: inline-flex;
+    padding-right: 1.5rem;
+}
+.iconList li .icon {
+    height: 3.3rem !important;
+    transition: all 1s;
+}
+
+.iconList li .icon:hover {
+    height: 5rem !important;
+    -webkit-filter: invert(.8);
+}
+
+
+.nav-bar{
+  background-color: transparent;
+  display: flex;
+}
+.header-title{
+  font-family: sans-serif;;
+  font-size: 67px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 590;
+  margin-bottom: -  px;
+  padding-bottom: 20px;
+}
+.sub-head{
+    font-family: "adobe-garamond-pro";
+    font-size: 22px;
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 1.5px;
+    font-weight: 380;
+    margin-bottom: -24px;
+    font-style: italic;
+    color: #fff;
+    /*margin: 10px auto;*/
+    /*margin-bottom: 60px;*/
+}
+#project-cont{
+  margin-top: -20px;
+}
+.nav-text{
+  font-family: sans-serif;;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 330;
+  font-style: normal;
+  color: #fff;
+  margin: 0;
+  padding-left: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 1em;
+}
+/*.right-nav{
+  margin-right: -100px;
+}*/
+.nav-button{
+  font-family: sans-serif;;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 330;
+  border-radius: 25px;
+  margin-bottom: -20px;
+  /*font-style: normal;
+  color: #fff;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 1em;*/
+}
+.nav-bar{
+  padding-top: 30px;
+  /*margin-right: 10px;*/
+}
+.card-description{
+  padding-bottom: 20px;
+}
+.icon-title {
+  display: flex;
+  justify-content: center;
+}
+.icons-style {
+  display: flex;
+  justify-content: center;
+}
+/*.nav{
+  display: flex;
+}*/
+
+#name-logo{
+  float: left !important;
+}
+
+#content{
+  padding:100px 50px;
+  text-align:center;
+  width:80%;
+  margin:0px auto;
+}
+
+#content h2{
+  margin:0px 0px 30px 0px;
+}
+
+#footer{
+  padding:30px 0px;
+  text-align:center;
+  background:#ddd;
+}
