@@ -236,7 +236,7 @@
 }
 
 .dash-body {
-
+  margin-top: 35px;
 }
 
 /*----------Aside----------*/
@@ -244,19 +244,18 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: #FBE694;
+  /*background-color: #FBE694;*/
+  box-shadow: -1px 0 6px black;
 }
 
 .goals-content {
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-top: 35px;
 }
 
 /*----------Content Body----------*/
 .plan-content {
   display: flex;
   justify-content: center;
-  margin-top: 35px;
 }

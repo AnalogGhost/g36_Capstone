@@ -15,10 +15,15 @@ body {
 }
 
 #navbar-text {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 3px black;
+  font-family: 'Open Sans Condensed', sans-serif;
   color: white;
 }
 
 .logo-container {
+  margin-top: 15px;
   height: 50px;
   background-color: rgba(255, 255, 255, .75);
 }
@@ -26,6 +31,13 @@ body {
 img {
   height: 100%;
   padding-left: 2rem;
+}
+
+.app-description {
+  font-size: 4rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: rgba(255, 255, 255, .75);
+  border-radius: 20px 20px 0 0;
 }
 
 #mongo {
