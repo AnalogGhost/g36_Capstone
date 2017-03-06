@@ -103,12 +103,12 @@
   {
     "name":"Christopher Grabski",
     "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "icon":"/images/chris.jpg",
+    "image":"/images/capstone_image.png",
     "bioURL":"/grabski_christopher",
-    "siteURL":"",
+    "siteURL":"https://grabski-nautilus.herokuapp.com/",
     "githubURL":"https://github.com/grabc59",
-    "technologies":[]
+    "technologies":["D3", "Angular", "Node.js", "Knex.js", "HTML5", "CSS3", "JSON", "Javascript", "jQuery", "Git", "PostgreSQL", "Morgan", "NPM", "Heroku", "IP API"]
   },
   {
     "name":"Kyle Gray",
