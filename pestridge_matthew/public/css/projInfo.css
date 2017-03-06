@@ -18,100 +18,62 @@ body {
   color: white;
 }
 
-.row {
-  padding: 1rem 0 1rem 0;
-  background-color: rgba(0, 0, 0, .60);
+.logo-container {
+  height: 50px;
+  background-color: rgba(255, 255, 255, .75);
 }
 
-.topBox {
-  color: white;
-  font-size: 4rem;
-  padding-bottom: 1.8rem;
+img {
+  height: 100%;
+  padding-left: 2rem;
 }
 
-.box1 {
-  background-color: white;
-  border-radius: 10px;
+#mongo {
+  padding: 0;
 }
 
-.box2 {
-  background-color: white;
-  border-radius: 10px;
+#express {
+  margin-top: 9px;
+  height: 80%;
 }
 
-.box3 {
-  background-color: white;
-  border-radius: 10px;
+#angular {
+  height: 90%;
+  margin-top: 7px;
+  padding-left: 1rem;
 }
 
-.box-heading {
-  padding-top: 1rem;
-  text-align: center;
+#node {
+  height: 80%;
+  padding-left: 1.2rem;
 }
 
-.box-body {
-  padding: .5rem 0 .5rem 0;
+#html {
+  height: 85%;
+  margin-bottom: 7px;
+  padding-left: 1.2rem;
 }
 
-.box-footer {
-  padding-bottom: 1rem;
+#css {
+  height: 85%;
+  margin-bottom: 7px;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .box1 {
-    margin: 1rem;
-  }
-
-  .box2 {
-    margin: 1rem;
-  }
-
-  .box3 {
-    margin: 1rem;
-  }
+#js {
+  height: 82%;
+  padding-left: .75rem;
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  .box1 {
-    margin-left: 6rem;
-    width: 28.5%;
-    vertical-align: middle;
-  }
-
-  .box2 {
-    margin: 0 3rem 0 3rem;
-    width: 28.5%;
-  }
-
-  .box3 {
-    margin-right: 6rem;
-    width: 28.5%;
-  }
+#jq {
+  height: 60%;
+  margin-top: 12px;
 }
 
-@media only screen  and (min-width : 1224px) {
-  .box1 {
-    display: inline-block;
-    float: none;
-    vertical-align: middle;
-    margin-left: 6rem;
-    width: 28.25%;
-    vertical-align: middle;
-  }
+#mongoose {
+  margin-bottom: -15px;
+  padding-left: .9rem;
+}
 
-  .box2 {
-    display: inline-block;
-    float: none;
-    vertical-align: middle;
-    margin: 0 3rem 0 3rem;
-    width: 28.25%;
-  }
-
-  .box3 {
-    display: inline-block;
-    float: none;
-    vertical-align: middle;
-    margin-right: 6rem;
-    width: 28.25%;
-  }
+#bootstrap {
+  height: 90%;
 }

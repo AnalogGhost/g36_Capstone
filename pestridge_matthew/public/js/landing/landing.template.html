@@ -1,18 +1,19 @@
 <!-- Navbar -->
 <div class="navbar-wrapper container-fluid">
-  <img class="logo" alt="Brand" src="../images/templogo.svg">
+  <img class="landing-logo" alt="Brand" src="../images/elp-logo-sm.png">
   <div class="buttons-container">
     <div class="register-container">
-      <button id="register-btn" ui-sref="dashboard" ng-click="$ctrl.register" class="btn btn-default">Register</button>
+      <button id="register-btn" class="btn" data-toggle="modal" data-target="#register-modal">Register</button>
+       <!-- ui-sref="dashboard" ng-click="$ctrl.register" -->
     </div>
     <div class="login-container">
-      <button id="login-btn" type="submit" class="btn btn-default" data-toggle="modal" data-target="#login-modal">Log In</button>
+      <button id="login-btn" type="submit" class="btn" data-toggle="modal" data-target="#login-modal">Log In</button>
     </div>
   </div>
   <a class="about" href="#">About</a>
 </div>
 <!-- Login Modal -->
-<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+<form class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true" ng-submit="$ctrl.login(userLogin)">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header col-lg-12">
@@ -24,22 +25,55 @@
       <div class="modal-body">
         <div class="container-fluid">
           <div class="form-group">
-            <label id="login-email" for="message-text" class="form-control-label">Email:</label>
-            <input type="text" class="form-control" id="recipient-name">
+            <label for="message-text" class="form-control-label">Email:</label>
+            <input id="login-email" type="text" class="form-control" ng-model="$ctrl.loginUser.email">
           </div>
           <div class="form-group">
             <label for="message-text" class="form-control-label">Password:</label>
-            <input type="text" class="form-control" id="recipient-name">
+            <input type="text" class="form-control" id="login-password" ng-model="$ctrl.loginUser.password">
           </div>
         </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </div>
     </div>
   </div>
-</div>
+</form>
+<!-- Register Modal -->
+<form name="$ctrl.registerForm" class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="registerModal" aria-hidden="true"  ng-submit="$ctrl.register(registerForm)">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header col-lg-12">
+        <h5 class="modal-title col-lg-11" id="register-modal-label">Register</h5>
+        <button type="button" class="close col-lg-1" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="form-group">
+            <label for="name" class="form-control-label">Name:</label>
+            <input id="register-name" type="text" class="form-control" ng-model="$ctrl.registerUser.name">
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-control-label">Email:</label>
+            <input id="register-email" type="email" class="form-control" ng-model="$ctrl.registerUser.email">
+          </div>
+          <div class="form-group">
+            <label for="password" class="form-control-label">Password:</label>
+            <input id="register-password" type="password" class="form-control" ng-model="$ctrl.registerUser.password">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</form>
 <!-- Carousel Start-->
 <div class="carousel-wrapper hidden-xs">
   <div id="carousel" class="carousel slide" data-ride="#carousel">
@@ -53,21 +87,21 @@
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="../images/carousel-earth1.jpg" alt="...">
-        <!-- <div class="carousel-caption">
-          blah
-        </div> -->
+        <div class="carousel-caption caption1">
+          Discover a better perspective on life ...
+        </div>
       </div>
       <div class="item">
         <img class="road-img" src="../images/carousel-forest.jpg" alt="...">
-        <!-- <div class="carousel-caption">
-          blah
-        </div> -->
+        <div class="carousel-caption caption2">
+          Gain insights beyond your current circumstances ...
+        </div>
       </div>
       <div class="item active">
         <img src="../images/carousel-road1.jpg" alt="...">
-        <!-- <div class="carousel-caption">
-          blah
-        </div> -->
+        <div class="carousel-caption caption3">
+          Life is a journey not just a destination ...
+        </div>
       </div>
     </div>
     <!-- Controls -->
@@ -87,18 +121,25 @@
 <!-- Info Section -->
 <div class="info-section">
   <div class="info-container-1 col-lg-offset-2 col-lg-8">
-    <p class="info-text">Life Plans are great, heres why! Waistcoat snackwave tumblr hexagon, food truck tacos organic ramps blue bottle pop-up. Portland normcore next level, hammock messenger bag drinking vinegar VHS four loko. Neutra sartorial swag man braid vice, asymmetrical jianbing freegan food truck fap. Blog chicharrones distillery mumblecore chillwave roof party wayfarers mustache, master cleanse health goth.
+    <div class="info-center">
+      <h3 class="info-title">WHAT is E-LP?</h3>
+    <p class="info-text">E-LP is a tool designed to help you enhance every area of your life.  E-LP won’t do all the work for you, but the platform facilitates the process for you to evaluate each area of life that is important to you, it helps you come up with your own goals for each area, and will help you organize achievable action items. The process is self-reflective yet practical.
     </p>
+    </div>
   </div>
 </div>
-<div class="info-section info-container-hero">
+<div class="info-container-hero">
   <div class="info-container-2 col-lg-offset-4 col-lg-8">
-    <p class="info-text-right">Here are the categories and how you can develop your own mission statement for your life.  Craft beer art party beard, helvetica kinfolk vaporware organic chicharrones skateboard chambray kale chips activated charcoal snackwave. Butcher tumblr craft beer williamsburg neutra, shoreditch drinking vinegar fingerstache shabby chic man braid.
-    </p>
+      <h3 class="info-title2">WHO can use E-LP?</h3>
+      <p class="info-text-right">E-LP is for anyone seeking to find a balanced life--E-LP is for everyone! As you go through the process, you will be able to focus on the following areas: health, career, financial, intellectual, spiritual, travel/leisure, social, and lifestyle.
+      </p>
+    </div>
   </div>
-</div>
 <div class="info-section">
   <div class="info-container-3 col-lg-offset-2 col-lg-8">
-    <p class="info-text">If you haven't considered life planning before, try it.  Here are some benefits to using this app.  Food truck plaid brooklyn, asymmetrical microdosing chillwave literally live-edge mumblecore woke snackwave banh mi before they sold out. Single-origin coffee keffiyeh beard small batch trust fund, pour-over plaid pitchfork. Mustache asymmetrical shoreditch, forage pabst mumblecore direct trade messenger bag. </p>
+    <div class="info-center">
+      <h3 class="info-title">WHY use E-LP?</h3>
+      <p class="info-text">E-LP is all about evaluating your life and identifying areas of opportunity. As you begin to set goals and positive changes, you will start living your life to the fullest! </p>
+    </div>
   </div>
 </div>

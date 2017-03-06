@@ -11,10 +11,16 @@
   z-index: 10
 }
 
-.logo {
-  width: 90px;
-  height: 4.6rem;
-  margin-left: 0;
+.landing-logo {
+  height: 7.5rem;
+  margin-right: 2rem;
+}
+
+.btn {
+  background-color: #358AA0;
+  color: #F3BA43;
+  opacity: .95;
+  border: 1px solid white;
 }
 
 .buttons-container {
@@ -87,14 +93,46 @@
   height: 50px;
 }
 
+.caption1 {
+  color: white;
+  margin-bottom: 29%;
+  font-size: 3rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: rgba(0, 0, 0, .10);
+  border-radius: 20px;
+  padding: 1px 0 1px 0;
+}
+
+.caption2 {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  margin-bottom: 50.5%;
+  font-size: 3rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: rgba(0, 0, 0, .25);
+  border-radius: 20px;
+  padding: 1px 0 1px 0;
+}
+
+.caption3 {
+  color: white;
+  margin-bottom: 30%;
+  font-size: 3rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: rgba(0, 0, 0, .25);
+  border-radius: 20px;
+  padding: 1px 0 1px 0;
+}
+
 /*----------Info Rows----------*/
 .info-section {
+  display: table;
   background-color: white;
   height: 30rem;
 }
 
 .info-container-1 {
-  display: table;
+  display: table-cell;
   height: 30rem;
 }
 
@@ -107,7 +145,7 @@
 }
 
 .info-container-2 {
-  display: table;
+  display: table-cell;
   height: 100%;
   opacity: 1;
   color: white;
@@ -116,23 +154,42 @@
 }
 
 .info-container-3 {
-  display: table;
+  display: table-cell;
+  vertical-align: middle;
   height: 30rem;
 }
 
+.info-title {
+  margin-top: 4rem;
+  font-size: 3rem;
+  margin-left: 7rem;
+  color: #358AA0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bolder;
+}
+
+.info-title2 {
+  margin-top: 4rem;
+  font-size: 3rem;
+  margin-left: 11rem;
+  color: #F3BA43;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bolder;
+}
+
 .info-text {
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 2rem;
+  font-size: 2.25rem;
   text-align: justify;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .info-text-right {
+  font-size: 2.25rem;
   padding-left: 7rem;
   display: table-cell;
   vertical-align: middle;
-  font-size: 2rem;
   text-align: justify;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /*---------------Dashboard---------------*/
@@ -141,6 +198,16 @@
   background-color: #4B3322;
   border-bottom: none;
   box-shadow: 0 1.5px 10px #4B3322;
+}
+
+.dash-logo {
+  position: absolute;
+  height: 7.5rem;
+  margin-top: -12px;
+}
+
+#username {
+  margin-left: 50px;
 }
 
 .nav-dash-btn {
