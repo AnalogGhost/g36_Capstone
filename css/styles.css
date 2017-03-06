@@ -19,6 +19,14 @@ md-card-content > ul {
   width:300px;
 }
 
+i {
+  color:rgb(153,153,153)
+}
+
+.talent {
+  height:42px;
+  filter: grayscale(100%);
+}
 /*.cards-container {
   column-break-inside: avoid;
 }

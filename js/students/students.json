@@ -8,6 +8,8 @@
     "bioURL":"/baack_aidan",
     "siteURL":"",
     "githubURL":"https://github.com/aebaack",
+    "talentURL":"",
+    "linkedinURL":"",
     "technologies":["React","React Native"]
   },
   {
@@ -18,6 +20,8 @@
     "bioURL":"/baukol_laura",
     "siteURL":"",
     "githubURL":"https://github.com/laura333",
+    "talentURL":"https://talent.galvanize.com/students/1120",
+    "linkedinURL":"https://www.linkedin.com/in/laurabaukol",
     "technologies":[]
   },
   {
@@ -28,6 +32,8 @@
     "bioURL":"/busse_evan",
     "siteURL":"",
     "githubURL":"https://github.com/THEAverageSpeedBurrito",
+    "talentURL":"",
+    "linkedinURL":"",
     "technologies":[]
   },
   {
@@ -38,6 +44,8 @@
     "bioURL":"/chapin_bradley",
     "siteURL":"http://daky-in-monsterland.surge.sh",
     "githubURL":"https://github.com/Brad-Chapin",
+    "talentURL":"https://talent.galvanize.com/students/1126",
+    "linkedinURL":"https://www.linkedin.com/in/brad-chapin/",
     "technologies":["HTML5", "CSS3", "JavaScript", "Phaser.io", "jQuery", "Animate.css", "Skeleton.css"]
   },
   {
@@ -48,6 +56,8 @@
     "bioURL":"/clark_ariana",
     "siteURL":"",
     "githubURL":"https://github.com/gloomylumi",
+    "talentURL":"https://talent.galvanize.com/students/1113",
+    "linkedinURL":"http://www.linkedin.com/in/aricodes",
     "technologies":[]
   },
   {
@@ -58,6 +68,8 @@
     "bioURL":"/cowley_kevin",
     "siteURL":"",
     "githubURL":"https://github.com/cowleyk",
+    "talentURL":"",
+    "linkedinURL":"",
     "technologies":[]
   },
   {
@@ -68,6 +80,8 @@
     "bioURL":"/davis_elizabeth",
     "siteURL":"",
     "githubURL":"https://github.com/eadskye",
+    "talentURL":"https://talent.galvanize.com/students/1124",
+    "linkedinURL":"https://www.linkedin.com/in/elizabeth-davis-b1318b130?trk=hp-identity-name",
     "technologies":[]
   },
   {
@@ -78,6 +92,8 @@
     "bioURL":"/efting_bradley",
     "siteURL":"",
     "githubURL":"https://github.com/bradefting",
+    "talentURL":"",
+    "linkedinURL":"",
     "technologies":[]
   },
   {
@@ -88,6 +104,8 @@
     "bioURL":"/goldfarb_jason",
     "siteURL":"",
     "githubURL":"https://github.com/jkgold",
+    "talentURL":"",
+    "linkedinURL":"",
     "technologies":[]
   },
   {
@@ -98,6 +116,8 @@
     "bioURL":"/gordon_matthew",
     "siteURL":"",
     "githubURL":"https://github.com/redemption23",
+    "talentURL":"https://talent.galvanize.com/students/1129",
+    "linkedinURL":"http://linkedin.com/in/matthew-gordon",
     "technologies":[]
   },
   {
@@ -108,6 +128,8 @@
     "bioURL":"/grabski_christopher",
     "siteURL":"",
     "githubURL":"https://github.com/grabc59",
+    "talentURL":"https://talent.galvanize.com/students/1138",
+    "linkedinURL":"https://www.linkedin.com/in/christopher-grabski-7a2a4581",
     "technologies":[]
   },
   {
@@ -118,6 +140,8 @@
     "bioURL":"/gray_kyle",
     "siteURL":"",
     "githubURL":"https://github.com/Kyle-Gray",
+    "talentURL":"https://talent.galvanize.com/students/1145",
+    "linkedinURL":"http://www.linkedin.com/in/kyle-gray",
     "technologies":[]
   },
   {
@@ -128,6 +152,8 @@
     "bioURL":"/hanzlik_stephen",
     "siteURL":"",
     "githubURL":"https://github.com/StephenHanzlik",
+    "talentURL":"https://talent.galvanize.com/students/1125",
+    "linkedinURL":"https://www.linkedin.com/in/stephen-hanzlik-14b71b122",
     "technologies":[]
   },
   {
@@ -138,6 +164,8 @@
     "bioURL":"/hendrick_olivia",
     "siteURL":"",
     "githubURL":"https://github.com/ohendrick1223",
+    "talentURL":"https://talent.galvanize.com/students/1135",
+    "linkedinURL":"https://www.linkedin.com/in/olivia-hendrick1223",
     "technologies":[]
   },
   {
@@ -148,6 +176,8 @@
     "bioURL":"/horton_chanse",
     "siteURL":"",
     "githubURL":"https://github.com/chansehorton",
+    "talentURL":"https://talent.galvanize.com/students/1142",
+    "linkedinURL":"https://www.linkedin.com/in/chanse-horton-835b99119",
     "technologies":[]
   },
   {
@@ -158,6 +188,8 @@
     "bioURL":"/hurd_devin",
     "siteURL":"https://eephus-chatterbox.herokuapp.com/",
     "githubURL":"https://github.com/HurdAudio",
+    "talentURL":"https://talent.galvanize.com/students/1130",
+    "linkedinURL":"https://de.linkedin.com/in/hurdaudio",
     "technologies":["Web Speech API", "Angular", "Express", "NodeJS", "Postgres", "Mocha", "SuperTest", "Basebal Ipsum API", "My Sports Feeds API", "JavaScript", "HTML5", "CSS3", "PureCSS"]
   },
   {
@@ -168,6 +200,8 @@
     "bioURL":"/jenkins_katie",
     "siteURL":"",
     "githubURL":"https://github.com/KatieAJenkins",
+    "talentURL":"https://talent.galvanize.com/students/1140",
+    "linkedinURL":"https://www.linkedin.com/in/katie-jenkins",
     "technologies":[]
   },
   {
@@ -178,6 +212,8 @@
     "bioURL":"/joyce_kyle",
     "siteURL":"",
     "githubURL":"https://github.com/joyceky",
+    "talentURL":"https://talent.galvanize.com/students/1141",
+    "linkedinURL":"https://www.linkedin.com/in/joyceky",
     "technologies":[]
   },
   {
@@ -188,6 +224,8 @@
     "bioURL":"/lindly_matthew",
     "siteURL":"",
     "githubURL":"https://github.com/lindlymatt",
+    "talentURL":"https://talent.galvanize.com/students/1114",
+    "linkedinURL":"http://linkedin.com/lindlymatt",
     "technologies":["React","React Native"]
   },
   {
@@ -198,6 +236,20 @@
     "bioURL":"/lotko_anna",
     "siteURL":"",
     "githubURL":"https://github.com/annapanana",
+    "talentURL":"https://talent.galvanize.com/students/1134",
+    "linkedinURL":"https://www.linkedin.com/in/annalotko",
+    "technologies":[]
+  },
+  {
+    "name":"Anna Mefford",
+    "project":"",
+    "icon":"",
+    "image":"",
+    "bioURL":"/mefford_anna",
+    "siteURL":"",
+    "githubURL":"https://github.com/Mittino",
+    "talentURL":"https://talent.galvanize.com/students/1133",
+    "linkedinURL":"https://www.linkedin.com/in/annamefford",
     "technologies":[]
   },
   {
@@ -208,6 +260,8 @@
     "bioURL":"/pestridge_matthew",
     "siteURL":"",
     "githubURL":"https://github.com/MPestridge",
+    "talentURL":"",
+    "linkedinURL":"",
     "technologies":[]
   },
   {
@@ -218,6 +272,8 @@
     "bioURL":"/peterson_cassandra",
     "siteURL":"",
     "githubURL":"https://github.com/caspeter",
+    "talentURL":"https://talent.galvanize.com/students/1143",
+    "linkedinURL":"https://www.linkedin.com/in/petersoncassandra",
     "technologies":[]
   },
   {
@@ -228,6 +284,8 @@
     "bioURL":"/ridgley_keegan",
     "siteURL":"",
     "githubURL":"https://github.com/keeganridgley107",
+    "talentURL":"https://talent.galvanize.com/students/1119",
+    "linkedinURL":"https://www.linkedin.com/in/keeganridgley",
     "technologies":[]
   },
   {
@@ -238,6 +296,8 @@
     "bioURL":"/ridgley_olivia",
     "siteURL":"",
     "githubURL":"https://github.com/oliviaridgley",
+    "talentURL":"",
+    "linkedinURL":"",
     "technologies":[]
   },
   {
@@ -248,6 +308,8 @@
     "bioURL":"/rodriguez_heidi",
     "siteURL":"",
     "githubURL":"https://github.com/hrod28",
+    "talentURL":"https://talent.galvanize.com/students/1197",
+    "linkedinURL":"https://www.linkedin.com/in/heidi-rodriguez-9a5a21b5",
     "technologies":[]
   },
   {
@@ -258,6 +320,8 @@
     "bioURL":"/russo_mehri",
     "siteURL":"",
     "githubURL":"https://github.com/mehrimo",
+    "talentURL":"https://talent.galvanize.com/students/1118",
+    "linkedinURL":"https://www.linkedin.com/in/mehrirusso",
     "technologies":[]
   },
   {
@@ -268,6 +332,8 @@
     "bioURL":"/sarkisian_thomas",
     "siteURL":"",
     "githubURL":"https://github.com/thcmm",
+    "talentURL":"https://talent.galvanize.com/students/1131",
+    "linkedinURL":"http://www.linkedin.com/in/thomas-sarkisian-337a8818",
     "technologies":[]
   },
   {
@@ -278,16 +344,20 @@
     "bioURL":"/van maren_tristan",
     "siteURL":"",
     "githubURL":"https://github.com/tvanmaren",
+    "talentURL":"",
+    "linkedinURL":"",
     "technologies":["React","React Native"]
   },
   {
     "name":"Justyna Wozniak-Foster",
-    "project":" ",
+    "project":"",
     "icon":"",
     "image":"",
     "bioURL":"/wozniak-foster_justyna",
     "siteURL":"",
     "githubURL":"https://github.com/SoleNero",
+    "talentURL":"https://talent.galvanize.com/students/1128",
+    "linkedinURL":"https://www.linkedin.com/in/justynawfoster",
     "technologies":[]
   }
 ]
