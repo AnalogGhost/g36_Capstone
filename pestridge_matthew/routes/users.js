@@ -4,6 +4,8 @@ const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
 const User = require('../src/usersSchema');
+const bcrypt = require('bcrypt');
+
 mongoose.Promise = require('bluebird');
 
 router.get('/', (req,res) => {
@@ -27,16 +29,23 @@ router.get('/:id', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-  User.create({
-    username: req.body.username,
-    email: req.body.email,
-    password: req.body.password,
-  }, (err, data) => {
-    if (err) {
-      throw err;
-    };
-    res.send(data);
+  bcrypt.hash(req.body.password,8).then(hash => {
+    User.create({
+      name: req.body.name,
+      email: req.body.email,
+      password: hash,
+    }, (err, data) => {
+      if (err) {
+        throw err;
+      };
+
+      req.session.userId = data._id;
+      console.log(req.session);
+      res.send(data);
+
+    })
   })
+  .catch(err => next(err));
 });
 
 router.patch('/:id', (req, res) => {
