@@ -3,14 +3,14 @@
   {
     "name":"Aidan Baack",
     "project":"Property Primate",
-    "icon":"",
-    "image":"",
+    "icon":"http://i.imgur.com/pqiBp1G.png",
+    "image":"http://i.imgur.com/mtWqq3g.png",
     "bioURL":"/baack_aidan",
-    "siteURL":"",
+    "siteURL":"http://property-primate.surge.sh",
     "githubURL":"https://github.com/aebaack",
-    "talentURL":"",
-    "linkedinURL":"",
-    "technologies":["React","React Native"]
+    "talentURL":"https://talent.galvanize.com/students/1112",
+    "linkedinURL":"https://www.linkedin.com/in/aidan-baack/",
+    "technologies":["React", "Redux", "React Native", "NativeBase", "JSX", "ES6", "Heroku", "PostgreSQL", "Node.JS", "Express", "Knex", "faker.JS", "bCrypt", "Joi", "USPS API", "GeoNames API"]
   },
   {
     "name":"Laura Baukol",
@@ -219,14 +219,14 @@
   {
     "name":"Matthew Lindly",
     "project":"Property Primate",
-    "icon":"",
-    "image":"",
+    "icon":"http://i.imgur.com/SBHK9xG.jpg",
+    "image":"http://i.imgur.com/mtWqq3g.png",
     "bioURL":"/lindly_matthew",
-    "siteURL":"",
+    "siteURL":"http://property-primate.surge.sh",
     "githubURL":"https://github.com/lindlymatt",
     "talentURL":"https://talent.galvanize.com/students/1114",
     "linkedinURL":"http://linkedin.com/lindlymatt",
-    "technologies":["React","React Native"]
+    "technologies":["React", "Redux", "React Native", "NativeBase", "JSX", "ES6", "Heroku", "PostgreSQL", "Node.JS", "Express", "Knex", "faker.JS", "bCrypt", "Joi", "USPS API", "GeoNames API"]
   },
   {
     "name":"Anna Lotko",
@@ -339,14 +339,14 @@
   {
     "name":"Tristan Van Maren",
     "project":"Property Primate",
-    "icon":"",
-    "image":"",
+    "icon":"http://i.imgur.com/YfmeKee.jpg",
+    "image":"http://i.imgur.com/mtWqq3g.png",
     "bioURL":"/van maren_tristan",
-    "siteURL":"",
+    "siteURL":"http://property-primate.surge.sh",
     "githubURL":"https://github.com/tvanmaren",
-    "talentURL":"",
-    "linkedinURL":"",
-    "technologies":["React","React Native"]
+    "talentURL":"https://talent.galvanize.com/students/1132",
+    "linkedinURL":"https://wwww.linkedin.com/in/tvanmaren",
+    "technologies":["React", "Redux", "React Native", "NativeBase", "JSX", "ES6", "Heroku", "PostgreSQL", "Node.JS", "Express", "Knex", "faker.JS", "bCrypt", "Joi", "USPS API", "GeoNames API"]
   },
   {
     "name":"Justyna Wozniak-Foster",
