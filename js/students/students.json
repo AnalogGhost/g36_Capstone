@@ -122,15 +122,15 @@
   },
   {
     "name":"Christopher Grabski",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"Nautilus: Web Server Analytics",
+    "icon":"/grabski_christopher/images/chris.jpg",
+    "image":"/grabski_christopher/images/capstone_image.png",
     "bioURL":"/grabski_christopher",
-    "siteURL":"",
+    "siteURL":"https://grabski-nautilus.herokuapp.com/",
     "githubURL":"https://github.com/grabc59",
     "talentURL":"https://talent.galvanize.com/students/1138",
     "linkedinURL":"https://www.linkedin.com/in/christopher-grabski-7a2a4581",
-    "technologies":[]
+    "technologies":["D3", "Angular", "Node.js", "Knex.js", "HTML5", "CSS3", "JSON", "Javascript", "jQuery", "Git", "PostgreSQL", "Morgan", "NPM", "Heroku", "IP API"]
   },
   {
     "name":"Kyle Gray",
