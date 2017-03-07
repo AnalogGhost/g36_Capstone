@@ -278,15 +278,15 @@
   },
   {
     "name":"Keegan Ridgley",
-    "project":" ",
-    "icon":"",
-    "image":"",
+    "project":"Galvanize Mystery",
+    "icon":"/ridgley_keegan/media/tinyme.jpg",
+    "image":"/ridgley_keegan/media/GM-logo.jpg",
     "bioURL":"/ridgley_keegan",
-    "siteURL":"",
+    "siteURL":"https://mayday-capstone.herokuapp.com/",
     "githubURL":"https://github.com/keeganridgley107",
     "talentURL":"https://talent.galvanize.com/students/1119",
     "linkedinURL":"https://www.linkedin.com/in/keeganridgley",
-    "technologies":[]
+    "technologies":["HTML5","CSS3","Javascript","NodeJS","Express","AngularJS","PostgreSQL","SVG","Twilio API","Heroku","JQuery","Bootstrap"]
   },
   {
     "name":"Olivia Ridgley",
