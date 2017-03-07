@@ -8,62 +8,28 @@
     <!-- Bootstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <img class="image-fill" src="assets/banner.png" alt="">
     <div class="container">
-      <div class="col-md-2"></div>
-      <div class="col-md-8">
-        <div class="row text-center">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10 col-xs-12">
+        <div class="row">
           <h1>Greetings from the Internet</h1>
-        </div>
-        <div class="row text-center">
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="https://s-media-cache-ak0.pinimg.com/originals/a9/d8/f6/a9d8f63b4a718db8eebbac61122efe7b.jpg" alt="NY">
-              </div>
-
-              <div class="item">
-                <img src="https://postcardmuseum.files.wordpress.com/2011/10/oceancity_0005.jpg" alt="ocean-city">
-              </div>
-
-              <div class="item">
-                <img src="http://1.bp.blogspot.com/-ycdfIA3kn6o/VKUabs_h0BI/AAAAAAABQJA/NL7b8d-OYR0/s1600/Alabama.%2BCurt%2BTeich%2B%26%2BCo.%2B1939.jpg" alt="alabama">
-              </div>
-            </div>
-
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
         </div>
         <div class="row">
           <h3>About</h3>
-          <p>Greetings from the Internet (GftI) is a postcard making tool that allows users to craft a collaged graphic, include a custom message and send the postcard to a specified address. The process of image composition will enable users to select images from instagram or upload new images and customize SVG graphics with various widgets.</p>
+          <p>Greetings from the Internet (GFTI) is a postcard making tool that allows users to design a themed postcard and mail it. A user can manipulate SVG layouts with various widgets including image filters, boarders, fonts and colors. Users can also share their postcard designs with the GFTI community.</p>
         </div>
         <div class="row">
           <h3>MVP Features</h3>
           <ul>
-            <li>Search for Instagram images using keywords or upload custom images.</li>
-            <li>Select images from the search results as the body for masked letters.</li>
-            <li>Superimpose “Greetings from [search term]” text on the postcard graphics.</li>
+            <li>Upload an image and add filters to it.</li>
+            <li>Superimpose “Greetings from...” text on the postcard graphics.</li>
             <li>Customize background graphics with widgets that update the styles of SVG code.</li>
             <li>Fill out a form that includes an address and a custom message.</li>
-            <li>Pay $1 to send the postcard using the Stripe API tools.</li>
+            <li>Pay $1.50 to send the postcard using the Stripe API tools.</li>
             <li>Confirm mailing via the LOB API.</li>
           </ul>
         </div>
@@ -79,36 +45,21 @@
         <div class="row">
           <h3>Technologies</h3>
           <ul>
-            <li>Angular 1.6</li>
+            <li>AngularJS</li>
             <li>UI-Bootstrap</li>
-            <li>MongoDB ** </li>
+            <li>PostgreSQL</li>
             <li>NodeJS</li>
             <li>KnexJS</li>
             <li>ExpressJS</li>
             <li>Adobe Illustrator</li>
             <li>HTML  / CSS / JS</li>
-            <li>ESRI or Google Maps (stretch)</li>
+            <li>JQuery</li>
             <li>Amazon S3</li>
           </ul>
           <br>
-          <p>** unfamiliar environment</p>
         </div>
-        <div class="row">
-          <h3>APIs</h3>
-          <ul>
-            <li>Instagram</li>
-            <li>LOB</li>
-            <li>Stripe</li>
-          </ul>
-        </div>
-        <div class="row">
-          <h3>Project Notes</h3>
-          <p>
-            I am significantly updating the collage composition of the postcards from my Q1 project. In my Q1 project, I used a library that relies on HTML canvases and saved pixel data of the canvas in local storage. Instead I am going to rely on SVGs and create widgets that allow the user to update the vector graphics in real time. The LOB API allows users to send HTML code for postcard layout, including embedded SVG data. This will be my strategy for the composition.
-          </p>
-        </div>
-      </div>
-      <div class="col-md-2"></div>
+      <div class="col-sm-1"></div>
     </div>
+  </div>
   </body>
 </html>

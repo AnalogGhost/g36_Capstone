@@ -230,15 +230,15 @@
   },
   {
     "name":"Anna Lotko",
-    "project":" ",
-    "icon":"",
-    "image":"",
+    "project":"Greetings from the Internet",
+    "icon":"../../lotko_anna/assets/anna_icon.png",
+    "image":"../../lotko_anna/assets/banner_logo.png",
     "bioURL":"/lotko_anna",
-    "siteURL":"",
+    "siteURL":"https://gfti.herokuapp.com/",
     "githubURL":"https://github.com/annapanana",
     "talentURL":"https://talent.galvanize.com/students/1134",
     "linkedinURL":"https://www.linkedin.com/in/annalotko",
-    "technologies":[]
+    "technologies":["AngularJS", "NodeJS", "PostgreSQL", "Bootstrap", "Express", "Knex", "JQuery", "AWS", "Lob API", "Stripe API", "Adobe Illustrator"]
   },
   {
     "name":"Anna Mefford",
