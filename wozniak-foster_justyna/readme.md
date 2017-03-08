@@ -1,7 +1,5 @@
 # SeedKonnect project proposal
 
-![seeds-1302793_640](seeds-1302793_640.jpg) 
-
 Seed is central to five of our major societal issue:  agrobiodiversity, climate change, hunger and malnutrition, poverty and water. Seed plants are the foundation of human diets across the world.
 
 SeedKonnect is a proposed practical software application use to increase farmers participation in plant breeding and connect local agricultural communities (farmers, breeders, seed growers). The app allows users to track, analyze, and review seed varieties performance withing targeted bioregions.
