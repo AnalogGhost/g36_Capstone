@@ -4,15 +4,17 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const GoalsSchema = new Schema({
-  shortDescription: {
+  shortdescription: {
     type: String
   },
-  longDescription: {
+  longdescription: {
     type: String
   },
-  dueDate: {
+  duedate: {
     type: Date
   }
 });
 
-module.exports = GoalsSchema;
+const Goal = mongoose.model('Goal', GoalsSchema);
+
+module.exports = Goal;

@@ -8,22 +8,22 @@ const app = express();
 const Promise = require('bluebird');
 //TODO: still need to create user schema
 const User = require('./src/usersSchema.js');
+const Plan = require('./src/swotSchema.js')
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 
-var cookieSession = require('cookie-session')
+let cookieSession = require('cookie-session')
 app.use(cookieSession({
   name: 'session',
   keys: ['supersecretkey'],
   // Cookie Options
-  maxAge: 24 * 60 * 60 * 1000 // 24 hours
+  maxAge: 1 * 60 * 60 * 1000 // 1 hour
 }));
 
 app.use((req,res,next) => {
   if (req.session.user) {
-    console.log('User is logged in', req.session.user);
     next();
   } else {
       next(); // To Allow Access
@@ -31,13 +31,19 @@ app.use((req,res,next) => {
   }
 })
 
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 mongoose.Promise = require('bluebird');
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/enhancelp');
 
 const usersRoute = require('./routes/users');
+const plansRoute = require('./routes/plans');
 app.use('/users', usersRoute);
+app.use('/plans', plansRoute);
+
+app.use('*', function(req, res, next) {
+  res.sendFile('index.html', {root: path.join(__dirname, 'public')})
+})
 
 app.listen('3000', function() {
   console.log('Listening on port', 3000);

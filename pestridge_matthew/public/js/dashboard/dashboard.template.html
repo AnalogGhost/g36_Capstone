@@ -6,7 +6,6 @@
     <p class="navbar-text" id="username">Username,
       <a id="sign-out"> Sign Out</a>
     </p>
-    <button type="button" class="btn btn-default navbar-btn navbar-right nav-dash-btn">Previous Plans</button>
     <button type="button" class="btn btn-default navbar-btn navbar-right nav-dash-btn">Update Goals</button>
     <button type="button" class="btn btn-default navbar-btn navbar-right nav-dash-btn">New Plan</button>
     </div>
@@ -15,32 +14,85 @@
 
 <div class="dash-body">
   <div class="row dash-container">
-    <!-- Goals Section -->
+<!-- Goals Section -->
     <aside id="dash-aside" class="col-lg-4 col-md-4">
       <div class="goals-content">
-        <h1>Goals List</h1>
+        <h1 class="goals-title">Goals List</h1>
       </div>
       <div>
         <ul>
           <div>
             <li>Make my bed</li>
-          </div>
-          <div>
+            <ul class="due-date">Due Date: </ul>
             <li>Eat less</li>
-          </div>
-          <div>
+            <ul class="due-date">Due Date: </ul>
             <li>Take out the trash more</li>
+            <ul class="due-date">Due Date: </ul>
           </div>
         </ul>
       </div>
     </aside>
-<!-- Plans Section -->
+<!-- Plan Input Section -->
     <div class="col-lg-8 col-md-8">
-      <div class="plan-content">
-        <h1>Current Plan</h1>
-        <div class="row">
-          <div class="col-lg-offset-1 col-lg-10">
-            <input type="textarea">
+      <div class="row user-input-container">
+        <form name="$ctrl.planForm" id="plan-form" class="planning-form row" ng-submit="$ctrl.planPost(planForm)">
+          <div class="col-lg-10">
+            <textarea class="user-input form-control" type="textarea" rows="5" col="20" placeholder="Write down a description about a specific part of your life ..." ng-model="$ctrl.planForm.description" required></textarea>
+          </div>
+          <div class="life-category-container">
+            <select class="" name="lifeCategory" id="life-category-selector" ng-model="$ctrl.planForm.lifecategory" required>
+              <option class="life-categories" value="" selected disabled>Life Category</option>
+              <option class="life-categories" value="Health">Health</option>
+              <option class="life-categories" value="Career/Vocation">Career/Vocation</option>
+              <option class="life-categories" value="Financial">Financial</option>
+              <option class="life-categories" value="Intellectual">Intellectual</option>
+              <option class="life-categories" value="Spiritual">Spiritual</option>
+              <option class="life-categories" value="Travel">Travel</option>
+              <option class="life-categories" value="Social">Social</option>
+              <option class="life-categories" value="Lifestyle/Location">Lifestyle/Location</option>
+            </select>
+          </div>
+          <div class="swot-category-container">
+            <select name="" id="swot-category" ng-model="$ctrl.planForm.swotcategory" required>
+              <option value="" selected disabled>SWOT Category</option>
+              <option value="Strength">Strength</option>
+              <option value="Weakness">Weakness</option>
+              <option value="Opportunity">Opportunity</option>
+              <option value="Threat">Threat</option>
+            </select>
+          </div>
+          <div>
+            <select name="" id="impact" ng-model="$ctrl.planForm.impact" required>
+              <option value="" selected disabled>Impact</option>
+              <option value="1">1 Very Low</option>
+              <option value="2">2 Low</option>
+              <option value="3">3 Moderate</option>
+              <option value="4">4 High</option>
+              <option value="5">5 Very High</option>
+            </select>
+          </div>
+          <div>
+            <button id="plan-item-submit" class="btn" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+<!-- Plans List Display -->
+      <div class="plan-title-container">
+        <p class="plan-title">Current Plan</p>
+      </div>
+      <div class="full-list-container">
+        <div  ng-repeat="plan in $ctrl.planList" class="row list-container">
+          <div class="plan-content-container col-lg-8">
+            <p class="list-description">{{plan.description}}</p>
+          </div>
+          <div class="col-lg-2">
+            <p class="list-category">{{plan.swotcategory}}</p>
+            <p class="list-category">{{plan.lifecategory}}</p>
+            <p class="list-priority">{{plan.impact}}</p>
+          </div>
+          <div class="col-lg-1">
+            <button class="btn plan-item-edit">Edit</button>
+            <button class="btn plan-item-delete">Delete</button>
           </div>
         </div>
       </div>

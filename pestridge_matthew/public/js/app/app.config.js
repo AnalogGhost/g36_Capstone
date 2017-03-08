@@ -12,17 +12,20 @@
     $stateProvider
       .state({
         name: 'landingPage',
+        // url: '/landingPage',
         url: '/',
         component: 'landingPage'
       })
       .state({
         name: 'dashboard',
+        // url: '/',
         url: '/dashboard',
-        component: 'dashboard'
-        // ,
-        // resolve: {
-        //
-        // }
+        component: 'dashboard',
+        resolve: {
+          isLoggedIn: function($http) {
+            return $http({method: 'GET', url: '/users/loggedIn'});
+          }
+        }
       })
   }
 

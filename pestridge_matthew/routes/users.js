@@ -4,6 +4,8 @@ const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
 const User = require('../src/usersSchema');
+const Plan = require('../src/swotSchema');
+const Goal = require('../src/goalsSchema');
 const bcrypt = require('bcrypt');
 
 mongoose.Promise = require('bluebird');
@@ -19,7 +21,6 @@ router.get('/', (req,res) => {
 });
 
 router.get('/loggedIn',(req,res,next) => {
-  console.log('Is Authenticated');
   if (req.session.user) {
     res.send();
   } else {
@@ -37,12 +38,20 @@ router.get('/:id', (req, res) => {
   })
 });
 
-router.get('/:id/swot', (req, res) => {
-  if (req.session.user !== req.params.id) {
-    return res.sendStatus(401);
-  }
+router.get('/plans', (req, res) => {
+  // if (req.session.user !== req.params.id) {
+  //   return res.sendStatus(401);
+  // }
+  db.plans.find({}, (err, data) => {
+    if (err) {
+      throw err;
+    } else {
+      // data.select('-userid')
+      res.send(data);
+    }
+  });
 
-  res.send("All Good!");
+// { userid: req.session.user }
 
   // User.findById(req.params.id, (err, data) => {
   //   if (err) {
@@ -53,25 +62,15 @@ router.get('/:id/swot', (req, res) => {
   // })
 });
 
-// router.post('/:id/swot', (req, res) => {
-//   User.findById(req.params.id, (err, data) => {
-//     if (err) {
-//       res.sendStatus(404);
-//     } else {
-//       res.send(data);
-//     }
-//   })
-// });
-//
-// router.get('/:id/goals', (req, res) => {
-//   User.findById(req.params.id, (err, data) => {
-//     if (err) {
-//       res.sendStatus(404);
-//     } else {
-//       res.send(data);
-//     }
-//   })
-// });
+router.get('/:id/goals', (req, res) => {
+  User.findById(req.params.id, (err, data) => {
+    if (err) {
+      res.sendStatus(404);
+    } else {
+      res.send(data);
+    }
+  })
+});
 
 //New User of Register route
 router.post('/register', (req, res) => {
@@ -94,6 +93,9 @@ router.post('/register', (req, res) => {
 //Returning User or Login route
 router.post('/login',(req,res) => {
   User.findOne({ 'email': req.body.email }, (err,data) => {
+    if (err) {
+      throw err;
+    };
     var validPassword = bcrypt.compareSync(req.body.password, data.password);
     req.session.user = data._id;
     res.send(data);
@@ -122,6 +124,34 @@ router.delete('/:id', (req, res) => {
       res.send(data);
     })
   })
-})
+});
+
+
+//Plan post
+router.post('/plan', (req, res) => {
+  Plan.create({
+    description: req.body.description,
+    lifecategory: req.body.lifecategory,
+    swotcategory: req.body.swotcategory,
+    impact: req.body.impact,
+    userid: req.session.user
+  }, (err, data) => {
+    if (err) {
+      throw err;
+    } else {
+      res.send(data);
+    }
+  })
+});
+
+// router.get('/:id/goals', (req, res) => {
+//   User.findById(req.params.id, (err, data) => {
+//     if (err) {
+//       res.sendStatus(404);
+//     } else {
+//       res.send(data);
+//     }
+//   })
+// });
 
 module.exports = router;

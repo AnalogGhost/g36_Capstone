@@ -21,8 +21,10 @@
       password: vm.registerUser.password
     }).then((response) => {
       // console.log('Post: ', response.data)
+      $state.go('dashboard')
+      $('#register-modal').modal('toggle')
     }, (err) => {
-      console.log(err);
+      return err
     })
   }
 
@@ -32,10 +34,11 @@
       password: vm.loginUser.password
     }).then((response) => {
       // console.log(response.data)
+      $state.go('dashboard')
+      $('#login-modal').modal('toggle')
     }), (err) => {
-      console.log(err)
+      return err
     }
-    // console.log(vm.loginUser.email, vm.loginUser.password)
   }
 
   }

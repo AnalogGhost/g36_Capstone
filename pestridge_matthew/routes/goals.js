@@ -1,0 +1,21 @@
+'use strict';
+
+const express = require('express');
+const router = express.Router();
+const mongoose = require('mongoose');
+const User = require('../src/usersSchema');
+const Plan = require('../src/swotSchema');
+const Goal = require('../src/goalsSchema');
+const bcrypt = require('bcrypt');
+
+mongoose.Promise = require('bluebird');
+
+router.get('/', (req, res) => {
+  Goal.find({ userid: req.session.user }, (err, data) => {
+    if (err) {
+      throw err;
+    } else {
+      res.send(data);
+    }
+  })
+})
