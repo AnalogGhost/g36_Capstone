@@ -1,79 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Property Primate</title>
-  <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-  <header>
-    <div class="wrapper">
-      <section class="title">
-        <h1>Property Primate</h1>
-      </section>
-    </div>
-  </header>
-  <main>
-    <div class="wrapper">
-      <section>
-        <h1 class="header">Easily Track the Rental Properties Near You</h1>
-      </section>
-      <div class="clearfix">
-        <section class="c c6">
-          <div class="terminal">
-            <p><span class="comment">#&nbsp;Get Started In Two Steps</span></p>
-            <p><span class="comment">$</span>&nbsp;npm install --global resurgence</p>
-            <p><span class="comment">$</span>&nbsp;resurgence</p>
-          </div>
-        </section>
-        <section class="c c4">
-          <ul>
-            <li><span class="bullet"><i class="fa fa-chevron-right fa-fw"></i></span>Search by feature, price, and city</li>
-            <li><span class="bullet"><i class="fa fa-chevron-right fa-fw"></i></span>Tour at the touch of a button</li>
-            <li><span class="bullet"><i class="fa fa-chevron-right fa-fw"></i></span>Rent a room in a few quick taps</li>
-          </ul>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Property Primate</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="wrapper">
+        <section class="title">
+          <h1>Property Primate</h1>
         </section>
       </div>
-      <section class="category">
-        <h1 class="header">It's All the Rage in Tech Town</h1>
+    </header>
+    <main>
+      <div class="wrapper">
+        <section>
+          <h1 class="header">Easily Track the Rental Properties Near You</h1>
+        </section>
         <div class="clearfix">
-          <div class="c c3">
-            <h2>Matt Pestridge</h2>
-            <img class="testimonial-photo" src="assets/img/MattPestridge.jpg"></img>
-            <blockquote>It really is the missing link</blockquote>
-          </div>
-          <div class="c c3">
-            <h2>Devin Hurd</h2>
-            <img class="testimonial-photo" src="assets/img/DevinHurd.jpg"></img>
-            <blockquote>Property Primate isn't monkeying around!</blockquote>
-          </div>
-          <div class="c c3">
-            <h2>Tristan Van Maren</h2>
-            <img class="testimonial-photo" src="assets/img/TristanVanMaren.jpg"></img>
-            <blockquote>Perfect for finding a new home now the zoo's kicked me out</blockquote>
-          </div>
+          <section class="carousel-center">
+            <!-- BEGIN CAROUSEL -->
+            <ul class="carousel">
+              <input type="radio" id="1" name="activator" checked="checked" class="carousel__activator" />
+              <input type="radio" id="2" name="activator" class="carousel__activator" />
+              <input type="radio" id="3" name="activator" class="carousel__activator" />
+              <input type="radio" id="4" name="activator" class="carousel__activator" />
+              <input type="radio" id="5" name="activator" class="carousel__activator" />
+              <input type="radio" id="6" name="activator" class="carousel__activator" />
+              <input type="radio" id="7" name="activator" class="carousel__activator" />
+              <input type="radio" id="8" name="activator" class="carousel__activator" />
+              <input type="radio" id="9" name="activator" class="carousel__activator" />
+              <input type="radio" id="10" name="activator" class="carousel__activator" />
+              <div class="carousel__controls">
+                <label for="2" class="carousel__control carousel__control--forward"></label>
+                <label for="10" class="carousel__control carousel__control--backward"> </label>
+              </div>
+              <div class="carousel__controls">
+                <label for="3" class="carousel__control carousel__control--forward"></label>
+                <label for="1" class="carousel__control carousel__control--backward"> </label>
+              </div>
+              <div class="carousel__controls">
+                <label for="4" class="carousel__control carousel__control--forward"></label>
+                <label for="2" class="carousel__control carousel__control--backward"> </label>
+              </div>
+              <div class="carousel__controls">
+                <label for="5" class="carousel__control carousel__control--forward"></label>
+                <label for="3" class="carousel__control carousel__control--backward"> </label>
+              </div>
+              <div class="carousel__controls">
+                <label for="6" class="carousel__control carousel__control--forward"></label>
+                <label for="4" class="carousel__control carousel__control--backward"> </label>
+              </div>
+              <div class="carousel__controls">
+                <label for="7" class="carousel__control carousel__control--forward"></label>
+                <label for="5" class="carousel__control carousel__control--backward"> </label>
+              </div>
+              <div class="carousel__controls">
+                <label for="8" class="carousel__control carousel__control--forward"></label>
+                <label for="6" class="carousel__control carousel__control--backward"> </label>
+              </div>
+              <div class="carousel__controls">
+                <label for="9" class="carousel__control carousel__control--forward"></label>
+                <label for="7" class="carousel__control carousel__control--backward"> </label>
+              </div>
+              <div class="carousel__controls">
+                <label for="10" class="carousel__control carousel__control--forward"></label>
+                <label for="8" class="carousel__control carousel__control--backward"> </label>
+              </div>
+              <div class="carousel__controls">
+                <label for="1" class="carousel__control carousel__control--forward"></label>
+                <label for="9" class="carousel__control carousel__control--backward"> </label>
+              </div>
+              <li class="carousel__slide">
+                <!-- <h1>1</h1> -->
+              </li>
+              <li class="carousel__slide">
+                <!-- <h1>2</h1> -->
+              </li>
+              <li class="carousel__slide">
+                <!-- <h1>3</h1> -->
+              </li>
+              <li class="carousel__slide">
+                <!-- <h1>4</h1> -->
+              </li>
+              <li class="carousel__slide">
+                <!-- <h1>5</h1> -->
+              </li>
+              <li class="carousel__slide">
+                <!-- <h1>6</h1> -->
+              </li>
+              <li class="carousel__slide">
+                <!-- <h1>7</h1> -->
+              </li>
+              <li class="carousel__slide">
+                <!-- <h1>8</h1> -->
+              </li>
+              <li class="carousel__slide">
+                <!-- <h1>9</h1> -->
+              </li>
+              <li class="carousel__slide">
+                <!-- <h1>10</h1> -->
+              </li>
+              <div class="carousel__indicators">
+                <label for="1" class="carousel__indicator"></label>
+                <label for="2" class="carousel__indicator"></label>
+                <label for="3" class="carousel__indicator"></label>
+                <label for="4" class="carousel__indicator"></label>
+                <label for="5" class="carousel__indicator"></label>
+                <label for="6" class="carousel__indicator"></label>
+                <label for="7" class="carousel__indicator"></label>
+                <label for="8" class="carousel__indicator"></label>
+                <label for="9" class="carousel__indicator"></label>
+                <label for="10" class="carousel__indicator"></label>
+              </div>
+            </ul>
+          </section>
         </div>
-      </section>
-      <section class="category">
-        <h1 class="header">Crafted With Fine Technology</h1>
-        <div class="clearfix">
-          <div class="c c3">
-            <h2>Node</h2>
-            <img class="technology-photo" src="assets/img/nodejs.png"></img>
+        <!-- END CAROUSEL -->
+        <section>
+          <ul>
+            <li class="c c3"><span class="bullet"><i class="fa fa-chevron-right fa-fw"></i></span>Search by feature, price, and city</li>
+            <li class="c c3"><span class="bullet"><i class="fa fa-chevron-right fa-fw"></i></span>Tour at the touch of a button</li>
+            <li class="c c3"><span class="bullet"><i class="fa fa-chevron-right fa-fw"></i></span>Rent a room in a few quick taps</li>
+          </ul>
+        </section>
+        <section class="category">
+          <h1 class="header">It's All the Rage in Tech Town</h1>
+          <div class="clearfix">
+            <div class="c c3">
+              <h2>Matt Pestridge</h2>
+              <img class="testimonial-photo" src="assets/img/MattPestridge.jpg"></img>
+              <blockquote>It really is the missing link</blockquote>
+            </div>
+            <div class="c c3">
+              <h2>Devin Hurd</h2>
+              <img class="testimonial-photo" src="assets/img/DevinHurd.jpg"></img>
+              <blockquote>Property Primate isn't monkeying around!</blockquote>
+            </div>
+            <div class="c c3">
+              <h2>Tristan Van Maren</h2>
+              <img class="testimonial-photo" src="assets/img/TristanVanMaren.jpg"></img>
+              <blockquote>Perfect for finding a new home now the zoo's kicked me out</blockquote>
+            </div>
           </div>
-          <div class="c c3">
-            <h2>React Native</h2>
-            <img class="technology-photo" src="assets/img/reactNative.png"></img>
+        </section>
+        <section class="category">
+          <h1 class="header">Crafted With Fine Technology</h1>
+          <div class="clearfix">
+            <div class="c c3">
+              <h2>Node</h2>
+              <img class="technology-photo" src="assets/img/nodejs.png"></img>
+            </div>
+            <div class="c c3">
+              <h2>React Native</h2>
+              <img class="technology-photo" src="assets/img/reactNative.png"></img>
+            </div>
+            <div class="c c3">
+              <h2>PostgreSQL</h2>
+              <img class="technology-photo" src="assets/img/postgreSQL.png"></img>
+            </div>
           </div>
-          <div class="c c3">
-            <h2>PostgreSQL</h2>
-            <img class="technology-photo" src="assets/img/postgreSQL.png"></img>
-          </div>
-        </div>
-      </section>
-    </div>
-  </main>
-</body>
+        </section>
+      </div>
+    </main>
+  </body>
+
 </html>
