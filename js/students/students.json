@@ -194,15 +194,15 @@
   },
   {
     "name":"Katie Jenkins",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"Shine",
+    "icon":"https://media.licdn.com/media/AAEAAQAAAAAAAAekAAAAJDgzZDU3MmU2LWNlZDktNGJhNS04MzQ0LTg2OTQ5YThjNzZiNQ.jpg",
+    "image":"/jenkins_katie/images/shine_capstone_screenshot.png",
     "bioURL":"/jenkins_katie",
-    "siteURL":"",
+    "siteURL":"https://timetoshine.herokuapp.com/",
     "githubURL":"https://github.com/KatieAJenkins",
     "talentURL":"https://talent.galvanize.com/students/1140",
-    "linkedinURL":"https://www.linkedin.com/in/katie-jenkins",
-    "technologies":[]
+    "linkedinURL":"https://www.linkedin.com/in/katieajenkins/",
+    "technologies":["Arduino Uno", "LilyPad Buzzers", "Angular", "NPM", "NodeJS", "Express", "Knex", "PostgreSQL", "Javascript", "HTML5", "MaterializeCSS", "Heroku"]
   },
   {
     "name":"Kyle Joyce",
