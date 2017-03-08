@@ -13,10 +13,12 @@
     const vm = this
     vm.$onInit = onInit
     vm.planPost = planPost
+    vm.goalPost = goalPost
     vm.planList = []
+    vm.goalList = []
 
     function planPost() {
-      $http.post('/users/plan', {
+      $http.post('/plans', {
         description: vm.planForm.description,
         lifecategory: vm.planForm.lifecategory,
         swotcategory: vm.planForm.swotcategory,
@@ -27,15 +29,31 @@
       })
     }
 
+    function goalPost() {
+      $http.post('/goals', {
+        shortdescription: vm.goalForm.shortdescription,
+        longdescription: vm.goalForm.longdescription,
+        duedate: vm.goalForm.duedate
+      }).then((response) => {
+        console.log(response.data);
+      })
+      $http.get('/goals').then((response) => {
+        console.log(response.data);
+        vm.goalList = response.data
+      })
+      console.log(vm.goalForm.shortdescription);
+      console.log(vm.goalForm.longdescription);
+      console.log(vm.goalForm.duedate);
+    }
+
   function onInit() {
     $http.get('/plans').then((response) => {
       vm.planList = response.data
     })
+    $http.get('/goals').then((response) => {
+      vm.goalList = response.data
+    })
   }
-
-  // function goalPost() {
-  //
-  // }
 
   }
 })();

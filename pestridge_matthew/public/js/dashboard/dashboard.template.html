@@ -6,12 +6,44 @@
     <p class="navbar-text" id="username">Username,
       <a id="sign-out"> Sign Out</a>
     </p>
-    <button type="button" class="btn btn-default navbar-btn navbar-right nav-dash-btn">Update Goals</button>
+    <button id="goal-btn" type="button" class="btn btn-default navbar-btn navbar-right nav-dash-btn" data-toggle="modal" data-target="#goals-modal">New Goals</button>
     <button type="button" class="btn btn-default navbar-btn navbar-right nav-dash-btn">New Plan</button>
     </div>
   </div>
 </div>
-
+<!-- New Goal Modal -->
+<form name="$ctrl.goalForm" class="modal fade" id="goals-modal" tabindex="-1" role="dialog" aria-labelledby="goalModal" aria-hidden="true" ng-submit="$ctrl.goalPost(goalForm)">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header col-lg-12">
+        <h5 class="modal-title col-lg-11" id="goal-modal-label">New Goal</h5>
+        <button type="button" class="close col-lg-1" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="form-group">
+            <label for="message-text" class="form-control-label">Title: </label>
+            <input id="goal-title" type="text" class="form-control" ng-model="$ctrl.goalForm.shortdescription">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="form-control-label">Description: </label>
+            <textarea type="text" class="form-control" id="goal-description" ng-model="$ctrl.goalForm.longdescription"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="form-control-label">Due Date: </label>
+            <input type="date" class="form-control" id="goal-duedate" ng-model="$ctrl.goalForm.duedate">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn">Submit</button>
+      </div>
+    </div>
+  </div>
+</form>
 <div class="dash-body">
   <div class="row dash-container">
 <!-- Goals Section -->
@@ -19,15 +51,12 @@
       <div class="goals-content">
         <h1 class="goals-title">Goals List</h1>
       </div>
-      <div>
+      <div ng-repeat="goal in $ctrl.goalList">
         <ul>
           <div>
-            <li>Make my bed</li>
-            <ul class="due-date">Due Date: </ul>
-            <li>Eat less</li>
-            <ul class="due-date">Due Date: </ul>
-            <li>Take out the trash more</li>
-            <ul class="due-date">Due Date: </ul>
+            <li>{{goal.shortdescription}}</li>
+            <p>{{goal.longdescription}}</p>
+            <ul class="due-date">Due Date: {{goal.duedate | date : format : shortDate}}</ul>
           </div>
         </ul>
       </div>

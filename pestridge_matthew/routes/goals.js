@@ -18,4 +18,21 @@ router.get('/', (req, res) => {
       res.send(data);
     }
   })
-})
+});
+
+router.post('/', (req, res) => {
+  Goal.create({
+    shortdescription: req.body.shortdescription,
+    longdescription: req.body.longdescription,
+    duedate: req.body.duedate,
+    userid: req.session.user
+  }, (err, data) => {
+    if (err) {
+      throw err;
+    } else {
+      res.send(data);
+    }
+  })
+});
+
+module.exports = router;

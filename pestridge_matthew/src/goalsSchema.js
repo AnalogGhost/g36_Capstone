@@ -12,6 +12,9 @@ const GoalsSchema = new Schema({
   },
   duedate: {
     type: Date
+  },
+  userid: {
+    type: String
   }
 });
 

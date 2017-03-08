@@ -20,7 +20,6 @@
       email: vm.registerUser.email,
       password: vm.registerUser.password
     }).then((response) => {
-      // console.log('Post: ', response.data)
       $state.go('dashboard')
       $('#register-modal').modal('toggle')
     }, (err) => {
@@ -33,7 +32,6 @@
       email: vm.loginUser.email,
       password: vm.loginUser.password
     }).then((response) => {
-      // console.log(response.data)
       $state.go('dashboard')
       $('#login-modal').modal('toggle')
     }), (err) => {

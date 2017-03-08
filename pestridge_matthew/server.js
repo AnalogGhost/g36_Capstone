@@ -38,8 +38,10 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/enhancelp
 
 const usersRoute = require('./routes/users');
 const plansRoute = require('./routes/plans');
+const goalsRoute = require('./routes/goals')
 app.use('/users', usersRoute);
 app.use('/plans', plansRoute);
+app.use('/goals', goalsRoute);
 
 app.use('*', function(req, res, next) {
   res.sendFile('index.html', {root: path.join(__dirname, 'public')})

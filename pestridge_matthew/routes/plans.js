@@ -20,6 +20,22 @@ router.get('/', (req, res) => {
   })
 });
 
+router.post('/', (req, res) => {
+  Plan.create({
+    description: req.body.description,
+    lifecategory: req.body.lifecategory,
+    swotcategory: req.body.swotcategory,
+    impact: req.body.impact,
+    userid: req.session.user
+  }, (err, data) => {
+    if (err) {
+      throw err;
+    } else {
+      res.send(data);
+    }
+  })
+});
+
 // router.patch('/:id', (req, res) => {
 //   Plan.findByIdAndUpdate(req.params.id, { $set: req.body }, { new: true }, function (err, data) {
 //     if (err) {

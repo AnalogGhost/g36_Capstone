@@ -38,39 +38,15 @@ router.get('/:id', (req, res) => {
   })
 });
 
-router.get('/plans', (req, res) => {
-  // if (req.session.user !== req.params.id) {
-  //   return res.sendStatus(401);
-  // }
-  db.plans.find({}, (err, data) => {
-    if (err) {
-      throw err;
-    } else {
-      // data.select('-userid')
-      res.send(data);
-    }
-  });
-
-// { userid: req.session.user }
-
-  // User.findById(req.params.id, (err, data) => {
-  //   if (err) {
-  //     res.sendStatus(404);
-  //   } else {
-  //     res.send(data);
-  //   }
-  // })
-});
-
-router.get('/:id/goals', (req, res) => {
-  User.findById(req.params.id, (err, data) => {
-    if (err) {
-      res.sendStatus(404);
-    } else {
-      res.send(data);
-    }
-  })
-});
+// router.get('/:id/goals', (req, res) => {
+//   User.findById(req.params.id, (err, data) => {
+//     if (err) {
+//       res.sendStatus(404);
+//     } else {
+//       res.send(data);
+//     }
+//   })
+// });
 
 //New User of Register route
 router.post('/register', (req, res) => {
@@ -123,24 +99,6 @@ router.delete('/:id', (req, res) => {
       }
       res.send(data);
     })
-  })
-});
-
-
-//Plan post
-router.post('/plan', (req, res) => {
-  Plan.create({
-    description: req.body.description,
-    lifecategory: req.body.lifecategory,
-    swotcategory: req.body.swotcategory,
-    impact: req.body.impact,
-    userid: req.session.user
-  }, (err, data) => {
-    if (err) {
-      throw err;
-    } else {
-      res.send(data);
-    }
   })
 });
 
