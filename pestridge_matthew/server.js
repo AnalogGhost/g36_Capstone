@@ -34,7 +34,7 @@ app.use((req,res,next) => {
 app.use(express.static(path.join(__dirname, 'public')));
 
 mongoose.Promise = require('bluebird');
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/enhancelp');
+mongoose.connect(process.env.PROD_MONGODB || 'mongodb://localhost:27017/enhancelp');
 
 const usersRoute = require('./routes/users');
 const plansRoute = require('./routes/plans');
