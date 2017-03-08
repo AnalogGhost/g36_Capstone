@@ -135,14 +135,14 @@
   {
     "name":"Kyle Gray",
     "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "icon":"/gray_kyle/logo-people-background.jpeg",
+    "image":"/gray_kyle/kyle.jpeg",
     "bioURL":"/gray_kyle",
-    "siteURL":"",
+    "siteURL":"advanced-healthcare.surge.sh",
     "githubURL":"https://github.com/Kyle-Gray",
     "talentURL":"https://talent.galvanize.com/students/1145",
     "linkedinURL":"http://www.linkedin.com/in/kyle-gray",
-    "technologies":[]
+    "technologies":["HTML5", "CSS3", "Jquery", "MaterializeCSS", "Git", "NPM", "Google Calendar API"]
   },
   {
     "name":"Stephen Hanzlik",
