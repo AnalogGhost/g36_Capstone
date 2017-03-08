@@ -36,7 +36,7 @@
     "icon":"/chapin_bradley/bradchapin.jpg",
     "image":"/chapin_bradley/capstonelogo.jpg",
     "bioURL":"/chapin_bradley",
-    "siteURL":"http://bchapin-capstone-proposal.surge.sh/",
+    "siteURL":"http://daky-in-monsterland.surge.sh",
     "githubURL":"https://github.com/Brad-Chapin",
     "technologies":["HTML5", "CSS3", "JavaScript", "Phaser.io", "jQuery", "Animate.css", "Skeleton.css"]
   },
@@ -152,13 +152,13 @@
   },
   {
     "name":"Devin Hurd",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"Eephus Chatterbox",
+    "icon":"https://media.licdn.com/media/AAEAAQAAAAAAAAf8AAAAJGMwZDYyMzc2LTAzOGEtNGYwOS1iMDViLTFlYjAyYjYzODIyMQ.jpg",
+    "image":"http://alleecreative.com/wp-content/uploads/2011/08/microphone-814015_1280-300x200.jpg",
     "bioURL":"/hurd_devin",
-    "siteURL":"",
+    "siteURL":"https://eephus-chatterbox.herokuapp.com/",
     "githubURL":"https://github.com/HurdAudio",
-    "technologies":[]
+    "technologies":["Web Speech API", "Angular", "Express", "NodeJS", "Postgres", "Mocha", "SuperTest", "Basebal Ipsum API", "My Sports Feeds API", "JavaScript", "HTML5", "CSS3", "PureCSS"]
   },
   {
     "name":"Katie Jenkins",
@@ -202,13 +202,13 @@
   },
   {
     "name":"Matthew Pestridge",
-    "project":" ",
-    "icon":"",
+    "project":"Enhance Life Plan",
+    "icon":"https://avatars2.githubusercontent.com/u/18041727?v=3&u=d38740d57267f3debf02e29a67c6303978b9bee3&s=400",
     "image":"",
     "bioURL":"/pestridge_matthew",
     "siteURL":"",
     "githubURL":"https://github.com/MPestridge",
-    "technologies":[]
+    "technologies":["MongoDB", "Express", "Angular", "NodeJS", "Mongoose"]
   },
   {
     "name":"Cassandra Peterson",
