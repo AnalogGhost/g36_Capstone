@@ -135,8 +135,8 @@
   {
     "name":"Kyle Gray",
     "project":"Capstone",
-    "icon":"/gray_kyle/logo-people-background.jpeg",
-    "image":"/gray_kyle/kyle.jpeg",
+    "icon":"/gray_kyle/kyle.jpeg",
+    "image":"/gray_kyle/logo-people-background.jpeg",
     "bioURL":"/gray_kyle",
     "siteURL":"advanced-healthcare.surge.sh",
     "githubURL":"https://github.com/Kyle-Gray",
