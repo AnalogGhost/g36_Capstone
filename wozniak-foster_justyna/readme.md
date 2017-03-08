@@ -19,6 +19,8 @@ Main features:
 - user profile (with auth?/ stretch goal? )
 - enviromental conditions (temperature zone, crop modeling/ enviromental data layering)
 
+https://waffle.io/SoleNero/SeedKonnect
+
 
 
 
