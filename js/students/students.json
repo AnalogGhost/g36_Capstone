@@ -14,15 +14,15 @@
   },
   {
     "name":"Laura Baukol",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"Northland Chorale",
+    "icon":"/baukol_laura/files/lbaukol.jpg",
+    "image":"/baukol_laura/files/music.jpg",
     "bioURL":"/baukol_laura",
-    "siteURL":"",
+    "siteURL":"https://northlandchorale.herokuapp.com/",
     "githubURL":"https://github.com/laura333",
     "talentURL":"https://talent.galvanize.com/students/1120",
     "linkedinURL":"https://www.linkedin.com/in/laurabaukol",
-    "technologies":[]
+    "technologies":["Angular2", "TypeScript", "Stripe", "Webpack", "Node.JS", "Express", "Knex", "PostgreSQL", "ES6", "jQuery", "Bootstrap", "Heroku", "JavaScript", "CSS", "HTML", "Git"]
   },
   {
     "name":"Evan Busse",
