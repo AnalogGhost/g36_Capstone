@@ -350,15 +350,15 @@
   },
   {
     "name":"Justyna Wozniak-Foster",
-    "project":"",
-    "icon":"",
-    "image":"",
+    "project":"SeedLinked",
+    "icon":"https://media.licdn.com/media/AAEAAQAAAAAAAAxOAAAAJGM0OGY4NDIzLWYxMmItNDFiMi1hMzc0LWNmYWVkYWFjNzU4OQ.jpg",
+    "image":"/wozniak-foster_justyna/img/seed-linked-logo.png",
     "bioURL":"/wozniak-foster_justyna",
-    "siteURL":"",
+    "siteURL":"http://seedlinked.surge.sh/",
     "githubURL":"https://github.com/SoleNero",
     "talentURL":"https://talent.galvanize.com/students/1128",
     "linkedinURL":"https://www.linkedin.com/in/justynawfoster",
-    "technologies":[]
+    "technologies":["NodeJS","Express","AngularJS","PostgreSQL", "GoogleMaps API", "Angular Material"]
   }
 ]
 }
