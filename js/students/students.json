@@ -286,7 +286,7 @@
     "githubURL":"https://github.com/keeganridgley107",
     "talentURL":"https://talent.galvanize.com/students/1119",
     "linkedinURL":"https://www.linkedin.com/in/keeganridgley",
-    "technologies":["HTML5","CSS3","Javascript","NodeJS","Express","AngularJS","PostgreSQL","SVG","Twilio API","Heroku","JQuery","Bootstrap"]
+    "technologies":["NodeJS","Express","AngularJS","PostgreSQL","JQuery","Twilio API","Bootstrap"]
   },
   {
     "name":"Olivia Ridgley",
