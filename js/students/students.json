@@ -313,16 +313,16 @@
     "technologies":[]
   },
   {
-    "name":"Merhi Russo",
-    "project":" ",
-    "icon":"",
-    "image":"",
+    "name":"Mehri Russo",
+    "project":"Flora Find",
+    "icon":"http://flora-find.com/public/images/justme.png",
+    "image":"http://flora-find.com/public/images/capstone_logo.png",
     "bioURL":"/russo_mehri",
-    "siteURL":"",
+    "siteURL":"http://flora-find.com/public/index.html",
     "githubURL":"https://github.com/mehrimo",
     "talentURL":"https://talent.galvanize.com/students/1118",
     "linkedinURL":"https://www.linkedin.com/in/mehrirusso",
-    "technologies":[]
+    "technologies":["Phone Camera Hardware", "HTML5","CSS3","Bootstrap","JavaScript","jQuery","Google Vision API","Wikipedia API"]
   },
   {
     "name":"Thomas Sarkisian",
