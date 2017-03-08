@@ -110,15 +110,15 @@
   },
   {
     "name":"Matthew Gordon",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"Dash & Dine",
+    "icon":"/gordon_matthew/assets/img/food.png",
+    "image":"/gordon_matthew/assets/img/salad.png",
     "bioURL":"/gordon_matthew",
-    "siteURL":"",
-    "githubURL":"https://github.com/redemption23",
+    "siteURL":"https://dashndine.herokuapp.com/",
+    "githubURL":"https://github.com/matthew-gordon/dash-and-dine",
     "talentURL":"https://talent.galvanize.com/students/1129",
     "linkedinURL":"http://linkedin.com/in/matthew-gordon",
-    "technologies":[]
+    "technologies":["Python 3", "Django", "Swift3", "PostgreSQL", "FacebookSDK", "Stripe", "Alamofire", "Charts.js", "Charts IOS", "HTML5", "CSS", "JAVASCRIPT", "jQuery", "Git", "Heroku"]
   },
   {
     "name":"Christopher Grabski",
