@@ -63,14 +63,14 @@
   {
     "name":"Kevin Cowley",
     "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "icon":"/cowley_kevin/kevinCowleyIcon.jpg",
+    "image":"/cowley_kevin/kevinCowleyLogo.jpg",
     "bioURL":"/cowley_kevin",
-    "siteURL":"",
+    "siteURL":"https://linreg-five.herokuapp.com/csvmanage",
     "githubURL":"https://github.com/cowleyk",
-    "talentURL":"",
-    "linkedinURL":"",
-    "technologies":[]
+    "talentURL":"https://talent.galvanize.com/students/1144",
+    "linkedinURL":"https://www.linkedin.com/in/kevincowley",
+    "technologies":["Python 3", "Flask", "PostgreSQL", "Psycopg2", "SQLAlchemy", "OAuth2", "AngularJS"]
   },
   {
     "name":"Elizabeth Davis",
