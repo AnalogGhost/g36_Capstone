@@ -1,30 +1,157 @@
-<h2>About Me:</h2>
-<div class="">
-  LinkedIn: <a href="https://www.linkedin.com/in/petersoncassandra/">/petersoncassandra</a>
-</div>
-<div class="">
-  GitHub: <a href="https://github.com/caspeter">caspeter</a>
-</div>
-<div class="">
-  Website: <a href="http://www.cassiepetersoncreative.com/webdevelopment/">cassiepetersoncreative.com</a>
-</div>
-<h2>About my Project: Bag Tags</h2>
-<h3>Description</h3>
-<div class="">
-  Bag Tags is a site for disc golfers to trade/track their bag tags. Bag tags are given out at tournaments or are sold for fundraisers. Each one has a number on it, the lower the number the better the tag.
-  <br>
-  Currently there is no way to track who has which tag, until now. This app will be a way to track what tags you have and had as well as communicate with people who have the same bag tag as you so you can challenge them for their tag.
-</div>
-<h3>Technologies</h3>
-<div class="">
-<ul>
-  <li>React/Reduct</li>
-  <li>WebSockets</li>
-  <li>Paypal for payment, <a href="https://developer.paypal.com/docs/integration/web/">https://developer.paypal.com/docs/integration/web/</a></li>
-  <li>Stripe</li>
-</ul>
-</div>
-<h3>Links</h3>
-<div class="">
+<!DOCTYPE html>
+<html lang="en">
 
-</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cassie Peterson</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <!-- NAV BAR -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo header-text">Cassie J Peterson</a>
+        </div>
+    </nav>
+
+    <!-- START CONTAINER -->
+    <div class="container">
+
+        <!-- BAGTAG LOGO -->
+        <div class="row">
+            <div class="col s12 m6 center top-margin">
+                <img src="./img/bagtagtracking_black.png" alt="Bag Tag Tracking Logo" class="bagtag-logo">
+            </div>
+            <div class="col s12 m6 center top-margin">
+
+              <!-- TECHNOLOGIES -->
+              <h4>Technologies</h4>
+              <div class="chip-center">
+                  <div class="chip white-text">
+                      React
+                  </div>
+                  <div class="chip white-text">
+                      Material UI
+                  </div>
+                  <div class="chip white-text">
+                      React-Router
+                  </div>
+                  <div class="chip white-text">
+                      React Dropzone
+                  </div>
+                  <div class="chip white-text">
+                      Google Map React
+                  </div>
+                  <div class="chip white-text">
+                      SendGrid
+                  </div>
+                  <div class="chip white-text">
+                      Knex.js
+                  </div>
+                  <div class="chip white-text">
+                      Node.js
+                  </div>
+                  <div class="chip white-text">
+                      PostgreSQL
+                  </div>
+                  <div class="chip white-text">
+                      JavaScript/JSX
+                  </div>
+                  <div class="chip white-text">
+                      HTML5/CSS3
+                  </div>
+              </div>
+            </div>
+
+        </div>
+
+        <!-- BAGTAG DESCRIPTION -->
+        <h4>Description</h4>
+        <div class="">
+            Bag Tags is a site for disc golf enthusiasts to track and trade their bag tags. Bag tags are distributed at tournaments and are sold as a fundraiser. Each tag has a number on it, the lower the number the better ranking.
+            <br> Bag Tag Tracking was created to inform and empower the disc golf community about their bag tags. This app is a way to track what tags you have and communicate with people who have the same bag tag as you so you can challenge them for their tag.
+        </div>
+
+        <h4>Features</h4>
+        <div class="row">
+          <div class="col s12 m6 center top-margin no-margin-t-b">
+            Create a Profile
+            <br>
+            Upload an Image
+            <br>
+            View and Search all Tags
+            <br>
+            View Who has Which Tag
+
+          </div>
+          <div class="col s12 m6 center top-margin no-margin-t-b">
+            View Other Player's Profiles and Tags
+            <br>
+            Challenge Other Players via Email
+            <br>
+            View and Edit your Profile
+            <br>
+            Trade and Add Tags Effortlessly
+          </div>
+
+        </div>
+
+        <!-- ABOUT ME -->
+        <h4>About Me:</h4>
+        <div class="">
+            Hello! I am Cassie. I aspire to help change the world, I'm just not quite sure how yet. I have a marketing degree from Colorado State University and and bug to always be learning.
+        </div>
+
+        <!-- CONTACT ME -->
+        <h4>Contact Me</h4>
+
+        <div class="row">
+
+            <div class="col s12 m3 center top-margin">
+                <a class="contact-links" href="https://www.linkedin.com/in/petersoncassandra/" target="_blank"><img class="icon" src="./img/linkedin-icon.png" alt="LinkedIn Icon"></a>
+                <p class="no-margin-t-b">LinkedIn</p>
+                <a class="contact-links top-margin" href="https://www.linkedin.com/in/petersoncassandra/" target="_blank"><h5>/PetersonCassandra</h5></a>
+
+            </div>
+
+            <div class="col s12 m3 center top-margin">
+                <a class="contact-links" href="https://github.com/caspeter" target="_blank"><img class="icon" src="./img/github-icon.png" alt="GitHub Icon"></a>
+                <p class="no-margin-t-b">GitHub</p>
+                <a class="contact-links top-margin" href="https://github.com/caspeter" target="_blank"><h5>/caspeter</h5></a>
+
+            </div>
+
+            <div class="col s12 m3 center top-margin">
+                <a class="contact-links" href="mailto:cas.j.peters@gmail.com"><img class="icon" src="./img/email-icon.png" alt="Email Icon"></a>
+                <p class="no-margin-t-b">Email</p>
+                <a class="contact-links top-margin" href="mailto:cas.j.peters@gmail.com"><h5>Email me!</h5></a>
+
+            </div>
+
+            <div class="col s12 m3 center top-margin">
+                <a class="contact-links" href="cassiejpeterson.com"><img class="icon" src="./img/website_icon.png" alt="Email Icon"></a>
+                <p class="no-margin-t-b">cassiejpeterson.com</p>
+                <a class="contact-links top-margin" href="mailto:cas.j.peters@gmail.com"><h5>See What I Can Do</h5></a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="page-footer top-margin">
+    </footer>
+</body>
+
+</html>
