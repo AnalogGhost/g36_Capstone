@@ -1,0 +1,55 @@
+<md-toolbar>
+  <h2 class="md-toolbar-tools search">
+    <input type="text" ng-model="$crtl.searchInput" placeholder="Search">
+  </h2>
+</md-toolbar>
+<md-content flex>
+
+  <div class='md-padding' layout="row" layout-align="space-around" layout-wrap>
+
+    <md-card class="student" md-theme="default" md-theme-watch ng-repeat="student in $ctrl.students | filter: $crtl.searchInput">
+      <md-card-header>
+        <md-card-avatar>
+          <img class="md-user-avatar" ng-src="{{student.icon||'http://lorempixel.com/40/40'}}">
+        </md-card-avatar>
+        <md-card-header-text>
+          <span class="md-title">{{ student.name }}</span>
+          <span class="md-subhead">{{ student.project }}</span>
+        </md-card-header-text>
+      </md-card-header>
+      <img ng-src="{{student.image||'http://lorempixel.com/300/300'}}" class="md-card-image" alt="image caption">
+      <md-card-actions layout="row" layout-align="start center">
+        <md-button href="{{student.bioURL}}" target="_blank">
+          <md-tooltip>Project Details</md-tooltip>
+          <i class="fa fa-id-card fa-3x" aria-hidden="true"></i>
+        </md-button>
+        <md-button href="{{student.siteURL}}" target="_blank">
+          <md-tooltip>Deployed Website</md-tooltip>
+          <i class="fa fa-sitemap fa-3x" aria-hidden="true"></i>
+        </md-button>
+        <md-button href="{{student.githubURL}}" target="_blank">
+          <md-tooltip>GitHub Profile</md-tooltip>
+          <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+        </md-button>
+      </md-card-actions>
+      <md-card-actions layout="row" layout-align="space-around">
+        <md-button href="{{student.talentURL}}" target="_blank">
+          <md-tooltip>Galvanize Talent</md-tooltip>
+          <img class="talent" src="../img/galvanize-g.svg"></img>
+        </md-button>
+        <md-button href="{{student.linkedinURL}}" target="_blank">
+          <md-tooltip>LinkedIn</md-tooltip>
+          <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+        </md-button>
+      </md-card-actions>
+      <md-card-content>
+        <p>Technologies</p>
+        <ul>
+          <li ng-repeat="technology in student.technologies">{{ technology }}</li>
+        </ul>
+      </md-card-content>
+    </md-card>
+
+  </div>
+
+</md-content>

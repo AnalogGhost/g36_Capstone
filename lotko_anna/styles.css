@@ -1,0 +1,42 @@
+.image-fill {
+  width: 100%;
+  height: auto;
+}
+
+.bottom-margin {
+  margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Light';
+    src: url('https://s3-us-west-2.amazonaws.com/gftiresources/assets/HelveticaNeueLTCom-Lt.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Helvetica Neue Light';
+}
+
+h4 {
+  line-height: 28px;
+}
+
+.icon-step {
+  max-width: 100px;
+  padding-top: 10px;
+}
+
+.padding-top {
+  padding-top: 20px;
+}
+
+.padding-bottom {
+  padding-bottom: 20px;
+}
