@@ -85,18 +85,6 @@
     "technologies":["Python 3", "Flask", "PostgreSQL", "Psycopg2", "SQLAlchemy", "OAuth2", "AngularJS"]
   },
   {
-    "name":"Elizabeth Davis",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
-    "bioURL":"/davis_elizabeth",
-    "siteURL":"",
-    "githubURL":"https://github.com/eadskye",
-    "talentURL":"https://talent.galvanize.com/students/1124",
-    "linkedinURL":"https://www.linkedin.com/in/elizabeth-davis-b1318b130?trk=hp-identity-name",
-    "technologies":[]
-  },
-  {
     "name":"Bradley Efting",
     "project":"Capstone",
     "icon":"",
