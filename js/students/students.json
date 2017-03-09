@@ -6,7 +6,7 @@
     "icon":"http://i.imgur.com/pqiBp1G.png",
     "image":"http://i.imgur.com/mtWqq3g.png",
     "bioURL":"/baack_aidan",
-    "siteURL":"http://property-primate.surge.sh",
+    "siteURL":"https://appetize.io/app/181nekqna18exmzf9w1p2kc9zr",
     "githubURL":"https://github.com/aebaack",
     "talentURL":"https://talent.galvanize.com/students/1112",
     "linkedinURL":"https://www.linkedin.com/in/aidan-baack/",
@@ -222,7 +222,7 @@
     "icon":"http://i.imgur.com/SBHK9xG.jpg",
     "image":"http://i.imgur.com/mtWqq3g.png",
     "bioURL":"/lindly_matthew",
-    "siteURL":"http://property-primate.surge.sh",
+    "siteURL":"https://appetize.io/app/181nekqna18exmzf9w1p2kc9zr",
     "githubURL":"https://github.com/lindlymatt",
     "talentURL":"https://talent.galvanize.com/students/1114",
     "linkedinURL":"http://linkedin.com/lindlymatt",
@@ -342,11 +342,11 @@
     "icon":"http://i.imgur.com/YfmeKee.jpg",
     "image":"http://i.imgur.com/mtWqq3g.png",
     "bioURL":"/van maren_tristan",
-    "siteURL":"http://property-primate.surge.sh",
+    "siteURL":"https://appetize.io/app/181nekqna18exmzf9w1p2kc9zr",
     "githubURL":"https://github.com/tvanmaren",
     "talentURL":"https://talent.galvanize.com/students/1132",
     "linkedinURL":"https://wwww.linkedin.com/in/tvanmaren",
-    "technologies":["React", "Redux", "React Native", "NativeBase", "JSX", "ES6", "Heroku", "PostgreSQL", "Node.JS", "Express", "Knex", "faker.JS", "bCrypt", "Joi", "USPS API", "GeoNames API"]
+    "technologies":["React", "Redux", "React Native", "NativeBase", "Heroku", "PostgreSQL", "Node.JS", "Express", "Knex", "bcrypt", "Joi", "GeoNames"]
   },
   {
     "name":"Justyna Wozniak-Foster",
