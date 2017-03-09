@@ -27,14 +27,14 @@
   {
     "name":"Evan Busse",
     "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "icon":"https://math-saw.herokuapp.com/static/media/CircularSaw.02d9bc1c.svg",
+    "image":"https://math-saw.herokuapp.com/static/media/mathsaw.a41a10c7.jpg",
     "bioURL":"/busse_evan",
-    "siteURL":"",
+    "siteURL":"https://math-saw.herokuapp.com/",
     "githubURL":"https://github.com/THEAverageSpeedBurrito",
-    "talentURL":"",
-    "linkedinURL":"",
-    "technologies":[]
+    "talentURL":"https://talent.galvanize.com/students/1137",
+    "linkedinURL":"https://www.linkedin.com/in/evan-busse-114a84106/",
+    "technologies":["HTML5", "CSS3", "Javascript", "NodeJS", "React", "Express", "Postrgres", "Knex", "Material UI", "ThreeJS"]
   },
   {
     "name":"Bradley Chapin",
