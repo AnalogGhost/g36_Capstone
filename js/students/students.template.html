@@ -10,14 +10,14 @@
     <md-card class="student" md-theme="default" md-theme-watch ng-repeat="student in $ctrl.students | filter: $crtl.searchInput">
       <md-card-header>
         <md-card-avatar>
-          <img class="md-user-avatar" ng-src="{{student.icon||'http://lorempixel.com/40/40'}}">
+          <img class="md-user-avatar" ng-src="{{student.icon||'/img/placeholder_small.png'}}">
         </md-card-avatar>
         <md-card-header-text>
           <span class="md-title">{{ student.name }}</span>
           <span class="md-subhead">{{ student.project }}</span>
         </md-card-header-text>
       </md-card-header>
-      <img ng-src="{{student.image||'http://lorempixel.com/300/300'}}" class="md-card-image" alt="image caption">
+      <img ng-src="{{student.image||'/img/placeholder_large.png'}}" class="md-card-image" alt="image caption">
       <md-card-actions layout="row" layout-align="start center">
         <md-button href="{{student.bioURL}}" target="_blank">
           <md-tooltip>Project Details</md-tooltip>
