@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Visualize Profits</title>
+    <title> Lazy Buffs Data Analytics </title>
     <!-- BS CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- BS theme -->
@@ -15,18 +15,34 @@
     <div class="container-fluid">
 
     <div class="text-center">
-      <h1> Visualize Revenue with React and D3 </h1>
+      <br />
+      <br />
+      <h1> Lazy Buffs Data Analytics </h1>
     </div>
+    <br />
     <div class="text-center">
-      <h3> About this project: </h3>
+      <h3> Abstract : </h3>
       <p id="about">
-        The goal of this capstone project provide visual data analytics on order and
-        delivery revenue for a local business. The application will consider data on
-        orders totals and subtotals, deliver dates and times, and tips and provide both
-        restauranters and delivery drivers with data-driven visualizations of their
-        profitability.
+        Lazy Buffs is a Galvanize-based food and alcohol delivery service that connects
+        Boulder restaurants with reliable drivers ready to deliver to lazy customers.
+        <br />
+        <br />
+        I implemented data analytics pages across three separate Lazy Buffs apps in order
+        to give their dispatch team, restaurants, and drivers a way to visualize their
+        monthly revenue with Lazybuffs.
+        <br />
+        <br />
+        The application considers data on orders totals and subtotals, deliver dates
+        and times, and tips and provide both restauranters and delivery drivers with
+        data-driven visualizations of their profitability.
+        <br />
+        <br />
+        I also worked with a senior developer to simplify store billing procedures by using
+        the SendGrid API to automatically send a dynamically genrated monthly invoice.
       </p>
     </div>
+    <br />
+    <br />
     <div class="row text-center">
       <div class="col-sm-3">
       </div>
@@ -35,16 +51,16 @@
         <h3> Technologies: </h3>
         <ul>
           <li>
-            React  ( Unfamiliar )
+            React with JSX and ES6
           </li>
           <li>
-            D3.js  ( Unfamiliar )
+            Recharts - D3 Component Wrapper for React
           </li>
           <li>
-            React D3  ( Unfamiliar )
+            Sendgrid API  - Email and Notification Automation
           </li>
           <li>
-            Webpack / Babel
+            Webpack - Module Bundler
           </li>
         </ul>
       </div>
@@ -56,72 +72,45 @@
             <a href="https://facebook.github.io/react/docs/hello-world.html">React Docs</a>
           </li>
           <li>
-            <a href="https://github.com/d3/d3/wiki">D3 Docs</a>
+            <a href="http://recharts.org/#/en-US/guide">Recharts Docs</a>
           </li>
           <li>
-            <a href="http://www.reactd3.org/docs/">React D3 Docs</a>
+            <a href="https://sendgrid.com/docs/index.html">SendGrid Docs</a>
           </li>
           <li>
-            <a href="https://webpack.github.io/docs/">Webpack</a> /
-            <a href="https://babeljs.io/docs/core-packages/">Babel</a>
+            <a href="https://webpack.github.io/docs/">Webpack dOcs</a>
           </li>
         </ul>
       </div>
 
-      <div class="col-sm-3">
-      </div>
-
     </div>
 
-    <div class="row">
       <div class="col-md-12 text-center">
-        <h3> Wireframe </h3>
-      <div id="wireframe-container">
-        <div>
-          <img class="wireframe" src="assets/drivers-wireframe.png" />
-        </div>
+        <h3> Screenshots </h3>
       </div>
-    </div>
-  </div>
 
-<div class="row" id="user-stories">
-    <div class="text-justify">
-      <h3> User Stories: MVP</h3>
-      <ul>
-        <li>
-          ○ The data visualization app is created in React components build with D3 that fit into the company's existing app
-        </li>
-        <li>
-          ○ Restaurant users should be able to access a professional invoice with their delivery totals for the month
-        </li>
-        <li>
-          ○ Restaurant users should be able view multiple charts populated with order and delivery information
-        </li>
-        <li>
-          ○ Restaurant users should be able to specify a date range to view within the month
-        </li>
-      </ul>
+      <div class="row text-center">
+        <img  class="screenshot" src="../joyce_kyle/assets/invoice-lazy.png" />
+      </div>
+
+      <div class="row text-center">
+        <img  class="screenshot" src="../joyce_kyle/assets/order-analytics.png" />
+      </div>
+=
+
+    <div class="row text-center" id="projectm">
+          <h3> Project Management </h3>
+          <img class="screenshot" src="../joyce_kyle/assets/project-management.png" />
+          <h1><a href="https://waffle.io/joyceky/lazy-vis">View on Waffle.io</a></h1>
     </div>
 
-    <div class="text-justify">
-      <h3> User Stories: Stretch</h3>
-      <ul>
-        <li>
-          ○ Driver users should be able to access a professional invoice with their delivery totals for the month
-        </li>
-        <li>
-          ○ Driver users should be able view multiple charts populated with delivery and tip information
-        </li>
-        <li>
-          ○ Driver users should be able to specify a date range to view within the month
-        </li>
-      </ul>
-    </div>
-
-  </div>
 
   </div> <!-- End container fluid -->
-    <!-- BS JavaScript -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+    <footer class="footer blue">
+          <div class="container">
+            <h4><a href="https://github.com/joyceky">joyceky on GitHub</a></h4>
+          </div>
+    </footer>
+
   </body>
 </html>

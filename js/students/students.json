@@ -207,8 +207,8 @@
   {
     "name":"Kyle Joyce",
     "project":"Lazy Buffs Data Vis",
-    "icon":"",
-    "image":"",
+    "icon":"../joyce_kyle/assets/graphs.svg.png",
+    "image":"../joyce_kyle/assets/lazy-buffs-fiverr.svg",
     "bioURL":"/joyce_kyle",
     "siteURL":"http://dispatch.lazybuffs.com/completed",
     "githubURL":"https://github.com/joyceky",
