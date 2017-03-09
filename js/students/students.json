@@ -61,6 +61,18 @@
     "technologies":[]
   },
   {
+    "name":"Malila Clearwater",
+    "project":"Hunt",
+    "icon":"/clearwater_malila/002-tracker.png",
+    "image": "/clearwater_malila/hunt-logo.png",
+    "bioURL": "/clearwater_malila",
+    "siteURL":"https://malilasage-hunt.herokuapp.com",
+    "githubURL":"https://github.com/malilasage",
+    "talentURL":"https://talent.galvanize.com/students/1123",
+    "linkedinURL": "https://www.linkedin.com/in/malila-clearwater/",
+    "technologies": ["AngularJS", "MongoDB", "NodeJS", "Express", "Pure.css", "JavaScript, ""HTML5", "CSS3"]
+  },
+  {
     "name":"Kevin Cowley",
     "project":"RegressionJS",
     "icon":"/cowley_kevin/kevinCowleyIcon.jpg",
