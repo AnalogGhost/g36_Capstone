@@ -146,7 +146,7 @@
   },
   {
     "name":"Kyle Gray",
-    "project":"Capstone",
+    "project":"Advanced Healthcare",
     "icon":"/gray_kyle/kyle.jpeg",
     "image":"/gray_kyle/logo-people-background.jpeg",
     "bioURL":"/gray_kyle",
@@ -183,8 +183,8 @@
   {
     "name":"Chanse Horton",
     "project":"Anchor Notes",
-    "icon":"https://drive.google.com/open?id=0B0ORyzVzrNNtTWlNVHZiTm96c0k",
-    "image":"https://drive.google.com/open?id=0B19ENOpMa4lOVERoMWpDR0VycUk",
+    "icon":"https://drive.google.com/file/d/0B0ORyzVzrNNtTWlNVHZiTm96c0k/view?usp=sharing",
+    "image":"https://drive.google.com/open?id=0B19ENOpMa4lOd3RVUTF2TDNVMGs",
     "bioURL":"/horton_chanse",
     "siteURL":"https://chrome.google.com/webstore/detail/anchor-notes/hhodmoangjcfhlkeoabmaaimejpdmkhl",
     "githubURL":"https://github.com/chansehorton",
