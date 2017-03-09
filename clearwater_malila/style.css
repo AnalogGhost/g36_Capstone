@@ -1,6 +1,7 @@
 body {
   margin: 50px;
   font-family: 'Roboto';
+  background-color: #f9f9ea;
 }
 
 main {
@@ -25,4 +26,12 @@ p {
 
 ul {
   list-style: none;
+}
+
+.mc-content {
+  height: 100%;
+  /*text-align: center;*/
+  margin: 20px auto;
+  display: block;
+/*width: 50%;*/
 }
