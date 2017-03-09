@@ -49,16 +49,16 @@
     "technologies":["HTML5", "CSS3", "JavaScript", "Phaser.io", "jQuery", "Animate.css", "Skeleton.css"]
   },
   {
-    "name":"Ariana Clark",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "name":"Ari Clark",
+    "project":"Craft Queue",
+    "icon":"/clark_ariana/ari.jpeg",
+    "image":"/clark_ariana/CraftQueue.jpg",
     "bioURL":"/clark_ariana",
     "siteURL":"",
     "githubURL":"https://github.com/gloomylumi",
     "talentURL":"https://talent.galvanize.com/students/1113",
     "linkedinURL":"http://www.linkedin.com/in/aricodes",
-    "technologies":[]
+    "technologies":["Angular2", "Angular-CLI", "MaterializeCSS", "Node", "Express", "WebPack", "Etsy API", "OAuth"]
   },
   {
     "name":"Malila Clearwater",
@@ -196,7 +196,7 @@
     "name":"Katie Jenkins",
     "project":"Shine",
     "icon":"https://media.licdn.com/media/AAEAAQAAAAAAAAekAAAAJDgzZDU3MmU2LWNlZDktNGJhNS04MzQ0LTg2OTQ5YThjNzZiNQ.jpg",
-    "image":"/jenkins_katie/images/shine_logo_web.png",
+    "image":"/jenkins_katie/assets/shine_logo_web.png",
     "bioURL":"http://katieajenkins.surge.sh/",
     "siteURL":"https://timetoshine.herokuapp.com/",
     "githubURL":"https://github.com/KatieAJenkins",
