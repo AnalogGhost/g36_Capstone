@@ -87,14 +87,19 @@
   {
     "name":"Bradley Efting",
     "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "icon":"/efting_bradley/Brad_Efting.jpg",
+    "image":"/efting_bradley/robot.jpg",
     "bioURL":"/efting_bradley",
-    "siteURL":"",
+    "siteURL":"https://therabot.azurewebsites.net/",
     "githubURL":"https://github.com/bradefting",
-    "talentURL":"",
-    "linkedinURL":"",
-    "technologies":[]
+    "talentURL":"https://talent.galvanize.com/students/734",
+    "linkedinURL":"https://www.linkedin.com/in/brad-efting/",
+    "technologies":["Facebook Messenger",
+      "Microsoft Bot Framework",
+      "Azure App Services",
+      "Bootstrap",
+      "NodeJS",
+      "jQuery"]
   },
   {
     "name":"Jason Goldfarb",
