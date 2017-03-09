@@ -90,6 +90,11 @@ ul li {
   margin-top: 35px;
 }
 
+.pointer {
+  position: relative;
+  left: -375px;
+}
+
 .category {
   margin-top: 4em;
   padding-bottom: 2em;
