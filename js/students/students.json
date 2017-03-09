@@ -170,15 +170,15 @@
   },
   {
     "name":"Olivia Hendrick",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"Denver Northwest",
+    "icon":"/hendrick_olivia/capstoneprofile.jpg",
+    "image":"/hendrick_olivia/project_icon.png",
     "bioURL":"/hendrick_olivia",
-    "siteURL":"",
+    "siteURL":"https://denvernorthwest.herokuapp.com/",
     "githubURL":"https://github.com/ohendrick1223",
     "talentURL":"https://talent.galvanize.com/students/1135",
     "linkedinURL":"https://www.linkedin.com/in/olivia-hendrick1223",
-    "technologies":[]
+    "technologies":["NodeJS", "Express", "AngularJS", "PostgreSQL", "Adobe Illustrator", "Pivotal Tracker", "Heroku", "AOS library", "SendGrid API", "GoogleFonts API", "Bootstrap", "CSS3", "Javascript", "jQuery", "HTML5"]
   },
   {
     "name":"Chanse Horton",
