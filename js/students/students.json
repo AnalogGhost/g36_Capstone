@@ -202,7 +202,7 @@
     "githubURL":"https://github.com/KatieAJenkins",
     "talentURL":"https://talent.galvanize.com/students/1140",
     "linkedinURL":"https://www.linkedin.com/in/katieajenkins/",
-    "technologies":["Arduino Uno", "LilyPad Buzzers", "Angular", "NPM", "NodeJS", "Express", "Knex", "PostgreSQL", "Javascript", "HTML5", "MaterializeCSS", "Heroku"]
+    "technologies":["Arduino Uno", "LilyPad Hardware", "Angular", "NodeJS", "Express", "Knex", "PostgreSQL", "Heroku"]
   },
   {
     "name":"Kyle Joyce",
