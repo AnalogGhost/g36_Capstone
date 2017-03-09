@@ -1,67 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lindly's Capstone Proposal</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Property Primate</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
 
-<body>
-  <header class="navbar navbar-inverse navbar-fixed-top header">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand">Matthew Lindly Capstone Proposal</a>
+  <body>
+    <header>
+      <div class="wrapper">
+        <section class="title">
+          <h1>Property Primate</h1>
+        </section>
       </div>
-    </div>
-  </header>
-
-  <main class="container" style="margin-top: 55px;">
-
-    <h3>About Me</h3>
-
-    <p>My name is Matthew Lindly! I've studied Computer Science, application development, and now have nearly completed Galvanize's Full Stack Web Development course. After learning such a broad array of programming languages, my ability to pick up and adapt
-      my current knowledge to a new language has greatly improved. Galvanize has been a wonderful experience for me, and I can't wait to see what the future holds! </p>
-    <ul>
-      <li>Email: lindly.matt@hotmail.com</li>
-      <li>Twitter: <a href="https://www.twitter.com/mcsl_16">@mcsl_16</a></li>
-      <li>LinkedIn: <a href="https://www.linkedin.com/in/lindlymatt">https://www.linkedin.com/in/lindlymatt</a></li>
-      <li>GitHub: <a href="https://www.github.com/lindlymatt">https://www.github.com/lindlymatt</a></li>
-    </ul>
-
-    <h3 style="margin-top: 25px;">About the Project</h3>
-
-    <p>My idea involves a "Smart Alarm Clock" concept that I also pitched for the Q3 project here at Galvanize. I've been wanting to become intimate with the concept of mobile application development for a while now, resulting in my interest in this project.
-      The background of the idea comes from people's constant need to improve their time management, and the alarm clock would do the following things: </p>
-    <ul>
-      <li>Be able to set up a standard alarm.</li>
-      <li>Be able to preset your locations the night before.</li>
-      <li>Adjust that alarm based on your destinations' morning/early afternoon traffic.</li>
-      <li>Ensure you're never late to your important meeting, sales pitch, or first day of work/school again!</li>
-    </ul>
-    <p>So, as mentioned, it will be able to have preset destinations created the night before by users, this could be a boyfriend/girlfriend's house, a school, a place of work, or really any destination that a user needs to reach in the morning. After setting
-      the destination, and setting their alarm, the alarm will wake up the user "X" amount of time before their pre-set alarm based on the traffic to their destination. This will help them make it to the meetings, first day of school, or the sales pitch
-      and make it on time.</p>
-    <h4>Technologies:</h4>
-    <ul>
-      <li>HTML5, CSS3, JavaScript</li>
-      <li>React.js</li>
-      <li>React Native</li>
-      <li>Express.js</li>
-      <li>Knex.js</li>
-      <li>PostgreSQL</li>
-      <li>Google Traffic/Map API</li>
-    </ul>
-
-    <h3 style="margin-top: 25px;">Important Links</h3>
-    <ul>
-      <li>Repository: <i>PRIVATE</i></li>
-      <li>Pivotal Tracker: <i>PRIVATE</i></li>
-    </ul>
-  </main>
-</body>
-
+    </header>
+    <main>
+      <div class="wrapper">
+        <section>
+          <h1 class="header">Easily Track the Rental Properties Near You</h1>
+        </section>
+        <!-- BEGIN CAROUSEL -->
+        <div class="clearfix">
+          <section>
+            <div class="c c2">
+              <span class="pointer bullet">Try Me!<i class="fa fa-chevron-right fa-fw"></i></span>
+            </div>
+            <div class="video-container c c2">
+              <iframe src="https://appetize.io/embed/181nekqna18exmzf9w1p2kc9zr?device=iphone6&scale=50&autoplay=false&orientation=portrait&deviceColor=black" width="208px" height="435px" frameborder="0" scrolling="no"></iframe>
+            </div>
+          </section>
+          <section>
+            <ul class="c c6">
+              <li class="lower"><span class="bullet"><i class="fa fa-chevron-right fa-fw"></i></span>Search by feature, price, and city</li>
+              <br>
+              <br>
+              <br>
+              <li><span class="bullet"><i class="fa fa-chevron-right fa-fw"></i></span>Tour at the touch of a button</li>
+              <br>
+              <br>
+              <br>
+              <li><span class="bullet"><i class="fa fa-chevron-right fa-fw"></i></span>Save favorites with a single tap</li>
+              <br>
+              <br>
+            </ul>
+          </section>
+        </div>
+        <!-- END CAROUSEL -->
+        <section class="category">
+          <h1 class="header">It's All the Rage in Tech Town</h1>
+          <div class="clearfix">
+            <div class="c c3">
+              <h2>Matt Pestridge</h2>
+              <img class="testimonial-photo" src="assets/img/MattPestridge.jpg"></img>
+              <blockquote>It really is the missing link&mdash;I rented five apartments in one day.</blockquote>
+            </div>
+            <div class="c c3">
+              <h2>Devin Hurd</h2>
+              <img class="testimonial-photo" src="assets/img/DevinHurd.jpg"></img>
+              <blockquote>Property Primate isn't monkeying around!</blockquote>
+            </div>
+            <div class="c c3">
+              <h2>Tristan Van Maren</h2>
+              <img class="testimonial-photo" src="assets/img/TristanVanMaren.jpg"></img>
+              <blockquote>Please rate us &#9733;&#9733;&#9733;&#9733;&#9733; on the app store! Please...</blockquote>
+            </div>
+          </div>
+        </section>
+        <section class="category">
+          <h1 class="header">Crafted With Fine Technology</h1>
+          <div class="clearfix">
+            <div class="c c3">
+              <h2>Node</h2>
+              <img class="technology-photo" src="assets/img/nodejs.png"></img>
+            </div>
+            <div class="c c3">
+              <h2>React Native</h2>
+              <img class="technology-photo" src="assets/img/reactNative.png"></img>
+            </div>
+            <div class="c c3">
+              <h2>PostgreSQL</h2>
+              <img class="technology-photo" src="assets/img/postgreSQL.png"></img>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>
