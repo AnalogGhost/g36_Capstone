@@ -92,7 +92,8 @@ ul li {
 
 .pointer {
   position: relative;
-  left: -375px;
+  right: -100px;
+  bottom: -125px;
 }
 
 .category {
@@ -133,7 +134,7 @@ blockquote:before {
 }
 
 /* iFrame embed styling */
-.video-container {
+/*.video-container {
     position: relative;
     padding-right: 16%;
     padding-left: 35px;
@@ -150,4 +151,4 @@ blockquote:before {
     left: 0;
     width: 100%;
     height: 100%;
-}
+}*/
