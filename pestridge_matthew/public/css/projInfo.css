@@ -1,0 +1,91 @@
+body {
+  background: url('../images/capstone-bio-background.jpg');
+  background-size: 100%;
+}
+
+.navBarImg {
+  height: 140%;
+  padding-left: 2rem;
+}
+
+.navbar {
+  background-color: #9E724C;
+  border-bottom: .25rem solid #9E724C;
+  opacity: .95;
+}
+
+#navbar-text {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 3px black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+}
+
+.logo-container {
+  margin-top: 15px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, .75);
+}
+
+img {
+  height: 100%;
+  padding-left: 2rem;
+}
+
+.app-description {
+  font-size: 4rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: rgba(255, 255, 255, .75);
+  border-radius: 20px 20px 0 0;
+}
+
+#mongo {
+  padding: 0;
+}
+
+#express {
+  margin-top: 9px;
+  height: 80%;
+}
+
+#angular {
+  height: 90%;
+  margin-top: 7px;
+  padding-left: 1rem;
+}
+
+#node {
+  height: 80%;
+  padding-left: 1.2rem;
+}
+
+#html {
+  height: 85%;
+  margin-bottom: 7px;
+  padding-left: 1.2rem;
+}
+
+#css {
+  height: 85%;
+  margin-bottom: 7px;
+}
+
+#js {
+  height: 82%;
+  padding-left: .75rem;
+}
+
+#jq {
+  height: 60%;
+  margin-top: 12px;
+}
+
+#mongoose {
+  margin-bottom: -15px;
+  padding-left: .9rem;
+}
+
+#bootstrap {
+  height: 90%;
+}
