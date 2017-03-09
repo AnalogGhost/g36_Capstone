@@ -208,7 +208,7 @@
     "name":"Katie Jenkins",
     "project":"Shine",
     "icon":"https://media.licdn.com/media/AAEAAQAAAAAAAAekAAAAJDgzZDU3MmU2LWNlZDktNGJhNS04MzQ0LTg2OTQ5YThjNzZiNQ.jpg",
-    "image":"/jenkins_katie/images/shine_logo_final.png",
+    "image":"/jenkins_katie/assets/shine_logo_web.png",
     "bioURL":"/jenkins_katie",
     "siteURL":"https://timetoshine.herokuapp.com/",
     "githubURL":"https://github.com/KatieAJenkins",
