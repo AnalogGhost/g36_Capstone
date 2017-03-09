@@ -85,18 +85,6 @@
     "technologies":["Python 3", "Flask", "PostgreSQL", "Psycopg2", "SQLAlchemy", "OAuth2", "AngularJS"]
   },
   {
-    "name":"Elizabeth Davis",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
-    "bioURL":"/davis_elizabeth",
-    "siteURL":"",
-    "githubURL":"https://github.com/eadskye",
-    "talentURL":"https://talent.galvanize.com/students/1124",
-    "linkedinURL":"https://www.linkedin.com/in/elizabeth-davis-b1318b130?trk=hp-identity-name",
-    "technologies":[]
-  },
-  {
     "name":"Bradley Efting",
     "project":"Capstone",
     "icon":"",
@@ -170,22 +158,22 @@
   },
   {
     "name":"Olivia Hendrick",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"Denver Northwest",
+    "icon":"/hendrick_olivia/prophotoagain.jpg",
+    "image":"/hendrick_olivia/project_icon.png",
     "bioURL":"/hendrick_olivia",
-    "siteURL":"",
+    "siteURL":"https://denvernorthwest.herokuapp.com/",
     "githubURL":"https://github.com/ohendrick1223",
     "talentURL":"https://talent.galvanize.com/students/1135",
     "linkedinURL":"https://www.linkedin.com/in/olivia-hendrick1223",
-    "technologies":[]
+    "technologies":["NodeJS", "Express", "AngularJS", "PostgreSQL", "Adobe Illustrator", "Pivotal Tracker", "Heroku", "AOS library", "SendGrid API", "GoogleFonts API", "Bootstrap", "CSS3", "Javascript", "jQuery", "HTML5"]
   },
   {
     "name":"Chanse Horton",
     "project":"Anchor Notes",
-    "icon":"https://drive.google.com/file/d/0B0ORyzVzrNNtTWlNVHZiTm96c0k/view?usp=sharing",
-    "image":"https://drive.google.com/open?id=0B19ENOpMa4lOd3RVUTF2TDNVMGs",
-    "bioURL":"/horton_chanse",
+    "icon":"/horton_chanse/images/chanse_pic.jpg",
+    "image":"/horton_chanse/images/Anchor_Notes.png",
+    "bioURL":"http://www.chansehorton.com",
     "siteURL":"https://chrome.google.com/webstore/detail/anchor-notes/hhodmoangjcfhlkeoabmaaimejpdmkhl",
     "githubURL":"https://github.com/chansehorton",
     "talentURL":"https://talent.galvanize.com/students/1142",
@@ -208,7 +196,7 @@
     "name":"Katie Jenkins",
     "project":"Shine",
     "icon":"https://media.licdn.com/media/AAEAAQAAAAAAAAekAAAAJDgzZDU3MmU2LWNlZDktNGJhNS04MzQ0LTg2OTQ5YThjNzZiNQ.jpg",
-    "image":"/jenkins_katie/images/shine_logo_final.png",
+    "image":"/jenkins_katie/images/shine_logo_web.png",
     "bioURL":"http://katieajenkins.surge.sh/",
     "siteURL":"https://timetoshine.herokuapp.com/",
     "githubURL":"https://github.com/KatieAJenkins",
@@ -266,27 +254,27 @@
   },
   {
     "name":"Matthew Pestridge",
-    "project":" ",
-    "icon":"",
-    "image":"",
-    "bioURL":"/pestridge_matthew",
-    "siteURL":"",
+    "project":"Enhance Life Plan",
+    "icon":"https://avatars2.githubusercontent.com/u/18041727?v=3&u=d38740d57267f3debf02e29a67c6303978b9bee3&s=400",
+    "image":"/pestridge_matthew/images/elp-logo-lg.png",
+    "bioURL":"/pestridge_matthew/bio.html",
+    "siteURL":"https://enhancelifeplan.herokuapp.com/",
     "githubURL":"https://github.com/MPestridge",
     "talentURL":"",
     "linkedinURL":"",
-    "technologies":[]
+    "technologies":["MongoDB", "Express", "Angular", "NodeJS", "Mongoose"]
   },
   {
     "name":"Cassandra Peterson",
-    "project":" ",
-    "icon":"",
-    "image":"",
+    "project":"Bag Tag Tracking",
+    "icon":"http://res.cloudinary.com/dnxuqehmy/image/upload/v1489043909/bagtags/Cassie_Headshot.jpg",
+    "image":"http://res.cloudinary.com/dnxuqehmy/image/upload/v1489044432/bagtags/BagTagLogo_blue.png",
     "bioURL":"/peterson_cassandra",
-    "siteURL":"",
+    "siteURL":"bagtags.surge.sh",
     "githubURL":"https://github.com/caspeter",
     "talentURL":"https://talent.galvanize.com/students/1143",
     "linkedinURL":"https://www.linkedin.com/in/petersoncassandra",
-    "technologies":[]
+    "technologies":["React", "Material UI", "React-Router", "React Dropzone", "Google Map React", "SendGrid", "Knex.js", "Node.js", "PostgresSQL", "JavaScript", "Heroku", "Surge", "JSX", "HTML5", "CSS3"]
   },
   {
     "name":"Keegan Ridgley",
@@ -302,15 +290,15 @@
   },
   {
     "name":"Olivia Ridgley",
-    "project":" ",
-    "icon":"",
-    "image":"",
+    "project":"Folkways",
+    "icon":"/ridgley_olivia/images/Folkways_logo.jpg",
+    "image":"/ridgley_olivia/images/Folkways_Screen_Shot.png",
     "bioURL":"/ridgley_olivia",
-    "siteURL":"",
+    "siteURL":"https://folkways.herokuapp.com/home",
     "githubURL":"https://github.com/oliviaridgley",
-    "talentURL":"",
-    "linkedinURL":"",
-    "technologies":[]
+    "talentURL":"https://talent.galvanize.com/students/1136",
+    "linkedinURL":"https://www.linkedin.com/in/oliviaridgley/",
+    "technologies":["NodeJS","Express","Knex","AngularJS","PostgreSQL","JQuery","Rijksmuseum API","Adobe Illustrator","Bootstrap", "Heroku"]
   },
   {
     "name":"Heidi Rodriguez",
