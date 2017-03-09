@@ -170,15 +170,15 @@
   },
   {
     "name":"Chanse Horton",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"Anchor Notes",
+    "icon":"https://drive.google.com/open?id=0B0ORyzVzrNNtTWlNVHZiTm96c0k",
+    "image":"https://drive.google.com/open?id=0B19ENOpMa4lOVERoMWpDR0VycUk",
     "bioURL":"/horton_chanse",
-    "siteURL":"",
+    "siteURL":"https://chrome.google.com/webstore/detail/anchor-notes/hhodmoangjcfhlkeoabmaaimejpdmkhl",
     "githubURL":"https://github.com/chansehorton",
     "talentURL":"https://talent.galvanize.com/students/1142",
     "linkedinURL":"https://www.linkedin.com/in/chanse-horton-835b99119",
-    "technologies":[]
+    "technologies":["Javascript", "HTML5", "CSS3", "HTML5 Speech Recognition API", "Google Chrome Extension Framework"]
   },
   {
     "name":"Devin Hurd",
