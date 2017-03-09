@@ -278,15 +278,15 @@
   },
   {
     "name":"Cassandra Peterson",
-    "project":" ",
-    "icon":"",
-    "image":"",
+    "project":"Bag Tag Tracking",
+    "icon":"http://res.cloudinary.com/dnxuqehmy/image/upload/v1489043909/bagtags/Cassie_Headshot.jpg",
+    "image":"http://res.cloudinary.com/dnxuqehmy/image/upload/v1489044432/bagtags/BagTagLogo_blue.png",
     "bioURL":"/peterson_cassandra",
-    "siteURL":"",
+    "siteURL":"bagtags.surge.sh",
     "githubURL":"https://github.com/caspeter",
     "talentURL":"https://talent.galvanize.com/students/1143",
     "linkedinURL":"https://www.linkedin.com/in/petersoncassandra",
-    "technologies":[]
+    "technologies":["React", "Material UI", "React-Router", "React Dropzone", "Google Map React", "SendGrid", "Knex.js", "Node.js", "PostgresSQL", "JavaScript", "Heroku", "Surge", "JSX", "HTML5", "CSS3"]
   },
   {
     "name":"Keegan Ridgley",
