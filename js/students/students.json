@@ -61,6 +61,18 @@
     "technologies":[]
   },
   {
+    "name":"Malila Clearwater",
+    "project":"Hunt",
+    "icon":"/clearwater_malila/002-tracker.png",
+    "image": "/clearwater_malila/hunt-logo.png",
+    "bioURL": "/clearwater_malila",
+    "siteURL":"https://malilasage-hunt.herokuapp.com/landing",
+    "githubURL":"https://github.com/malilasage",
+    "talentURL":"https://talent.galvanize.com/students/1123",
+    "linkedinURL": "https://www.linkedin.com/in/malila-clearwater/",
+    "technologies": ["AngularJS", "MongoDB", "NodeJS", "Express", "Pure.css", "JavaScript","HTML5", "CSS3"]
+  },
+  {
     "name":"Kevin Cowley",
     "project":"RegressionJS",
     "icon":"/cowley_kevin/kevinCowleyIcon.jpg",
@@ -134,7 +146,7 @@
   },
   {
     "name":"Kyle Gray",
-    "project":"Capstone",
+    "project":"Advanced Healthcare",
     "icon":"/gray_kyle/kyle.jpeg",
     "image":"/gray_kyle/logo-people-background.jpeg",
     "bioURL":"/gray_kyle",
@@ -146,15 +158,15 @@
   },
   {
     "name":"Stephen Hanzlik",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
-    "bioURL":"/hanzlik_stephen",
-    "siteURL":"",
+    "project":"Let It Grow",
+    "icon":"/hanzlik_stephen/images/steve.jpg",
+    "image":"/hanzlik_stephen/images/board.jpg",
+    "bioURL":"/hanzlik_stephen/",
+    "siteURL":"http://dinkydinky.herokuapp.com",
     "githubURL":"https://github.com/StephenHanzlik",
     "talentURL":"https://talent.galvanize.com/students/1125",
     "linkedinURL":"https://www.linkedin.com/in/stephen-hanzlik-14b71b122",
-    "technologies":[]
+    "technologies":["Angular", "Arduino", "PostgreSQL", "Heroku", "Twilio", "Squirrel",  "Zing Charts"]
   },
   {
     "name":"Olivia Hendrick",
@@ -170,15 +182,15 @@
   },
   {
     "name":"Chanse Horton",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"Anchor Notes",
+    "icon":"https://drive.google.com/file/d/0B0ORyzVzrNNtTWlNVHZiTm96c0k/view?usp=sharing",
+    "image":"https://drive.google.com/open?id=0B19ENOpMa4lOd3RVUTF2TDNVMGs",
     "bioURL":"/horton_chanse",
-    "siteURL":"",
+    "siteURL":"https://chrome.google.com/webstore/detail/anchor-notes/hhodmoangjcfhlkeoabmaaimejpdmkhl",
     "githubURL":"https://github.com/chansehorton",
     "talentURL":"https://talent.galvanize.com/students/1142",
     "linkedinURL":"https://www.linkedin.com/in/chanse-horton-835b99119",
-    "technologies":[]
+    "technologies":["Javascript", "HTML5", "CSS3", "HTML5 Speech Recognition API", "Google Chrome Extension Framework"]
   },
   {
     "name":"Devin Hurd",
@@ -196,25 +208,25 @@
     "name":"Katie Jenkins",
     "project":"Shine",
     "icon":"https://media.licdn.com/media/AAEAAQAAAAAAAAekAAAAJDgzZDU3MmU2LWNlZDktNGJhNS04MzQ0LTg2OTQ5YThjNzZiNQ.jpg",
-    "image":"/jenkins_katie/images/shine_capstone_screenshot.png",
+    "image":"/jenkins_katie/images/shine_logo_final.png",
     "bioURL":"/jenkins_katie",
     "siteURL":"https://timetoshine.herokuapp.com/",
     "githubURL":"https://github.com/KatieAJenkins",
     "talentURL":"https://talent.galvanize.com/students/1140",
     "linkedinURL":"https://www.linkedin.com/in/katieajenkins/",
-    "technologies":["Arduino Uno", "LilyPad Buzzers", "Angular", "NPM", "NodeJS", "Express", "Knex", "PostgreSQL", "Javascript", "HTML5", "MaterializeCSS", "Heroku"]
+    "technologies":["Arduino Uno", "LilyPad Hardware", "Angular", "NodeJS", "Express", "Knex", "PostgreSQL", "Heroku"]
   },
   {
     "name":"Kyle Joyce",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"Lazy Buffs Data Vis",
+    "icon":"../joyce_kyle/assets/graphs.svg.png",
+    "image":"../joyce_kyle/assets/lazy-buffs-fiverr.svg",
     "bioURL":"/joyce_kyle",
-    "siteURL":"",
+    "siteURL":"http://dispatch.lazybuffs.com/completed",
     "githubURL":"https://github.com/joyceky",
     "talentURL":"https://talent.galvanize.com/students/1141",
     "linkedinURL":"https://www.linkedin.com/in/joyceky",
-    "technologies":[]
+    "technologies":["React", "ES6", "JSX", "Recharts", "Webpack", "JavaScript", "HTML5", "CSS3"]
   },
   {
     "name":"Matthew Lindly",

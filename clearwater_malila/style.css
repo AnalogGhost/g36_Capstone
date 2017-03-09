@@ -1,5 +1,6 @@
 body {
   margin: 50px;
+  font-family: 'Roboto';
 }
 
 main {
@@ -15,9 +16,13 @@ div {
 }
 
 ul, p {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 p {
   width: 550px;
+}
+
+ul {
+  list-style: none;
 }
