@@ -301,18 +301,6 @@
     "technologies":["NodeJS","Express","Knex","AngularJS","PostgreSQL","JQuery","Rijksmuseum API","Adobe Illustrator","Bootstrap", "Heroku"]
   },
   {
-    "name":"Heidi Rodriguez",
-    "project":" ",
-    "icon":"",
-    "image":"",
-    "bioURL":"/rodriguez_heidi",
-    "siteURL":"",
-    "githubURL":"https://github.com/hrod28",
-    "talentURL":"https://talent.galvanize.com/students/1197",
-    "linkedinURL":"https://www.linkedin.com/in/heidi-rodriguez-9a5a21b5",
-    "technologies":[]
-  },
-  {
     "name":"Mehri Russo",
     "project":"Flora Find",
     "icon":"http://flora-find.com/public/images/justme.png",
