@@ -209,7 +209,7 @@
     "project":"Shine",
     "icon":"https://media.licdn.com/media/AAEAAQAAAAAAAAekAAAAJDgzZDU3MmU2LWNlZDktNGJhNS04MzQ0LTg2OTQ5YThjNzZiNQ.jpg",
     "image":"/jenkins_katie/images/shine_logo_final.png",
-    "bioURL":"/jenkins_katie",
+    "bioURL":"http://katieajenkins.surge.sh/",
     "siteURL":"https://timetoshine.herokuapp.com/",
     "githubURL":"https://github.com/KatieAJenkins",
     "talentURL":"https://talent.galvanize.com/students/1140",
