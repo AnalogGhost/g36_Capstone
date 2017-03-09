@@ -83,3 +83,9 @@ hr.line-style {
     text-align: center;
     margin-top: 20px;
 }
+
+.vertial-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
