@@ -218,15 +218,15 @@
   },
   {
     "name":"Kyle Joyce",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"Lazy Buffs Data Vis",
+    "icon":"../joyce_kyle/assets/graphs.svg.png",
+    "image":"../joyce_kyle/assets/lazy-buffs-fiverr.svg",
     "bioURL":"/joyce_kyle",
-    "siteURL":"",
+    "siteURL":"http://dispatch.lazybuffs.com/completed",
     "githubURL":"https://github.com/joyceky",
     "talentURL":"https://talent.galvanize.com/students/1141",
     "linkedinURL":"https://www.linkedin.com/in/joyceky",
-    "technologies":[]
+    "technologies":["React", "ES6", "JSX", "Recharts", "Webpack", "JavaScript", "HTML5", "CSS3"]
   },
   {
     "name":"Matthew Lindly",
