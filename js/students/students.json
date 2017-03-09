@@ -290,15 +290,15 @@
   },
   {
     "name":"Olivia Ridgley",
-    "project":" ",
-    "icon":"",
-    "image":"",
+    "project":"Folkways",
+    "icon":"/ridgley_olivia/images/Folkways_logo.jpg",
+    "image":"/ridgley_olivia/images/Folkways_Screen_Shot.png",
     "bioURL":"/ridgley_olivia",
-    "siteURL":"",
+    "siteURL":"https://folkways.herokuapp.com/home",
     "githubURL":"https://github.com/oliviaridgley",
-    "talentURL":"",
-    "linkedinURL":"",
-    "technologies":[]
+    "talentURL":"https://talent.galvanize.com/students/1136",
+    "linkedinURL":"https://www.linkedin.com/in/oliviaridgley/",
+    "technologies":["NodeJS","Express","Knex","AngularJS","PostgreSQL","JQuery","Rijksmuseum API","Adobe Illustrator","Bootstrap", "Heroku"]
   },
   {
     "name":"Heidi Rodriguez",
