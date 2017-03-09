@@ -146,15 +146,15 @@
   },
   {
     "name":"Stephen Hanzlik",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
-    "bioURL":"/hanzlik_stephen",
-    "siteURL":"",
+    "project":"Let It Grow",
+    "icon":"/hanzlik_stephen/images/steve.jpg",
+    "image":"/hanzlik_stephen/images/board.jpg",
+    "bioURL":"/hanzlik_stephen/",
+    "siteURL":"http://dinkydinky.herokuapp.com",
     "githubURL":"https://github.com/StephenHanzlik",
     "talentURL":"https://talent.galvanize.com/students/1125",
     "linkedinURL":"https://www.linkedin.com/in/stephen-hanzlik-14b71b122",
-    "technologies":[]
+    "technologies":["Angular", "Arduino", "PostgreSQL", "Heroku", , "Twilio", "Squirrel",  "Zing Charts"]
   },
   {
     "name":"Olivia Hendrick",
