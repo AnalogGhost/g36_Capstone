@@ -14,27 +14,27 @@
   },
   {
     "name":"Laura Baukol",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"Northland Chorale",
+    "icon":"/baukol_laura/files/lbaukol.jpg",
+    "image":"/baukol_laura/files/music.jpg",
     "bioURL":"/baukol_laura",
-    "siteURL":"",
+    "siteURL":"https://northlandchorale.herokuapp.com/",
     "githubURL":"https://github.com/laura333",
     "talentURL":"https://talent.galvanize.com/students/1120",
     "linkedinURL":"https://www.linkedin.com/in/laurabaukol",
-    "technologies":[]
+    "technologies":["Angular2", "TypeScript", "Stripe", "Webpack", "Node.JS", "Express", "Knex", "PostgreSQL", "ES6", "jQuery", "Bootstrap", "Heroku", "JavaScript", "CSS", "HTML", "Git"]
   },
   {
     "name":"Evan Busse",
     "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "icon":"https://math-saw.herokuapp.com/static/media/CircularSaw.02d9bc1c.svg",
+    "image":"https://math-saw.herokuapp.com/static/media/mathsaw.a41a10c7.jpg",
     "bioURL":"/busse_evan",
-    "siteURL":"",
+    "siteURL":"https://math-saw.herokuapp.com/",
     "githubURL":"https://github.com/THEAverageSpeedBurrito",
-    "talentURL":"",
-    "linkedinURL":"",
-    "technologies":[]
+    "talentURL":"https://talent.galvanize.com/students/1137",
+    "linkedinURL":"https://www.linkedin.com/in/evan-busse-114a84106/",
+    "technologies":["HTML5", "CSS3", "Javascript", "NodeJS", "React", "Express", "Postrgres", "Knex", "Material UI", "ThreeJS"]
   },
   {
     "name":"Bradley Chapin",
@@ -49,52 +49,57 @@
     "technologies":["HTML5", "CSS3", "JavaScript", "Phaser.io", "jQuery", "Animate.css", "Skeleton.css"]
   },
   {
-    "name":"Ariana Clark",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "name":"Ari Clark",
+    "project":"Craft Queue",
+    "icon":"/clark_ariana/ari.jpeg",
+    "image":"/clark_ariana/CraftQueue.jpg",
     "bioURL":"/clark_ariana",
     "siteURL":"",
     "githubURL":"https://github.com/gloomylumi",
     "talentURL":"https://talent.galvanize.com/students/1113",
     "linkedinURL":"http://www.linkedin.com/in/aricodes",
-    "technologies":[]
+    "technologies":["Angular2", "Angular-CLI", "MaterializeCSS", "Node", "Express", "WebPack", "Etsy API", "OAuth"]
+  },
+  {
+    "name":"Malila Clearwater",
+    "project":"Hunt",
+    "icon":"/clearwater_malila/002-tracker.png",
+    "image": "/clearwater_malila/hunt-logo.png",
+    "bioURL": "/clearwater_malila",
+    "siteURL":"https://malilasage-hunt.herokuapp.com/landing",
+    "githubURL":"https://github.com/malilasage",
+    "talentURL":"https://talent.galvanize.com/students/1123",
+    "linkedinURL": "https://www.linkedin.com/in/malila-clearwater/",
+    "technologies": ["AngularJS", "MongoDB", "NodeJS", "Express", "Pure.css", "JavaScript","HTML5", "CSS3"]
   },
   {
     "name":"Kevin Cowley",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"RegressionJS",
+    "icon":"/cowley_kevin/kevinCowleyIcon.jpg",
+    "image":"/cowley_kevin/kevinCowleyLogo.jpg",
     "bioURL":"/cowley_kevin",
-    "siteURL":"",
+    "siteURL":"https://linreg-five.herokuapp.com",
     "githubURL":"https://github.com/cowleyk",
-    "talentURL":"",
-    "linkedinURL":"",
-    "technologies":[]
-  },
-  {
-    "name":"Elizabeth Davis",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
-    "bioURL":"/davis_elizabeth",
-    "siteURL":"",
-    "githubURL":"https://github.com/eadskye",
-    "talentURL":"https://talent.galvanize.com/students/1124",
-    "linkedinURL":"https://www.linkedin.com/in/elizabeth-davis-b1318b130?trk=hp-identity-name",
-    "technologies":[]
+    "talentURL":"https://talent.galvanize.com/students/1144",
+    "linkedinURL":"https://www.linkedin.com/in/kevincowley",
+    "technologies":["Python 3", "Flask", "PostgreSQL", "Psycopg2", "SQLAlchemy", "OAuth2", "AngularJS"]
   },
   {
     "name":"Bradley Efting",
     "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "icon":"/efting_bradley/Brad_Efting.jpg",
+    "image":"/efting_bradley/robot.jpg",
     "bioURL":"/efting_bradley",
-    "siteURL":"",
+    "siteURL":"https://therabot.azurewebsites.net/",
     "githubURL":"https://github.com/bradefting",
-    "talentURL":"",
-    "linkedinURL":"",
-    "technologies":[]
+    "talentURL":"https://talent.galvanize.com/students/734",
+    "linkedinURL":"https://www.linkedin.com/in/brad-efting/",
+    "technologies":["Facebook Messenger",
+      "Microsoft Bot Framework",
+      "Azure App Services",
+      "Bootstrap",
+      "NodeJS",
+      "jQuery"]
   },
   {
     "name":"Jason Goldfarb",
@@ -134,51 +139,51 @@
   },
   {
     "name":"Kyle Gray",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"Advanced Healthcare",
+    "icon":"/gray_kyle/kyle.jpeg",
+    "image":"/gray_kyle/logo-people-background.jpeg",
     "bioURL":"/gray_kyle",
-    "siteURL":"",
+    "siteURL":"http://advanced-healthcare.surge.sh",
     "githubURL":"https://github.com/Kyle-Gray",
     "talentURL":"https://talent.galvanize.com/students/1145",
     "linkedinURL":"http://www.linkedin.com/in/kyle-gray",
-    "technologies":[]
+    "technologies":["HTML5", "CSS3", "Jquery", "MaterializeCSS", "Git", "NPM", "Google Calendar API"]
   },
   {
     "name":"Stephen Hanzlik",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
-    "bioURL":"/hanzlik_stephen",
-    "siteURL":"",
+    "project":"Let It Grow",
+    "icon":"/hanzlik_stephen/images/steve.jpg",
+    "image":"/hanzlik_stephen/images/board.jpg",
+    "bioURL":"/hanzlik_stephen/",
+    "siteURL":"https://dinkydinky.herokuapp.com",
     "githubURL":"https://github.com/StephenHanzlik",
     "talentURL":"https://talent.galvanize.com/students/1125",
     "linkedinURL":"https://www.linkedin.com/in/stephen-hanzlik-14b71b122",
-    "technologies":[]
+    "technologies":["Angular", "Arduino", "PostgreSQL", "Heroku", "Twilio", "Squirrel",  "Zing Charts"]
   },
   {
     "name":"Olivia Hendrick",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"Denver Northwest",
+    "icon":"/hendrick_olivia/prophotoagain.jpg",
+    "image":"/hendrick_olivia/project_icon.png",
     "bioURL":"/hendrick_olivia",
-    "siteURL":"",
+    "siteURL":"https://denvernorthwest.herokuapp.com/",
     "githubURL":"https://github.com/ohendrick1223",
     "talentURL":"https://talent.galvanize.com/students/1135",
     "linkedinURL":"https://www.linkedin.com/in/olivia-hendrick1223",
-    "technologies":[]
+    "technologies":["NodeJS", "Express", "AngularJS", "PostgreSQL", "Adobe Illustrator", "Pivotal Tracker", "Heroku", "AOS library", "SendGrid API", "GoogleFonts API", "Bootstrap", "CSS3", "Javascript", "jQuery", "HTML5"]
   },
   {
     "name":"Chanse Horton",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
-    "bioURL":"/horton_chanse",
-    "siteURL":"",
+    "project":"Anchor Notes",
+    "icon":"/horton_chanse/images/chanse_pic.jpg",
+    "image":"/horton_chanse/images/Anchor_Notes.png",
+    "bioURL":"http://www.chansehorton.com",
+    "siteURL":"https://chrome.google.com/webstore/detail/anchor-notes/hhodmoangjcfhlkeoabmaaimejpdmkhl",
     "githubURL":"https://github.com/chansehorton",
     "talentURL":"https://talent.galvanize.com/students/1142",
     "linkedinURL":"https://www.linkedin.com/in/chanse-horton-835b99119",
-    "technologies":[]
+    "technologies":["Javascript", "HTML5", "CSS3", "HTML5 Speech Recognition API", "Google Chrome Extension Framework"]
   },
   {
     "name":"Devin Hurd",
@@ -196,25 +201,25 @@
     "name":"Katie Jenkins",
     "project":"Shine",
     "icon":"https://media.licdn.com/media/AAEAAQAAAAAAAAekAAAAJDgzZDU3MmU2LWNlZDktNGJhNS04MzQ0LTg2OTQ5YThjNzZiNQ.jpg",
-    "image":"/jenkins_katie/images/shine_capstone_screenshot.png",
-    "bioURL":"/jenkins_katie",
+    "image":"/jenkins_katie/assets/shine_logo_web.png",
+    "bioURL":"http://katieajenkins.surge.sh/",
     "siteURL":"https://timetoshine.herokuapp.com/",
     "githubURL":"https://github.com/KatieAJenkins",
     "talentURL":"https://talent.galvanize.com/students/1140",
     "linkedinURL":"https://www.linkedin.com/in/katieajenkins/",
-    "technologies":["Arduino Uno", "LilyPad Buzzers", "Angular", "NPM", "NodeJS", "Express", "Knex", "PostgreSQL", "Javascript", "HTML5", "MaterializeCSS", "Heroku"]
+    "technologies":["Arduino Uno", "LilyPad Hardware", "Angular", "NodeJS", "Express", "Knex", "PostgreSQL", "Heroku"]
   },
   {
     "name":"Kyle Joyce",
-    "project":"Capstone",
-    "icon":"",
-    "image":"",
+    "project":"Lazy Buffs Data Vis",
+    "icon":"../joyce_kyle/assets/graphs.svg.png",
+    "image":"../joyce_kyle/assets/lazy-buffs-fiverr.svg",
     "bioURL":"/joyce_kyle",
-    "siteURL":"",
+    "siteURL":"http://dispatch.lazybuffs.com/completed",
     "githubURL":"https://github.com/joyceky",
     "talentURL":"https://talent.galvanize.com/students/1141",
     "linkedinURL":"https://www.linkedin.com/in/joyceky",
-    "technologies":[]
+    "technologies":["React", "ES6", "JSX", "Recharts", "Webpack", "JavaScript", "HTML5", "CSS3"]
   },
   {
     "name":"Matthew Lindly",
@@ -254,27 +259,27 @@
   },
   {
     "name":"Matthew Pestridge",
-    "project":" ",
-    "icon":"",
-    "image":"",
-    "bioURL":"/pestridge_matthew",
-    "siteURL":"",
+    "project":"Enhance Life Plan",
+    "icon":"https://avatars2.githubusercontent.com/u/18041727?v=3&u=d38740d57267f3debf02e29a67c6303978b9bee3&s=400",
+    "image":"/pestridge_matthew/images/elp-logo-lg.png",
+    "bioURL":"/pestridge_matthew/bio.html",
+    "siteURL":"https://enhancelifeplan.herokuapp.com/",
     "githubURL":"https://github.com/MPestridge",
     "talentURL":"",
     "linkedinURL":"",
-    "technologies":[]
+    "technologies":["MongoDB", "Express", "Angular", "NodeJS", "Mongoose"]
   },
   {
     "name":"Cassandra Peterson",
-    "project":" ",
-    "icon":"",
-    "image":"",
+    "project":"Bag Tag Tracking",
+    "icon":"http://res.cloudinary.com/dnxuqehmy/image/upload/v1489043909/bagtags/Cassie_Headshot.jpg",
+    "image":"http://res.cloudinary.com/dnxuqehmy/image/upload/v1489044432/bagtags/BagTagLogo_blue.png",
     "bioURL":"/peterson_cassandra",
-    "siteURL":"",
+    "siteURL":"http://bagtags.surge.sh/",
     "githubURL":"https://github.com/caspeter",
     "talentURL":"https://talent.galvanize.com/students/1143",
     "linkedinURL":"https://www.linkedin.com/in/petersoncassandra",
-    "technologies":[]
+    "technologies":["React", "Material UI", "React-Router", "React Dropzone", "Google Map React", "SendGrid", "Knex.js", "Node.js", "PostgresSQL", "JavaScript", "Heroku", "Surge", "JSX", "HTML5", "CSS3"]
   },
   {
     "name":"Keegan Ridgley",
@@ -286,43 +291,31 @@
     "githubURL":"https://github.com/keeganridgley107",
     "talentURL":"https://talent.galvanize.com/students/1119",
     "linkedinURL":"https://www.linkedin.com/in/keeganridgley",
-    "technologies":["HTML5","CSS3","Javascript","NodeJS","Express","AngularJS","PostgreSQL","SVG","Twilio API","Heroku","JQuery","Bootstrap"]
+    "technologies":["NodeJS","Express","AngularJS","PostgreSQL","JQuery","Twilio API","Bootstrap"]
   },
   {
     "name":"Olivia Ridgley",
-    "project":" ",
-    "icon":"",
-    "image":"",
+    "project":"Folkways",
+    "icon":"/ridgley_olivia/images/Folkways_logo.jpg",
+    "image":"/ridgley_olivia/images/Folkways_Screen_Shot.png",
     "bioURL":"/ridgley_olivia",
-    "siteURL":"",
+    "siteURL":"https://folkways.herokuapp.com/home",
     "githubURL":"https://github.com/oliviaridgley",
-    "talentURL":"",
-    "linkedinURL":"",
-    "technologies":[]
+    "talentURL":"https://talent.galvanize.com/students/1136",
+    "linkedinURL":"https://www.linkedin.com/in/oliviaridgley/",
+    "technologies":["NodeJS","Express","Knex","AngularJS","PostgreSQL","JQuery","Rijksmuseum API","Adobe Illustrator","Bootstrap", "Heroku"]
   },
   {
-    "name":"Heidi Rodriguez",
-    "project":" ",
-    "icon":"",
-    "image":"",
-    "bioURL":"/rodriguez_heidi",
-    "siteURL":"",
-    "githubURL":"https://github.com/hrod28",
-    "talentURL":"https://talent.galvanize.com/students/1197",
-    "linkedinURL":"https://www.linkedin.com/in/heidi-rodriguez-9a5a21b5",
-    "technologies":[]
-  },
-  {
-    "name":"Merhi Russo",
-    "project":" ",
-    "icon":"",
-    "image":"",
+    "name":"Mehri Russo",
+    "project":"Flora Find",
+    "icon":"http://flora-find.com/public/images/justme.png",
+    "image":"http://flora-find.com/public/images/capstone_logo.png",
     "bioURL":"/russo_mehri",
-    "siteURL":"",
+    "siteURL":"http://flora-find.com/public/index.html",
     "githubURL":"https://github.com/mehrimo",
     "talentURL":"https://talent.galvanize.com/students/1118",
     "linkedinURL":"https://www.linkedin.com/in/mehrirusso",
-    "technologies":[]
+    "technologies":["Phone Camera Hardware", "HTML5","CSS3","Bootstrap","JavaScript","jQuery","Google Vision API","Wikipedia API"]
   },
   {
     "name":"Thomas Sarkisian",
@@ -350,15 +343,15 @@
   },
   {
     "name":"Justyna Wozniak-Foster",
-    "project":"",
-    "icon":"",
-    "image":"",
+    "project":"SeedLinked",
+    "icon":"https://media.licdn.com/media/AAEAAQAAAAAAAAxOAAAAJGM0OGY4NDIzLWYxMmItNDFiMi1hMzc0LWNmYWVkYWFjNzU4OQ.jpg",
+    "image":"/wozniak-foster_justyna/img/seed-linked-logo.png",
     "bioURL":"/wozniak-foster_justyna",
-    "siteURL":"",
+    "siteURL":"http://seedlinked.surge.sh/",
     "githubURL":"https://github.com/SoleNero",
     "talentURL":"https://talent.galvanize.com/students/1128",
     "linkedinURL":"https://www.linkedin.com/in/justynawfoster",
-    "technologies":[]
+    "technologies":["NodeJS","Express","AngularJS","PostgreSQL", "GoogleMaps API", "Angular Material"]
   }
 ]
 }

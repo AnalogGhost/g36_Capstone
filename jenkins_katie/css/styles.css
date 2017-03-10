@@ -16,20 +16,20 @@ html {
   /*background-color: blue;*/
 }
 
-#row1 {
+.row1 {
   height: 25%;
   width: auto;
   /*background-color: green;*/
 }
 
-#col1 {
+.col1 {
   height: 300px;
   margin: auto;
   border-radius: 10px;
   /*background-color: yellow;*/
 }
 
-#col2 {
+.col2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -37,7 +37,7 @@ html {
   /*background-color: red;*/
 }
 
-#col3 {
+.col3 {
   height: inherit;
   /*background-color: #03A9F4;*/
 }
@@ -50,25 +50,25 @@ html {
   border-radius: 10px;
 }
 
-#title{
+.title{
   border: 1px #9E9E9E solid;
   border-radius: 10px;
   background-color: rgba(178,223,219 ,.5);
 }
 
-#description {
+.description {
   border: 1px #9E9E9E solid;
   border-radius: 10px;
   /*background-color: teal;*/
 }
 
-#features {
+.features {
   border: 1px #9E9E9E solid;
   border-radius: 10px;
   /*background-color: #42A5F5;*/
 }
 
-#technologies {
+.technologies {
   border: 1px #9E9E9E solid;
   border-radius: 15px;
   /*background-color: gray;*/

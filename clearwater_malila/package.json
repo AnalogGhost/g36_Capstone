@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "skeleton-css": "^2.0.4"
+    "purecss": "^0.6.2"
   }
 }
