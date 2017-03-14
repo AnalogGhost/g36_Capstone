@@ -247,15 +247,15 @@
   },
   {
     "name":"Anna Mefford",
-    "project":"",
-    "icon":"",
-    "image":"",
+    "project":"KickStudy",
+    "icon":"../../mefford_anna/photos/profile.png",
+    "image":"../../mefford_anna/photos/kickstudy.png",
     "bioURL":"/mefford_anna",
-    "siteURL":"",
+    "siteURL":"https://kickstudy.herokuapp.com/",
     "githubURL":"https://github.com/Mittino",
     "talentURL":"https://talent.galvanize.com/students/1133",
     "linkedinURL":"https://www.linkedin.com/in/annamefford",
-    "technologies":[]
+    "technologies":["AngularJS", "UI-Router", "Materialize", "MomentJS", "Lodash", "Stripe", "Cloudinary", "NodeJS", "LoopBack", "MongoDB", "Heroku"]
   },
   {
     "name":"Matthew Pestridge",
