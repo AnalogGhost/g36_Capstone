@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Fira+Mono|Ubuntu|Lora:700');
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.wrapper {
+  width: 75%;
+  margin: auto;
+}
+
+body {
+  font-family: "PT Sans";
+  color: #212121;
+  background-color: #FAFAFA;
+}
+
+header {
+  background-color: #99B2B7;
+  font-family: "Ubuntu";
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  font-size: 1.5em;
+}
+
+ul li {
+  margin-bottom: 1.3em;
+}
+
+.bullet {
+  color: #948C75;
+}
+
+.header {
+  text-align: center;
+  font-family: "Lora";
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.title {
+  height: 3em;
+  display: flex;
+  align-items: center;
+}
+
+.title h1 {
+  margin: 0;
+}
+
+.c {
+  float:left;
+}
+
+.c4 {
+  width: 40%;
+}
+
+.c6 {
+  width: 60%;
+}
+
+.c3 {
+  width: 33.333%;
+}
+
+.c2 {
+  width: 20%;
+}
+
+.lower {
+  margin-top: 35px;
+}
+
+.pointer {
+  position: relative;
+  right: -100px;
+  bottom: -125px;
+}
+
+.category {
+  margin-top: 4em;
+  padding-bottom: 2em;
+  font-family: "PT Sans";
+  text-align: center;
+}
+
+.testimonial-photo {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.technology-photo {
+  width: 80%;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 1.3em;
+  font-style: italic;
+  margin: 0.25em 0;
+  padding: 0.25em 2em;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
+
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 2em;
+  position: absolute;
+  left: 0.5em;
+  top: -0.4em;
+  color: #99B2B7;
+}
+
+/* iFrame embed styling */
+/*.video-container {
+    position: relative;
+    padding-right: 16%;
+    padding-left: 35px;
+    padding-bottom: 39%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}*/
