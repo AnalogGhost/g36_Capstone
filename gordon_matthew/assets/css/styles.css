@@ -1,0 +1,13 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.image {
+  width: 16rem;
+  border-radius: 100%;
+}
+
+.text-center {
+  text-align: center;
+}

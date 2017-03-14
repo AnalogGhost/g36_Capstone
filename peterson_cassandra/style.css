@@ -1,0 +1,91 @@
+.full-width{
+  width: 100%;
+}
+
+.top-margin {
+  margin-top: 40px;
+}
+
+.float-right{
+  float: right;
+  margin-left: 10px;
+}
+
+.no-padding{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.chip-center{
+  text-align: center;
+}
+
+.chip, .nav-wrapper, footer, .btn{
+  background-color: #27544C !important;
+  font-weight: lighter;
+}
+
+.kalam-font{
+  font-family: 'Kalam', cursive;
+}
+
+.header-text{
+  margin-left: 10px;
+  font-weight: lighter;
+}
+
+.middle-center{
+  margin-top: 15%;
+}
+
+hr.line-style {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #27544C, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #27544C, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #27544C, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #27544C, #f0f0f0);
+}
+
+.icon {
+  width: 100px;
+}
+
+.icon-margin{
+  margin-top: 30%
+}
+
+.contact-links{
+  color: #6D6E71 !important;
+}
+.contact-links:hover{
+  color: #27544C !important;
+}
+
+.center{
+  display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+}
+
+.no-margin-t-b{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.bagtag-logo{
+  width: 80%;
+}
+
+.img-center{
+  margin: 0 auto !important;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.vertial-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
